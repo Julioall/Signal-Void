@@ -259,6 +259,62 @@
                         "name":  "weapons",
                         "resourceType":  "GMFolder",
                         "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "nairan",
+                        "folderPath":  "folders/Sprites/enemies/nairan.yy",
+                        "name":  "nairan",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "base",
+                        "folderPath":  "folders/Sprites/enemies/nairan/base.yy",
+                        "name":  "base",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "destruction",
+                        "folderPath":  "folders/Sprites/enemies/nairan/destruction.yy",
+                        "name":  "destruction",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "engines",
+                        "folderPath":  "folders/Sprites/enemies/nairan/engines.yy",
+                        "name":  "engines",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "projectiles",
+                        "folderPath":  "folders/Sprites/enemies/nairan/projectiles.yy",
+                        "name":  "projectiles",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "shields",
+                        "folderPath":  "folders/Sprites/enemies/nairan/shields.yy",
+                        "name":  "shields",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "weapons",
+                        "folderPath":  "folders/Sprites/enemies/nairan/weapons.yy",
+                        "name":  "weapons",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
                     }
                 ],
     "ForcedPrefabProjectReferences":  [
@@ -814,6 +870,252 @@
                           "id":  {
                                      "name":  "spr_enemy_klaed_projectile_wave",
                                      "path":  "sprites/spr_enemy_klaed_projectile_wave/spr_enemy_klaed_projectile_wave.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_battlecruiser_base",
+                                     "path":  "sprites/spr_enemy_nairan_battlecruiser_base/spr_enemy_nairan_battlecruiser_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_bomber_base",
+                                     "path":  "sprites/spr_enemy_nairan_bomber_base/spr_enemy_nairan_bomber_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_dreadnought_base",
+                                     "path":  "sprites/spr_enemy_nairan_dreadnought_base/spr_enemy_nairan_dreadnought_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_fighter_base",
+                                     "path":  "sprites/spr_enemy_nairan_fighter_base/spr_enemy_nairan_fighter_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_frigate_base",
+                                     "path":  "sprites/spr_enemy_nairan_frigate_base/spr_enemy_nairan_frigate_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_scout_base",
+                                     "path":  "sprites/spr_enemy_nairan_scout_base/spr_enemy_nairan_scout_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_support_ship_base",
+                                     "path":  "sprites/spr_enemy_nairan_support_ship_base/spr_enemy_nairan_support_ship_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_torpedo_ship_base",
+                                     "path":  "sprites/spr_enemy_nairan_torpedo_ship_base/spr_enemy_nairan_torpedo_ship_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_battlecruiser_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_battlecruiser_destruction/spr_enemy_nairan_battlecruiser_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_bomber_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_bomber_destruction/spr_enemy_nairan_bomber_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_dreadnought_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_dreadnought_destruction/spr_enemy_nairan_dreadnought_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_fighter_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_fighter_destruction/spr_enemy_nairan_fighter_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_frigate_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_frigate_destruction/spr_enemy_nairan_frigate_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_scout_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_scout_destruction/spr_enemy_nairan_scout_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_support_ship_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_support_ship_destruction/spr_enemy_nairan_support_ship_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_torpedo_ship_destruction",
+                                     "path":  "sprites/spr_enemy_nairan_torpedo_ship_destruction/spr_enemy_nairan_torpedo_ship_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_battlecruiser_engine",
+                                     "path":  "sprites/spr_enemy_nairan_battlecruiser_engine/spr_enemy_nairan_battlecruiser_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_bomber_engine",
+                                     "path":  "sprites/spr_enemy_nairan_bomber_engine/spr_enemy_nairan_bomber_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_dreadnought_engine",
+                                     "path":  "sprites/spr_enemy_nairan_dreadnought_engine/spr_enemy_nairan_dreadnought_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_fighter_engine",
+                                     "path":  "sprites/spr_enemy_nairan_fighter_engine/spr_enemy_nairan_fighter_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_frigate_engine",
+                                     "path":  "sprites/spr_enemy_nairan_frigate_engine/spr_enemy_nairan_frigate_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_scout_engine",
+                                     "path":  "sprites/spr_enemy_nairan_scout_engine/spr_enemy_nairan_scout_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_support_ship_engine",
+                                     "path":  "sprites/spr_enemy_nairan_support_ship_engine/spr_enemy_nairan_support_ship_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_torpedo_ship_engine",
+                                     "path":  "sprites/spr_enemy_nairan_torpedo_ship_engine/spr_enemy_nairan_torpedo_ship_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_battlecruiser_shield",
+                                     "path":  "sprites/spr_enemy_nairan_battlecruiser_shield/spr_enemy_nairan_battlecruiser_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_bomber_shield",
+                                     "path":  "sprites/spr_enemy_nairan_bomber_shield/spr_enemy_nairan_bomber_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_dreadnought_shield",
+                                     "path":  "sprites/spr_enemy_nairan_dreadnought_shield/spr_enemy_nairan_dreadnought_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_fighter_shield",
+                                     "path":  "sprites/spr_enemy_nairan_fighter_shield/spr_enemy_nairan_fighter_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_frigate_shield",
+                                     "path":  "sprites/spr_enemy_nairan_frigate_shield/spr_enemy_nairan_frigate_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_scout_shield",
+                                     "path":  "sprites/spr_enemy_nairan_scout_shield/spr_enemy_nairan_scout_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_torpedo_ship_shield",
+                                     "path":  "sprites/spr_enemy_nairan_torpedo_ship_shield/spr_enemy_nairan_torpedo_ship_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_battlecruiser_weapons",
+                                     "path":  "sprites/spr_enemy_nairan_battlecruiser_weapons/spr_enemy_nairan_battlecruiser_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_dreadnought_weapons",
+                                     "path":  "sprites/spr_enemy_nairan_dreadnought_weapons/spr_enemy_nairan_dreadnought_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_fighter_weapons",
+                                     "path":  "sprites/spr_enemy_nairan_fighter_weapons/spr_enemy_nairan_fighter_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_frigate_weapons",
+                                     "path":  "sprites/spr_enemy_nairan_frigate_weapons/spr_enemy_nairan_frigate_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_scout_weapons",
+                                     "path":  "sprites/spr_enemy_nairan_scout_weapons/spr_enemy_nairan_scout_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_torpedo_ship_weapons",
+                                     "path":  "sprites/spr_enemy_nairan_torpedo_ship_weapons/spr_enemy_nairan_torpedo_ship_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_projectile_bolt",
+                                     "path":  "sprites/spr_enemy_nairan_projectile_bolt/spr_enemy_nairan_projectile_bolt.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_projectile_ray",
+                                     "path":  "sprites/spr_enemy_nairan_projectile_ray/spr_enemy_nairan_projectile_ray.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_projectile_rocket",
+                                     "path":  "sprites/spr_enemy_nairan_projectile_rocket/spr_enemy_nairan_projectile_rocket.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_nairan_projectile_torpedo",
+                                     "path":  "sprites/spr_enemy_nairan_projectile_torpedo/spr_enemy_nairan_projectile_torpedo.yy"
                                  }
                       }
                   ],
