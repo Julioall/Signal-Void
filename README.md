@@ -70,13 +70,14 @@ Esses recursos serao obtidos atraves de:
 
 ## Estado atual do projeto
 
-Neste momento, o projeto ainda esta no inicio.
+O projeto ja saiu da fase puramente estrutural e entrou no primeiro prototipo jogavel.
 
-- existe apenas uma room principal: `Game`
-- os sprites ja foram organizados por dominio em `sprites/`
-- a arquitetura tecnica foi definida em `ARCHITECTURE.md`
-- o runtime principal ainda nao foi implementado
-- ainda nao existem `objects/`, `scripts/`, `sounds/` e `ui` de gameplay no projeto
+- `rm_boot` e `rm_game` ja existem
+- `obj_boot` e `obj_game_controller` ja controlam o fluxo inicial da partida
+- `obj_player_ship`, `obj_enemy_ship_basic` e `obj_projectile_player` ja formam o loop basico de combate
+- a nave do jogador ja possui movimento com inercia, rotacao por teclado, troca de motores e efeitos visuais de engine
+- ja existe dano, perda de vida, destruicao basica e respawn simples de inimigo
+- ainda faltam HUD de verdade, pickups, asteroides, progressao, faccoes completas e frontend
 
 ## Estrutura visual atual
 
@@ -155,129 +156,175 @@ Principios centrais:
 - manter tuning de gameplay fora de numeros magicos espalhados
 - evoluir para um fluxo de rooms com `rm_boot`, `rm_frontend`, `rm_game` e `rm_test_arena`
 
-## Roadmap planejado
+## Roadmap de desenvolvimento
 
-As fases abaixo descrevem o planejamento do projeto. Elas nao representam features ja implementadas.
+O roadmap abaixo esta organizado por blocos de runtime e dependencias reais do projeto.
 
-### Fase 0 - Pre-producao
+A ideia e fechar primeiro a base tecnica, depois a nave do jogador, depois combate, inimigos, mundo e progressao.
 
-Definicao da base do projeto.
+Cada fase prepara a proxima.
 
-Entregas:
+### Fase 0 - Base tecnica do runtime
 
-- conceito principal
-- faccoes definidas
-- estrutura de sprites organizada
-- convencoes de nomes
-- documentacao inicial
+Objetivo:
 
-### Fase 1 - Prototipo jogavel basico
-
-Primeira versao funcional do nucleo do jogo.
+fechar a infraestrutura minima para o jogo iniciar, rodar e reiniciar sem improviso.
 
 Entregas:
 
-- movimentacao da nave
-- tiro principal
-- inimigo basico
-- colisao
-- sistema de vida
-- destruicao basica
+- `rm_boot` e `rm_game` estaveis
+- `obj_boot` configurando estado global da sessao
+- `obj_game_controller` controlando spawn, restart e acompanhamento da partida
+- scripts utilitarios de bootstrap e spawn
+- convencoes tecnicas fechadas para `objects/`, `scripts/` e `sprites/`
+- documentacao basica alinhada com o estado real do projeto
 
-### Fase 2 - Vertical slice de combate
+### Fase 1 - Estrutura base da nave do jogador
 
-Primeira versao pequena representando a experiencia real do jogo.
+Objetivo:
 
-Entregas:
-
-- nave com camadas visuais
-- efeitos de motor
-- pickups basicos
-- um inimigo por faccao
-- asteroides no cenario
-- HUD inicial
-
-### Fase 3 - Progressao inicial
-
-Sistema de crescimento do jogador.
+fechar `obj_player_ship` como o centro do gameplay.
 
 Entregas:
 
-- dinheiro
-- recursos
-- upgrades basicos
-- drops
-- dificuldade crescente
+- casco principal funcional com escala visual definida
+- movimento com rotacao, inercia, aceleracao frontal e re limitada
+- `movement_profile` separado por casco e motor
+- troca de motores para testes e tuning
+- draw em camadas para casco, motor e efeitos de engine
+- pontos de extensao para armas, escudos e futuros upgrades
 
-### Fase 4 - Identidade das faccoes
+### Fase 2 - Combate basico do jogador
 
-Cada faccao passa a ter comportamento distinto.
+Objetivo:
+
+fechar o pacote minimo de ataque do jogador antes de expandir inimigos e mundo.
 
 Entregas:
 
-- diferencas reais de combate
-- projeteis diferentes
+- `obj_projectile_player` funcional
+- disparo alinhado com a proa da nave
+- cooldown de tiro e cadencia basica
+- hit detection entre projetil e inimigo
+- `combat_apply_damage` resolvendo dano e destruicao
+- ciclo de vida da nave do jogador fechado para prototipo
+
+### Fase 3 - Estrutura base dos inimigos
+
+Objetivo:
+
+fechar um inimigo jogavel de ponta a ponta antes de abrir variedade.
+
+Entregas:
+
+- `obj_enemy_ship_basic` com stats e comportamento simples
+- perseguicao basica do jogador
+- dano por contato ou por combate resolvido de forma clara
+- destruicao e remocao corretas
+- primeiro pipeline reutilizavel para futuros inimigos
+- scripts isolando logica de AI e tuning
+
+### Fase 4 - Loop principal de encounter
+
+Objetivo:
+
+transformar nave, tiro e inimigo em um loop repetivel de partida.
+
+Entregas:
+
+- regras de spawn e respawn de inimigos
+- contagem de kills e estado simples de sessao
+- reinicio de partida confiavel
+- ritmo minimo de combate dentro de `rm_game`
+- balanceamento inicial entre nave, inimigo e projetil
+- base para arenas de teste e validacao rapida
+
+### Fase 5 - Mundo e interacoes de gameplay
+
+Objetivo:
+
+adicionar elementos de cenario e recompensa ao redor do combate.
+
+Entregas:
+
+- asteroides como primeiros objetos de ambiente
+- pickups basicos de motor, arma e escudo
+- drops simples vindos de destruicao
+- primeiros recursos coletaveis
+- regras de colisao com elementos do cenario
+- base para expansao de setores e exploracao
+
+### Fase 6 - Progressao da nave do jogador
+
+Objetivo:
+
+dar persistencia e direcao ao crescimento do jogador.
+
+Entregas:
+
+- dinheiro e recursos de sessao
+- sistema inicial de upgrades para motor, arma e escudo
+- variacoes reais de loadout da nave
+- tuning de custo, recompensa e progressao
+- estrutura para dados persistentes da campanha
+- preparacao para inventario e economia simples
+
+### Fase 7 - Identidade das faccoes e conteudo inimigo
+
+Objetivo:
+
+fazer o universo comecar a ter personalidade real em combate.
+
+Entregas:
+
+- um inimigo representativo de cada faccao
+- projeteis e comportamento distintos por faccao
 - naves medias e pesadas
-- setores dominados por faccoes
+- primeiras regras de dominacao de setor
+- diferencas reais de risco e recompensa entre encontros
+- base para mini chefes e patrulhas especializadas
 
-### Fase 5 - Estrutura jogavel completa
+### Fase 8 - Frontend, UX e estrutura jogavel completa
 
-Transformar o prototipo em jogo organizado.
+Objetivo:
 
-Entregas:
-
-- selecao de setores
-- fluxo de progressao
-- mini chefes
-- salvamento basico
-
-### Fase 6 - Economia e influencia
-
-Primeiros sistemas de interacao economica com faccoes.
+amarrar o prototipo em um jogo navegavel e apresentavel.
 
 Entregas:
 
-- contratos
-- lucro por sabotagem ou ajuda
-- reputacao simples
-- rotas economicas
+- `rm_frontend` e fluxo de entrada no jogo
+- HUD jogavel de verdade
+- telas de status, game over e retorno
+- selecao basica de setor ou arena
+- salvamento inicial
+- organizacao geral para build de teste externa
 
-### Fase 7 - Polimento
+### Fase 9 - Polimento e demo
 
-Refinamento visual e tecnico.
+Objetivo:
 
-Entregas:
-
-- efeitos visuais
-- sons
-- menus
-- balanceamento
-
-### Fase 8 - Demo jogavel
-
-Primeira versao publica.
+preparar uma versao pequena, estavel e com identidade suficiente para ser mostrada.
 
 Entregas:
 
+- efeitos visuais e sonoros coerentes
+- melhor leitura visual de combate
+- ajustes finos de controles e balanceamento
+- limpeza tecnica de scripts e objetos
 - build exportada
-- setores jogaveis
-- progressao inicial completa
-- versao estavel
+- demo curta, estavel e testavel
 
 ## Foco atual
 
-O foco imediato do projeto e montar o esqueleto de runtime e comecar o prototipo jogavel.
+O foco imediato do projeto e consolidar as fases iniciais que sustentam o resto do roadmap.
 
 Prioridades:
 
-- `rm_boot`
-- `obj_boot`
-- `obj_game_controller`
-- `obj_player_ship`
-- movimentacao
-- combate
-- inimigos
-- colisao
+- fechar bem `obj_player_ship` como base de movimentacao, combate e visual
+- estabilizar `obj_projectile_player` e o fluxo de dano
+- consolidar `obj_enemy_ship_basic` como primeiro inimigo valido
+- manter `obj_game_controller` simples, mas confiavel para spawn e restart
+- evitar abrir pickups, economia e multiplas faccoes antes do loop principal ficar solido
 
 ## Tecnologia
 

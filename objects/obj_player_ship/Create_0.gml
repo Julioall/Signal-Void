@@ -1,4 +1,16 @@
-move_speed = 6;
+hull_id = "main_ship";
+engine_id = "base";
+movement_profile = player_movement_build_profile(hull_id, engine_id);
+visual_scale = 2;
+velocity_x = 0;
+velocity_y = 0;
+current_speed = 0;
+engine_load = 0;
+engine_boost = 0;
+aim_direction = 90;
+image_angle = aim_direction - 90;
+image_xscale = visual_scale;
+image_yscale = visual_scale;
 fire_interval = 10;
 fire_cooldown = 0;
 hp = 5;

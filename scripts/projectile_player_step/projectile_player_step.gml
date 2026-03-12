@@ -1,7 +1,15 @@
 function projectile_player_step() {
-    y -= move_speed;
+    x += lengthdir_x(move_speed, direction_angle);
+    y += lengthdir_y(move_speed, direction_angle);
 
-    if (y < -64) {
+    var bounds_padding = max(sprite_get_width(sprite_index) * abs(image_xscale), sprite_get_height(sprite_index) * abs(image_yscale));
+
+    if (
+        x < -bounds_padding ||
+        x > room_width + bounds_padding ||
+        y < -bounds_padding ||
+        y > room_height + bounds_padding
+    ) {
         instance_destroy();
         return;
     }

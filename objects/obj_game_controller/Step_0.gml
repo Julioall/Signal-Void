@@ -27,9 +27,12 @@ var caption = "Signal Void | Fase 1";
 
 if (instance_exists(player_id)) {
     caption += " | HP " + string(player_id.hp) + "/" + string(player_id.max_hp);
+    caption += " | Motor " + string(player_id.engine_id);
+    caption += " | Vel " + string_format(player_id.current_speed, 1, 2);
 } else {
     caption += " | Reiniciando";
 }
 
 caption += " | Kills " + string(global.session_kills);
+caption += " | 1-4 trocam motor";
 window_set_caption(caption);

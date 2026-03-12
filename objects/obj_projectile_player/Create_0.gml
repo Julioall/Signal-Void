@@ -1,5 +1,9 @@
 move_speed = 14;
 damage = 1;
-hit_radius = 28;
+visual_scale = 2;
+hit_radius = 36;
 owner_id = noone;
-image_angle = 90;
+direction_angle = 90;
+image_xscale = visual_scale;
+image_yscale = visual_scale;
+image_angle = direction_angle - 90;
