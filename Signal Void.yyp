@@ -427,6 +427,38 @@
                         "name":  "planets",
                         "resourceType":  "GMFolder",
                         "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "pickups",
+                        "folderPath":  "folders/Sprites/pickups.yy",
+                        "name":  "pickups",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "engines",
+                        "folderPath":  "folders/Sprites/pickups/engines.yy",
+                        "name":  "engines",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "shield_generators",
+                        "folderPath":  "folders/Sprites/pickups/shield_generators.yy",
+                        "name":  "shield_generators",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "weapons",
+                        "folderPath":  "folders/Sprites/pickups/weapons.yy",
+                        "name":  "weapons",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
                     }
                 ],
     "ForcedPrefabProjectReferences":  [
@@ -1594,6 +1626,78 @@
                           "id":  {
                                      "name":  "spr_environment_planet_earth_like_without_back_glow",
                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_engine_base",
+                                     "path":  "sprites/spr_pickup_engine_base/spr_pickup_engine_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_engine_big_pulse",
+                                     "path":  "sprites/spr_pickup_engine_big_pulse/spr_pickup_engine_big_pulse.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_engine_burst",
+                                     "path":  "sprites/spr_pickup_engine_burst/spr_pickup_engine_burst.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_engine_supercharged",
+                                     "path":  "sprites/spr_pickup_engine_supercharged/spr_pickup_engine_supercharged.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_shield_generator_all_around",
+                                     "path":  "sprites/spr_pickup_shield_generator_all_around/spr_pickup_shield_generator_all_around.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_shield_generator_front",
+                                     "path":  "sprites/spr_pickup_shield_generator_front/spr_pickup_shield_generator_front.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_shield_generator_front_and_side",
+                                     "path":  "sprites/spr_pickup_shield_generator_front_and_side/spr_pickup_shield_generator_front_and_side.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_shield_generator_invincibility",
+                                     "path":  "sprites/spr_pickup_shield_generator_invincibility/spr_pickup_shield_generator_invincibility.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_weapon_auto_cannons",
+                                     "path":  "sprites/spr_pickup_weapon_auto_cannons/spr_pickup_weapon_auto_cannons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_weapon_big_space_gun_2000",
+                                     "path":  "sprites/spr_pickup_weapon_big_space_gun_2000/spr_pickup_weapon_big_space_gun_2000.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_weapon_rocket",
+                                     "path":  "sprites/spr_pickup_weapon_rocket/spr_pickup_weapon_rocket.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_pickup_weapon_zapper",
+                                     "path":  "sprites/spr_pickup_weapon_zapper/spr_pickup_weapon_zapper.yy"
                                  }
                       }
                   ],
