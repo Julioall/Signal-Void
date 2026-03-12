@@ -1,362 +1,118 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_enemy_nautolan_torpedo_ship_shield",
-    "bboxMode":  0,
-    "bbox_bottom":  63,
-    "bbox_left":  0,
-    "bbox_right":  63,
-    "bbox_top":  0,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "bd93cd17-e740-4f56-9e34-95f06cb2ba8c",
-                       "name":  "bd93cd17-e740-4f56-9e34-95f06cb2ba8c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "28374800-034d-47d6-8113-c0d943c50c51",
-                       "name":  "28374800-034d-47d6-8113-c0d943c50c51",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "8dab3c94-e705-459c-921a-d85589381568",
-                       "name":  "8dab3c94-e705-459c-921a-d85589381568",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "3c9d126d-f6c5-4f54-a62d-9e6a48decf3c",
-                       "name":  "3c9d126d-f6c5-4f54-a62d-9e6a48decf3c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "262ea70e-b5cb-4f74-9ccf-99e8cc62e7cb",
-                       "name":  "262ea70e-b5cb-4f74-9ccf-99e8cc62e7cb",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "923b921c-9503-4dcb-9ba0-cbaaae50c4c0",
-                       "name":  "923b921c-9503-4dcb-9ba0-cbaaae50c4c0",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ee8e8be0-c63d-4547-a7a9-bc93b0ef5aba",
-                       "name":  "ee8e8be0-c63d-4547-a7a9-bc93b0ef5aba",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "d77c7358-3fb1-4c9f-bcb8-91692df2021f",
-                       "name":  "d77c7358-3fb1-4c9f-bcb8-91692df2021f",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  64,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "16e116c5-f01e-40dc-81c7-5b697dd6c567",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "16e116c5-f01e-40dc-81c7-5b697dd6c567",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_enemy_nautolan_torpedo_ship_shield",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "shields",
-                   "path":  "folders/Sprites/enemies/nautolan/shields.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_enemy_nautolan_torpedo_ship_shield",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  8,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_enemy_nautolan_torpedo_ship_shield",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "bd93cd17-e740-4f56-9e34-95f06cb2ba8c",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8d06e95d-39b6-416c-8f1c-8b902ed37b61",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "28374800-034d-47d6-8113-c0d943c50c51",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "cd855097-862a-45e7-a33d-bf9b28f55687",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "8dab3c94-e705-459c-921a-d85589381568",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "ff564625-117e-4f7b-9fdc-c3d424214532",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "3c9d126d-f6c5-4f54-a62d-9e6a48decf3c",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "c355574e-5847-46ea-b5a9-44e0eec206b7",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "262ea70e-b5cb-4f74-9ccf-99e8cc62e7cb",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "f16e4e7e-72dd-4a9b-9091-6919bdbe05bb",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "923b921c-9503-4dcb-9ba0-cbaaae50c4c0",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "3e82e5ac-46fe-467f-ad3b-c3e888019661",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ee8e8be0-c63d-4547-a7a9-bc93b0ef5aba",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d8731a72-733c-44f1-90a4-355b9f36e1d5",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "d77c7358-3fb1-4c9f-bcb8-91692df2021f",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "fe073e7a-b29c-4ea1-ad6c-d44835e7a022",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  32,
-                     "yorigin":  32
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  64
+  "$GMSprite":"v2",
+  "%Name":"spr_enemy_nautolan_torpedo_ship_shield",
+  "bboxMode":0,
+  "bbox_bottom":29,
+  "bbox_left":2,
+  "bbox_right":61,
+  "bbox_top":16,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"bd93cd17-e740-4f56-9e34-95f06cb2ba8c","name":"bd93cd17-e740-4f56-9e34-95f06cb2ba8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28374800-034d-47d6-8113-c0d943c50c51","name":"28374800-034d-47d6-8113-c0d943c50c51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8dab3c94-e705-459c-921a-d85589381568","name":"8dab3c94-e705-459c-921a-d85589381568","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3c9d126d-f6c5-4f54-a62d-9e6a48decf3c","name":"3c9d126d-f6c5-4f54-a62d-9e6a48decf3c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"262ea70e-b5cb-4f74-9ccf-99e8cc62e7cb","name":"262ea70e-b5cb-4f74-9ccf-99e8cc62e7cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"923b921c-9503-4dcb-9ba0-cbaaae50c4c0","name":"923b921c-9503-4dcb-9ba0-cbaaae50c4c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ee8e8be0-c63d-4547-a7a9-bc93b0ef5aba","name":"ee8e8be0-c63d-4547-a7a9-bc93b0ef5aba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d77c7358-3fb1-4c9f-bcb8-91692df2021f","name":"d77c7358-3fb1-4c9f-bcb8-91692df2021f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":64,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"16e116c5-f01e-40dc-81c7-5b697dd6c567","blendMode":0,"displayName":"default","isLocked":false,"name":"16e116c5-f01e-40dc-81c7-5b697dd6c567","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_enemy_nautolan_torpedo_ship_shield",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"shields",
+    "path":"folders/Sprites/enemies/nautolan/shields.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_enemy_nautolan_torpedo_ship_shield",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":8.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_enemy_nautolan_torpedo_ship_shield",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd93cd17-e740-4f56-9e34-95f06cb2ba8c","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8d06e95d-39b6-416c-8f1c-8b902ed37b61","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"28374800-034d-47d6-8113-c0d943c50c51","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cd855097-862a-45e7-a33d-bf9b28f55687","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8dab3c94-e705-459c-921a-d85589381568","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ff564625-117e-4f7b-9fdc-c3d424214532","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c9d126d-f6c5-4f54-a62d-9e6a48decf3c","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c355574e-5847-46ea-b5a9-44e0eec206b7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"262ea70e-b5cb-4f74-9ccf-99e8cc62e7cb","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f16e4e7e-72dd-4a9b-9091-6919bdbe05bb","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"923b921c-9503-4dcb-9ba0-cbaaae50c4c0","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3e82e5ac-46fe-467f-ad3b-c3e888019661","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee8e8be0-c63d-4547-a7a9-bc93b0ef5aba","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d8731a72-733c-44f1-90a4-355b9f36e1d5","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d77c7358-3fb1-4c9f-bcb8-91692df2021f","path":"sprites/spr_enemy_nautolan_torpedo_ship_shield/spr_enemy_nautolan_torpedo_ship_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe073e7a-b29c-4ea1-ad6c-d44835e7a022","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":32,
+    "yorigin":32,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":64,
 }

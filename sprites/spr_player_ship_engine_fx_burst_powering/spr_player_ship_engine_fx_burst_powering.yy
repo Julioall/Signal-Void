@@ -1,304 +1,110 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_player_ship_engine_fx_burst_powering",
-    "bboxMode":  0,
-    "bbox_bottom":  47,
-    "bbox_left":  0,
-    "bbox_right":  47,
-    "bbox_top":  0,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "15638d44-5028-4c1c-bacd-3198c6c3d2ab",
-                       "name":  "15638d44-5028-4c1c-bacd-3198c6c3d2ab",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "371addce-2ead-42ea-8318-cda911db550e",
-                       "name":  "371addce-2ead-42ea-8318-cda911db550e",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "08f7dc0c-d862-4eb4-b4c0-93510ef17b00",
-                       "name":  "08f7dc0c-d862-4eb4-b4c0-93510ef17b00",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e5eeb6b7-d1ec-4c68-93bc-40e738d108d6",
-                       "name":  "e5eeb6b7-d1ec-4c68-93bc-40e738d108d6",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "cf6daeb4-5f90-4ba5-9a77-d49859b1a153",
-                       "name":  "cf6daeb4-5f90-4ba5-9a77-d49859b1a153",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "9bd55714-8f7c-4722-a0c0-90f1e16dec37",
-                       "name":  "9bd55714-8f7c-4722-a0c0-90f1e16dec37",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  48,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "d9893afa-11b7-4648-ad6d-4fc6909ee5f8",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "d9893afa-11b7-4648-ad6d-4fc6909ee5f8",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_player_ship_engine_fx_burst_powering",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "engine_effects",
-                   "path":  "folders/Sprites/player/engine_effects.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_player_ship_engine_fx_burst_powering",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  6,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_player_ship_engine_fx_burst_powering",
-                     "playback":  1,
-                     "playbackSpeed":  16,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "15638d44-5028-4c1c-bacd-3198c6c3d2ab",
-                                                                                                                      "path":  "sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d5214ee4-02ea-4ede-9b92-954f9937c26a",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "371addce-2ead-42ea-8318-cda911db550e",
-                                                                                                                      "path":  "sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "57c7baba-fa3b-4f43-9a01-ecdccf5e0b64",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "08f7dc0c-d862-4eb4-b4c0-93510ef17b00",
-                                                                                                                      "path":  "sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8d15c28d-799d-4bed-b94d-5dae2357fee2",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e5eeb6b7-d1ec-4c68-93bc-40e738d108d6",
-                                                                                                                      "path":  "sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "c720bb99-3860-467e-91ab-7c67ff3f6e67",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "cf6daeb4-5f90-4ba5-9a77-d49859b1a153",
-                                                                                                                      "path":  "sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "7a6c6545-b4c6-4dd8-bcc3-4a3ff746b1fd",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "9bd55714-8f7c-4722-a0c0-90f1e16dec37",
-                                                                                                                      "path":  "sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "b1260b57-3db9-4c12-bbbd-c30f9dabd957",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  24,
-                     "yorigin":  24
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  48
+  "$GMSprite":"v2",
+  "%Name":"spr_player_ship_engine_fx_burst_powering",
+  "bboxMode":0,
+  "bbox_bottom":39,
+  "bbox_left":19,
+  "bbox_right":28,
+  "bbox_top":26,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"15638d44-5028-4c1c-bacd-3198c6c3d2ab","name":"15638d44-5028-4c1c-bacd-3198c6c3d2ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"371addce-2ead-42ea-8318-cda911db550e","name":"371addce-2ead-42ea-8318-cda911db550e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08f7dc0c-d862-4eb4-b4c0-93510ef17b00","name":"08f7dc0c-d862-4eb4-b4c0-93510ef17b00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e5eeb6b7-d1ec-4c68-93bc-40e738d108d6","name":"e5eeb6b7-d1ec-4c68-93bc-40e738d108d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf6daeb4-5f90-4ba5-9a77-d49859b1a153","name":"cf6daeb4-5f90-4ba5-9a77-d49859b1a153","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9bd55714-8f7c-4722-a0c0-90f1e16dec37","name":"9bd55714-8f7c-4722-a0c0-90f1e16dec37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":48,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"d9893afa-11b7-4648-ad6d-4fc6909ee5f8","blendMode":0,"displayName":"default","isLocked":false,"name":"d9893afa-11b7-4648-ad6d-4fc6909ee5f8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_player_ship_engine_fx_burst_powering",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"engine_effects",
+    "path":"folders/Sprites/player/engine_effects.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_player_ship_engine_fx_burst_powering",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":6.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_player_ship_engine_fx_burst_powering",
+    "playback":1,
+    "playbackSpeed":16.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15638d44-5028-4c1c-bacd-3198c6c3d2ab","path":"sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d5214ee4-02ea-4ede-9b92-954f9937c26a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"371addce-2ead-42ea-8318-cda911db550e","path":"sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"57c7baba-fa3b-4f43-9a01-ecdccf5e0b64","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"08f7dc0c-d862-4eb4-b4c0-93510ef17b00","path":"sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8d15c28d-799d-4bed-b94d-5dae2357fee2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5eeb6b7-d1ec-4c68-93bc-40e738d108d6","path":"sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c720bb99-3860-467e-91ab-7c67ff3f6e67","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf6daeb4-5f90-4ba5-9a77-d49859b1a153","path":"sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7a6c6545-b4c6-4dd8-bcc3-4a3ff746b1fd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9bd55714-8f7c-4722-a0c0-90f1e16dec37","path":"sprites/spr_player_ship_engine_fx_burst_powering/spr_player_ship_engine_fx_burst_powering.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b1260b57-3db9-4c12-bbbd-c30f9dabd957","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":24,
+    "yorigin":24,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":48,
 }

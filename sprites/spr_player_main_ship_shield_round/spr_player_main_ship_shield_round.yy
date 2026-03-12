@@ -1,478 +1,134 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_player_main_ship_shield_round",
-    "bboxMode":  0,
-    "bbox_bottom":  55,
-    "bbox_left":  7,
-    "bbox_right":  56,
-    "bbox_top":  6,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "7e422ddb-255d-4fd8-8b83-17d959e9c719",
-                       "name":  "7e422ddb-255d-4fd8-8b83-17d959e9c719",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b9249bf0-4c99-4b8c-aa77-42ff12d622a1",
-                       "name":  "b9249bf0-4c99-4b8c-aa77-42ff12d622a1",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "0478b70e-2970-452f-8d8c-7b4306037d26",
-                       "name":  "0478b70e-2970-452f-8d8c-7b4306037d26",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "4b3bf4ec-8970-4c0a-92c0-cc814bb5b260",
-                       "name":  "4b3bf4ec-8970-4c0a-92c0-cc814bb5b260",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ad67bfba-3fc0-4daa-a5b2-d76892240a2f",
-                       "name":  "ad67bfba-3fc0-4daa-a5b2-d76892240a2f",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "88c7c921-5658-430f-b71b-b798f04162f5",
-                       "name":  "88c7c921-5658-430f-b71b-b798f04162f5",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "661d638b-ea58-4cef-9737-5549b7153117",
-                       "name":  "661d638b-ea58-4cef-9737-5549b7153117",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "41db6ca9-3e64-41ce-af8d-bb01206b1a82",
-                       "name":  "41db6ca9-3e64-41ce-af8d-bb01206b1a82",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ed7723ad-f3bb-4de0-a2f4-cad465a720d6",
-                       "name":  "ed7723ad-f3bb-4de0-a2f4-cad465a720d6",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "559be609-fba2-48f5-8662-969fc1ee5779",
-                       "name":  "559be609-fba2-48f5-8662-969fc1ee5779",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b57a2e08-9284-4534-99ee-292d2d8645ad",
-                       "name":  "b57a2e08-9284-4534-99ee-292d2d8645ad",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "88a55b38-9ac5-4850-b258-02c50d1e5411",
-                       "name":  "88a55b38-9ac5-4850-b258-02c50d1e5411",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  64,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "591a9a70-3cd7-4ad2-8c09-94b3a00ec7e0",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "591a9a70-3cd7-4ad2-8c09-94b3a00ec7e0",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_player_main_ship_shield_round",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "shields",
-                   "path":  "folders/Sprites/player/shields.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_player_main_ship_shield_round",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  12,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_player_main_ship_shield_round",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "7e422ddb-255d-4fd8-8b83-17d959e9c719",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "16c9d6d9-bc82-41cf-9e34-4dbc861b63ae",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b9249bf0-4c99-4b8c-aa77-42ff12d622a1",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "53956186-b5de-49c5-b799-607a35d46eec",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "0478b70e-2970-452f-8d8c-7b4306037d26",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "02a91979-d32a-4305-8995-2e578efbea6d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "4b3bf4ec-8970-4c0a-92c0-cc814bb5b260",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "b8f24e69-dd83-41dd-b491-9923f9371b06",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ad67bfba-3fc0-4daa-a5b2-d76892240a2f",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "9d2d422b-35d2-4a0e-905f-07812bdf7d1e",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "88c7c921-5658-430f-b71b-b798f04162f5",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "89414f92-e26f-4843-9f7b-faf51596224a",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "661d638b-ea58-4cef-9737-5549b7153117",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "84fe7d89-bf7e-44e5-b41d-0349b902443d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "41db6ca9-3e64-41ce-af8d-bb01206b1a82",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "11bd93dd-4412-4d0a-97f7-ab9b06a458f0",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ed7723ad-f3bb-4de0-a2f4-cad465a720d6",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "628f2a82-6ac7-4ea3-b5f8-6cd067f5fa6f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  8,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "559be609-fba2-48f5-8662-969fc1ee5779",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "6a5b4420-1233-4f7a-81d0-16b138e715ce",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  9,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b57a2e08-9284-4534-99ee-292d2d8645ad",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0c0bc7cc-4730-494a-af47-540e8ff91942",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  10,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "88a55b38-9ac5-4850-b258-02c50d1e5411",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "11281ae6-1e9c-4500-91b0-b29147d63601",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  11,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  32,
-                     "yorigin":  32
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  64
+  "$GMSprite":"v2",
+  "%Name":"spr_player_main_ship_shield_round",
+  "bboxMode":0,
+  "bbox_bottom":55,
+  "bbox_left":7,
+  "bbox_right":56,
+  "bbox_top":6,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"7e422ddb-255d-4fd8-8b83-17d959e9c719","name":"7e422ddb-255d-4fd8-8b83-17d959e9c719","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b9249bf0-4c99-4b8c-aa77-42ff12d622a1","name":"b9249bf0-4c99-4b8c-aa77-42ff12d622a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0478b70e-2970-452f-8d8c-7b4306037d26","name":"0478b70e-2970-452f-8d8c-7b4306037d26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4b3bf4ec-8970-4c0a-92c0-cc814bb5b260","name":"4b3bf4ec-8970-4c0a-92c0-cc814bb5b260","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad67bfba-3fc0-4daa-a5b2-d76892240a2f","name":"ad67bfba-3fc0-4daa-a5b2-d76892240a2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88c7c921-5658-430f-b71b-b798f04162f5","name":"88c7c921-5658-430f-b71b-b798f04162f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"661d638b-ea58-4cef-9737-5549b7153117","name":"661d638b-ea58-4cef-9737-5549b7153117","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41db6ca9-3e64-41ce-af8d-bb01206b1a82","name":"41db6ca9-3e64-41ce-af8d-bb01206b1a82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed7723ad-f3bb-4de0-a2f4-cad465a720d6","name":"ed7723ad-f3bb-4de0-a2f4-cad465a720d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"559be609-fba2-48f5-8662-969fc1ee5779","name":"559be609-fba2-48f5-8662-969fc1ee5779","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b57a2e08-9284-4534-99ee-292d2d8645ad","name":"b57a2e08-9284-4534-99ee-292d2d8645ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88a55b38-9ac5-4850-b258-02c50d1e5411","name":"88a55b38-9ac5-4850-b258-02c50d1e5411","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":64,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"591a9a70-3cd7-4ad2-8c09-94b3a00ec7e0","blendMode":0,"displayName":"default","isLocked":false,"name":"591a9a70-3cd7-4ad2-8c09-94b3a00ec7e0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_player_main_ship_shield_round",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"shields",
+    "path":"folders/Sprites/player/shields.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_player_main_ship_shield_round",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":12.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_player_main_ship_shield_round",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e422ddb-255d-4fd8-8b83-17d959e9c719","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"16c9d6d9-bc82-41cf-9e34-4dbc861b63ae","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9249bf0-4c99-4b8c-aa77-42ff12d622a1","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"53956186-b5de-49c5-b799-607a35d46eec","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0478b70e-2970-452f-8d8c-7b4306037d26","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"02a91979-d32a-4305-8995-2e578efbea6d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4b3bf4ec-8970-4c0a-92c0-cc814bb5b260","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b8f24e69-dd83-41dd-b491-9923f9371b06","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad67bfba-3fc0-4daa-a5b2-d76892240a2f","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9d2d422b-35d2-4a0e-905f-07812bdf7d1e","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88c7c921-5658-430f-b71b-b798f04162f5","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"89414f92-e26f-4843-9f7b-faf51596224a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"661d638b-ea58-4cef-9737-5549b7153117","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"84fe7d89-bf7e-44e5-b41d-0349b902443d","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41db6ca9-3e64-41ce-af8d-bb01206b1a82","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"11bd93dd-4412-4d0a-97f7-ab9b06a458f0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed7723ad-f3bb-4de0-a2f4-cad465a720d6","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"628f2a82-6ac7-4ea3-b5f8-6cd067f5fa6f","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"559be609-fba2-48f5-8662-969fc1ee5779","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6a5b4420-1233-4f7a-81d0-16b138e715ce","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b57a2e08-9284-4534-99ee-292d2d8645ad","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0c0bc7cc-4730-494a-af47-540e8ff91942","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88a55b38-9ac5-4850-b258-02c50d1e5411","path":"sprites/spr_player_main_ship_shield_round/spr_player_main_ship_shield_round.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"11281ae6-1e9c-4500-91b0-b29147d63601","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":32,
+    "yorigin":32,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":64,
 }

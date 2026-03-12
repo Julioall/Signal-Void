@@ -1,1290 +1,246 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_enemy_klaed_frigate_shield",
-    "bboxMode":  0,
-    "bbox_bottom":  63,
-    "bbox_left":  0,
-    "bbox_right":  63,
-    "bbox_top":  0,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "f93e4ea2-4c03-46c3-ae34-077d342039f2",
-                       "name":  "f93e4ea2-4c03-46c3-ae34-077d342039f2",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "67979734-b65c-454d-a163-6efc3abfcfa4",
-                       "name":  "67979734-b65c-454d-a163-6efc3abfcfa4",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "f7c75aae-346a-4937-98f5-280d857dc1e0",
-                       "name":  "f7c75aae-346a-4937-98f5-280d857dc1e0",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "8ae056fe-ae1d-470f-9a58-677535bcb1b5",
-                       "name":  "8ae056fe-ae1d-470f-9a58-677535bcb1b5",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "4437161f-4530-47ce-a86d-97fea3ca2171",
-                       "name":  "4437161f-4530-47ce-a86d-97fea3ca2171",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "1676300a-d2b6-43b0-ab54-ebffc3da784a",
-                       "name":  "1676300a-d2b6-43b0-ab54-ebffc3da784a",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6b5fa07a-615f-4ad4-8ca8-9f45855e4059",
-                       "name":  "6b5fa07a-615f-4ad4-8ca8-9f45855e4059",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "a0e3dd76-137d-41e6-ac0a-bdd746f435a6",
-                       "name":  "a0e3dd76-137d-41e6-ac0a-bdd746f435a6",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "15ad19a1-2af3-4372-ba62-5e46598f8bf0",
-                       "name":  "15ad19a1-2af3-4372-ba62-5e46598f8bf0",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e09f3dd9-a472-4ac8-8eaf-d32ded95c8c9",
-                       "name":  "e09f3dd9-a472-4ac8-8eaf-d32ded95c8c9",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "dc9e9ef4-8cad-465b-ac9a-a844dcdb117c",
-                       "name":  "dc9e9ef4-8cad-465b-ac9a-a844dcdb117c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6fd66947-77a4-4768-98ad-8df4a1926ec1",
-                       "name":  "6fd66947-77a4-4768-98ad-8df4a1926ec1",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "23eea3d4-3d7e-4907-8eea-35e37546c86f",
-                       "name":  "23eea3d4-3d7e-4907-8eea-35e37546c86f",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "9d902532-53cf-4b45-ae55-0a07d271a264",
-                       "name":  "9d902532-53cf-4b45-ae55-0a07d271a264",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "0306c5d1-b7aa-4a90-996b-33b42c4bec1a",
-                       "name":  "0306c5d1-b7aa-4a90-996b-33b42c4bec1a",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "44823e20-6340-4de3-950d-7130e2a9ea77",
-                       "name":  "44823e20-6340-4de3-950d-7130e2a9ea77",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "1b79c9fb-280a-4cd0-a24a-ac14a1df87ef",
-                       "name":  "1b79c9fb-280a-4cd0-a24a-ac14a1df87ef",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "fce99bad-1f75-4f59-8dd9-06fcbb7cf7a7",
-                       "name":  "fce99bad-1f75-4f59-8dd9-06fcbb7cf7a7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "738ce284-1640-4d35-b60b-9917b9dd538a",
-                       "name":  "738ce284-1640-4d35-b60b-9917b9dd538a",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ea883822-9106-485d-bcc1-5ccd5407d434",
-                       "name":  "ea883822-9106-485d-bcc1-5ccd5407d434",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "c0b7ad86-4eb1-4454-adde-6a7337eaf655",
-                       "name":  "c0b7ad86-4eb1-4454-adde-6a7337eaf655",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "a10ed1bc-03f9-47d5-9911-723556d6ebbc",
-                       "name":  "a10ed1bc-03f9-47d5-9911-723556d6ebbc",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b27f5346-becd-4823-bfba-9299ef37c740",
-                       "name":  "b27f5346-becd-4823-bfba-9299ef37c740",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "42b8e6a5-bd88-456b-9aaa-23d6a5696dd8",
-                       "name":  "42b8e6a5-bd88-456b-9aaa-23d6a5696dd8",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b4bd50cd-ac34-4bb4-9e5a-3c3438cce2d4",
-                       "name":  "b4bd50cd-ac34-4bb4-9e5a-3c3438cce2d4",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "59afc0ca-06bd-4cbd-a415-a07c2af3dbe7",
-                       "name":  "59afc0ca-06bd-4cbd-a415-a07c2af3dbe7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "35614ba8-88b3-49c0-bced-a57768fbd0d3",
-                       "name":  "35614ba8-88b3-49c0-bced-a57768fbd0d3",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "590a628a-0c88-4585-a0a1-89394c0ed381",
-                       "name":  "590a628a-0c88-4585-a0a1-89394c0ed381",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ffb280af-a382-4cae-b986-08f36eef6077",
-                       "name":  "ffb280af-a382-4cae-b986-08f36eef6077",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e890943c-aa0c-43c8-88a5-13c21def8eac",
-                       "name":  "e890943c-aa0c-43c8-88a5-13c21def8eac",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "545b4d95-0aec-4e2d-8d54-3ebf2ee88387",
-                       "name":  "545b4d95-0aec-4e2d-8d54-3ebf2ee88387",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "4e3a6bfa-da09-4523-8352-290beafba028",
-                       "name":  "4e3a6bfa-da09-4523-8352-290beafba028",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "65b87362-820e-4c9d-9eb1-3b92fe15d81f",
-                       "name":  "65b87362-820e-4c9d-9eb1-3b92fe15d81f",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "100b32d0-a736-44af-bba5-7f91cea44361",
-                       "name":  "100b32d0-a736-44af-bba5-7f91cea44361",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "5de39e33-c509-4e0a-b1b1-181cc097e4f4",
-                       "name":  "5de39e33-c509-4e0a-b1b1-181cc097e4f4",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "d781e407-96f6-410b-b6b6-4e207a64cad3",
-                       "name":  "d781e407-96f6-410b-b6b6-4e207a64cad3",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "5df437c4-3121-414d-8d63-237b45c01def",
-                       "name":  "5df437c4-3121-414d-8d63-237b45c01def",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "9eff4796-aa1b-43ba-ad8b-084720af5cbc",
-                       "name":  "9eff4796-aa1b-43ba-ad8b-084720af5cbc",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "f1be2437-baaa-4d90-8525-5d35892a62d8",
-                       "name":  "f1be2437-baaa-4d90-8525-5d35892a62d8",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "dc278a5a-97ce-4a30-acfd-3b077bfdc4e2",
-                       "name":  "dc278a5a-97ce-4a30-acfd-3b077bfdc4e2",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  64,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "75ebdabe-b097-4e4c-a3f1-ca0e48c99ae0",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "75ebdabe-b097-4e4c-a3f1-ca0e48c99ae0",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_enemy_klaed_frigate_shield",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "shields",
-                   "path":  "folders/Sprites/enemies/klaed/shields.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_enemy_klaed_frigate_shield",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  40,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_enemy_klaed_frigate_shield",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "f93e4ea2-4c03-46c3-ae34-077d342039f2",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "ad2a6ef2-0137-432f-ba87-4a06563b3931",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "67979734-b65c-454d-a163-6efc3abfcfa4",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0e7b0204-5c97-4389-9774-6c4eef46b9b0",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "f7c75aae-346a-4937-98f5-280d857dc1e0",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5d33d93c-7dbb-43dc-a6c1-b0c537d84d0f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "8ae056fe-ae1d-470f-9a58-677535bcb1b5",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "2da86d4f-c9ed-4cd5-88a3-735aa1e12098",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "4437161f-4530-47ce-a86d-97fea3ca2171",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8a295641-c1f1-4693-9c78-33cd89b159e1",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "1676300a-d2b6-43b0-ab54-ebffc3da784a",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "79706f35-c927-4de8-b3ea-93c8e1b16ee2",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6b5fa07a-615f-4ad4-8ca8-9f45855e4059",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a6e30a2f-1136-46bc-a31c-1ca6cfb872d5",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "a0e3dd76-137d-41e6-ac0a-bdd746f435a6",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "7cac4adc-3adb-42ec-b2da-4fa8c6c2c080",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "15ad19a1-2af3-4372-ba62-5e46598f8bf0",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "61b9f6d4-5d78-4460-b3a5-71872a9b6472",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  8,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e09f3dd9-a472-4ac8-8eaf-d32ded95c8c9",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "275d164d-5980-49ac-a94d-fe551def9c16",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  9,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "dc9e9ef4-8cad-465b-ac9a-a844dcdb117c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "708a91b2-4fc7-4aa2-8674-2461fda2b6bd",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  10,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6fd66947-77a4-4768-98ad-8df4a1926ec1",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0f2b02d4-bcca-44fd-a0a4-0c2e43afbf4b",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  11,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "23eea3d4-3d7e-4907-8eea-35e37546c86f",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a5590937-d238-422b-8f5f-693e0df258f7",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  12,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "9d902532-53cf-4b45-ae55-0a07d271a264",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "1ab5f140-7df1-436d-8605-bb6c627b39f6",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  13,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "0306c5d1-b7aa-4a90-996b-33b42c4bec1a",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5bb88833-4990-45f1-97ef-9d59f1ab7fad",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  14,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "44823e20-6340-4de3-950d-7130e2a9ea77",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8ec7a887-e4a0-4992-8e3d-29c977d3ab11",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  15,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "1b79c9fb-280a-4cd0-a24a-ac14a1df87ef",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "abc14622-445c-4ba0-a182-1ccc48731783",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  16,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "fce99bad-1f75-4f59-8dd9-06fcbb7cf7a7",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "52a0988b-b919-41b4-b334-1d8922af51e0",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  17,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "738ce284-1640-4d35-b60b-9917b9dd538a",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "fd5492a8-859d-413c-8159-fc4033e37978",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  18,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ea883822-9106-485d-bcc1-5ccd5407d434",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a4396a4f-a21b-4658-a851-07c44567a0df",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  19,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "c0b7ad86-4eb1-4454-adde-6a7337eaf655",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "fc2bf300-7efb-4b24-bdbd-4413e15c4960",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  20,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "a10ed1bc-03f9-47d5-9911-723556d6ebbc",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "6d3d9db3-c24d-4ef5-823f-f7e911ad5064",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  21,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b27f5346-becd-4823-bfba-9299ef37c740",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "76653d39-a115-409b-9a00-d54d240ae7a6",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  22,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "42b8e6a5-bd88-456b-9aaa-23d6a5696dd8",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "e31c2498-7e8f-4a75-bd4c-2898dbe8a641",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  23,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b4bd50cd-ac34-4bb4-9e5a-3c3438cce2d4",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8cb4e322-c9d8-4443-a6da-20c7ff9128ab",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  24,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "59afc0ca-06bd-4cbd-a415-a07c2af3dbe7",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "46b5ca7d-7761-44af-a059-abfec47ac975",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  25,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "35614ba8-88b3-49c0-bced-a57768fbd0d3",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "93791208-e6c9-40d1-86bb-e609a7725957",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  26,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "590a628a-0c88-4585-a0a1-89394c0ed381",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d75024f6-97a4-4d5f-90fb-d8c22c599ea0",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  27,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ffb280af-a382-4cae-b986-08f36eef6077",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "3b8cc982-0ade-4b8b-92d6-35c823de632b",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  28,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e890943c-aa0c-43c8-88a5-13c21def8eac",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "28b7df4d-89d2-4be0-b178-f0b43282ea51",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  29,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "545b4d95-0aec-4e2d-8d54-3ebf2ee88387",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "35fdae3c-0716-4fad-80a3-5d1e0aa97957",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  30,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "4e3a6bfa-da09-4523-8352-290beafba028",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "24fedf49-0a19-4018-b5a2-103fc08ad2ff",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  31,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "65b87362-820e-4c9d-9eb1-3b92fe15d81f",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "abf79320-ee27-4402-b84c-c24aaede43b4",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  32,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "100b32d0-a736-44af-bba5-7f91cea44361",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "879abb80-da9f-4719-87bd-e94987597e44",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  33,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "5de39e33-c509-4e0a-b1b1-181cc097e4f4",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "57619a6b-32f2-4625-a8b2-0d2c503c0e72",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  34,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "d781e407-96f6-410b-b6b6-4e207a64cad3",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "bf007aa2-87ad-4354-b50b-63c548f1acd8",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  35,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "5df437c4-3121-414d-8d63-237b45c01def",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "bea614f3-80a6-4039-aa41-ac2901598e38",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  36,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "9eff4796-aa1b-43ba-ad8b-084720af5cbc",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "1408609d-0da6-42cd-a821-602730ce0893",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  37,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "f1be2437-baaa-4d90-8525-5d35892a62d8",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5f2fde53-e3f2-443b-ba28-e1d346ed52d6",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  38,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "dc278a5a-97ce-4a30-acfd-3b077bfdc4e2",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "ad5b1c5f-3469-456c-b175-8414632eec5f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  39,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  32,
-                     "yorigin":  32
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  64
+  "$GMSprite":"v2",
+  "%Name":"spr_enemy_klaed_frigate_shield",
+  "bboxMode":0,
+  "bbox_bottom":52,
+  "bbox_left":11,
+  "bbox_right":52,
+  "bbox_top":8,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"f93e4ea2-4c03-46c3-ae34-077d342039f2","name":"f93e4ea2-4c03-46c3-ae34-077d342039f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"67979734-b65c-454d-a163-6efc3abfcfa4","name":"67979734-b65c-454d-a163-6efc3abfcfa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7c75aae-346a-4937-98f5-280d857dc1e0","name":"f7c75aae-346a-4937-98f5-280d857dc1e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ae056fe-ae1d-470f-9a58-677535bcb1b5","name":"8ae056fe-ae1d-470f-9a58-677535bcb1b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4437161f-4530-47ce-a86d-97fea3ca2171","name":"4437161f-4530-47ce-a86d-97fea3ca2171","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1676300a-d2b6-43b0-ab54-ebffc3da784a","name":"1676300a-d2b6-43b0-ab54-ebffc3da784a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b5fa07a-615f-4ad4-8ca8-9f45855e4059","name":"6b5fa07a-615f-4ad4-8ca8-9f45855e4059","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a0e3dd76-137d-41e6-ac0a-bdd746f435a6","name":"a0e3dd76-137d-41e6-ac0a-bdd746f435a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"15ad19a1-2af3-4372-ba62-5e46598f8bf0","name":"15ad19a1-2af3-4372-ba62-5e46598f8bf0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e09f3dd9-a472-4ac8-8eaf-d32ded95c8c9","name":"e09f3dd9-a472-4ac8-8eaf-d32ded95c8c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc9e9ef4-8cad-465b-ac9a-a844dcdb117c","name":"dc9e9ef4-8cad-465b-ac9a-a844dcdb117c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6fd66947-77a4-4768-98ad-8df4a1926ec1","name":"6fd66947-77a4-4768-98ad-8df4a1926ec1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"23eea3d4-3d7e-4907-8eea-35e37546c86f","name":"23eea3d4-3d7e-4907-8eea-35e37546c86f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d902532-53cf-4b45-ae55-0a07d271a264","name":"9d902532-53cf-4b45-ae55-0a07d271a264","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0306c5d1-b7aa-4a90-996b-33b42c4bec1a","name":"0306c5d1-b7aa-4a90-996b-33b42c4bec1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44823e20-6340-4de3-950d-7130e2a9ea77","name":"44823e20-6340-4de3-950d-7130e2a9ea77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b79c9fb-280a-4cd0-a24a-ac14a1df87ef","name":"1b79c9fb-280a-4cd0-a24a-ac14a1df87ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fce99bad-1f75-4f59-8dd9-06fcbb7cf7a7","name":"fce99bad-1f75-4f59-8dd9-06fcbb7cf7a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"738ce284-1640-4d35-b60b-9917b9dd538a","name":"738ce284-1640-4d35-b60b-9917b9dd538a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea883822-9106-485d-bcc1-5ccd5407d434","name":"ea883822-9106-485d-bcc1-5ccd5407d434","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c0b7ad86-4eb1-4454-adde-6a7337eaf655","name":"c0b7ad86-4eb1-4454-adde-6a7337eaf655","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a10ed1bc-03f9-47d5-9911-723556d6ebbc","name":"a10ed1bc-03f9-47d5-9911-723556d6ebbc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b27f5346-becd-4823-bfba-9299ef37c740","name":"b27f5346-becd-4823-bfba-9299ef37c740","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"42b8e6a5-bd88-456b-9aaa-23d6a5696dd8","name":"42b8e6a5-bd88-456b-9aaa-23d6a5696dd8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4bd50cd-ac34-4bb4-9e5a-3c3438cce2d4","name":"b4bd50cd-ac34-4bb4-9e5a-3c3438cce2d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59afc0ca-06bd-4cbd-a415-a07c2af3dbe7","name":"59afc0ca-06bd-4cbd-a415-a07c2af3dbe7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"35614ba8-88b3-49c0-bced-a57768fbd0d3","name":"35614ba8-88b3-49c0-bced-a57768fbd0d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"590a628a-0c88-4585-a0a1-89394c0ed381","name":"590a628a-0c88-4585-a0a1-89394c0ed381","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffb280af-a382-4cae-b986-08f36eef6077","name":"ffb280af-a382-4cae-b986-08f36eef6077","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e890943c-aa0c-43c8-88a5-13c21def8eac","name":"e890943c-aa0c-43c8-88a5-13c21def8eac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"545b4d95-0aec-4e2d-8d54-3ebf2ee88387","name":"545b4d95-0aec-4e2d-8d54-3ebf2ee88387","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4e3a6bfa-da09-4523-8352-290beafba028","name":"4e3a6bfa-da09-4523-8352-290beafba028","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"65b87362-820e-4c9d-9eb1-3b92fe15d81f","name":"65b87362-820e-4c9d-9eb1-3b92fe15d81f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"100b32d0-a736-44af-bba5-7f91cea44361","name":"100b32d0-a736-44af-bba5-7f91cea44361","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5de39e33-c509-4e0a-b1b1-181cc097e4f4","name":"5de39e33-c509-4e0a-b1b1-181cc097e4f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d781e407-96f6-410b-b6b6-4e207a64cad3","name":"d781e407-96f6-410b-b6b6-4e207a64cad3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5df437c4-3121-414d-8d63-237b45c01def","name":"5df437c4-3121-414d-8d63-237b45c01def","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9eff4796-aa1b-43ba-ad8b-084720af5cbc","name":"9eff4796-aa1b-43ba-ad8b-084720af5cbc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1be2437-baaa-4d90-8525-5d35892a62d8","name":"f1be2437-baaa-4d90-8525-5d35892a62d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc278a5a-97ce-4a30-acfd-3b077bfdc4e2","name":"dc278a5a-97ce-4a30-acfd-3b077bfdc4e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":64,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"75ebdabe-b097-4e4c-a3f1-ca0e48c99ae0","blendMode":0,"displayName":"default","isLocked":false,"name":"75ebdabe-b097-4e4c-a3f1-ca0e48c99ae0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_enemy_klaed_frigate_shield",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"shields",
+    "path":"folders/Sprites/enemies/klaed/shields.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_enemy_klaed_frigate_shield",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":40.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_enemy_klaed_frigate_shield",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f93e4ea2-4c03-46c3-ae34-077d342039f2","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad2a6ef2-0137-432f-ba87-4a06563b3931","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"67979734-b65c-454d-a163-6efc3abfcfa4","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0e7b0204-5c97-4389-9774-6c4eef46b9b0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7c75aae-346a-4937-98f5-280d857dc1e0","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5d33d93c-7dbb-43dc-a6c1-b0c537d84d0f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ae056fe-ae1d-470f-9a58-677535bcb1b5","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2da86d4f-c9ed-4cd5-88a3-735aa1e12098","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4437161f-4530-47ce-a86d-97fea3ca2171","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8a295641-c1f1-4693-9c78-33cd89b159e1","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1676300a-d2b6-43b0-ab54-ebffc3da784a","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"79706f35-c927-4de8-b3ea-93c8e1b16ee2","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b5fa07a-615f-4ad4-8ca8-9f45855e4059","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a6e30a2f-1136-46bc-a31c-1ca6cfb872d5","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0e3dd76-137d-41e6-ac0a-bdd746f435a6","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7cac4adc-3adb-42ec-b2da-4fa8c6c2c080","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15ad19a1-2af3-4372-ba62-5e46598f8bf0","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"61b9f6d4-5d78-4460-b3a5-71872a9b6472","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e09f3dd9-a472-4ac8-8eaf-d32ded95c8c9","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"275d164d-5980-49ac-a94d-fe551def9c16","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc9e9ef4-8cad-465b-ac9a-a844dcdb117c","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"708a91b2-4fc7-4aa2-8674-2461fda2b6bd","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6fd66947-77a4-4768-98ad-8df4a1926ec1","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f2b02d4-bcca-44fd-a0a4-0c2e43afbf4b","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"23eea3d4-3d7e-4907-8eea-35e37546c86f","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a5590937-d238-422b-8f5f-693e0df258f7","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d902532-53cf-4b45-ae55-0a07d271a264","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1ab5f140-7df1-436d-8605-bb6c627b39f6","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0306c5d1-b7aa-4a90-996b-33b42c4bec1a","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5bb88833-4990-45f1-97ef-9d59f1ab7fad","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44823e20-6340-4de3-950d-7130e2a9ea77","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8ec7a887-e4a0-4992-8e3d-29c977d3ab11","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b79c9fb-280a-4cd0-a24a-ac14a1df87ef","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"abc14622-445c-4ba0-a182-1ccc48731783","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fce99bad-1f75-4f59-8dd9-06fcbb7cf7a7","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"52a0988b-b919-41b4-b334-1d8922af51e0","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"738ce284-1640-4d35-b60b-9917b9dd538a","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd5492a8-859d-413c-8159-fc4033e37978","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea883822-9106-485d-bcc1-5ccd5407d434","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4396a4f-a21b-4658-a851-07c44567a0df","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0b7ad86-4eb1-4454-adde-6a7337eaf655","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fc2bf300-7efb-4b24-bdbd-4413e15c4960","IsCreationKey":false,"Key":20.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a10ed1bc-03f9-47d5-9911-723556d6ebbc","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6d3d9db3-c24d-4ef5-823f-f7e911ad5064","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b27f5346-becd-4823-bfba-9299ef37c740","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"76653d39-a115-409b-9a00-d54d240ae7a6","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42b8e6a5-bd88-456b-9aaa-23d6a5696dd8","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e31c2498-7e8f-4a75-bd4c-2898dbe8a641","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4bd50cd-ac34-4bb4-9e5a-3c3438cce2d4","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8cb4e322-c9d8-4443-a6da-20c7ff9128ab","IsCreationKey":false,"Key":24.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59afc0ca-06bd-4cbd-a415-a07c2af3dbe7","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"46b5ca7d-7761-44af-a059-abfec47ac975","IsCreationKey":false,"Key":25.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35614ba8-88b3-49c0-bced-a57768fbd0d3","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"93791208-e6c9-40d1-86bb-e609a7725957","IsCreationKey":false,"Key":26.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"590a628a-0c88-4585-a0a1-89394c0ed381","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d75024f6-97a4-4d5f-90fb-d8c22c599ea0","IsCreationKey":false,"Key":27.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffb280af-a382-4cae-b986-08f36eef6077","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3b8cc982-0ade-4b8b-92d6-35c823de632b","IsCreationKey":false,"Key":28.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e890943c-aa0c-43c8-88a5-13c21def8eac","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"28b7df4d-89d2-4be0-b178-f0b43282ea51","IsCreationKey":false,"Key":29.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"545b4d95-0aec-4e2d-8d54-3ebf2ee88387","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"35fdae3c-0716-4fad-80a3-5d1e0aa97957","IsCreationKey":false,"Key":30.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4e3a6bfa-da09-4523-8352-290beafba028","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"24fedf49-0a19-4018-b5a2-103fc08ad2ff","IsCreationKey":false,"Key":31.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"65b87362-820e-4c9d-9eb1-3b92fe15d81f","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"abf79320-ee27-4402-b84c-c24aaede43b4","IsCreationKey":false,"Key":32.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"100b32d0-a736-44af-bba5-7f91cea44361","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"879abb80-da9f-4719-87bd-e94987597e44","IsCreationKey":false,"Key":33.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5de39e33-c509-4e0a-b1b1-181cc097e4f4","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"57619a6b-32f2-4625-a8b2-0d2c503c0e72","IsCreationKey":false,"Key":34.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d781e407-96f6-410b-b6b6-4e207a64cad3","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bf007aa2-87ad-4354-b50b-63c548f1acd8","IsCreationKey":false,"Key":35.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5df437c4-3121-414d-8d63-237b45c01def","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bea614f3-80a6-4039-aa41-ac2901598e38","IsCreationKey":false,"Key":36.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9eff4796-aa1b-43ba-ad8b-084720af5cbc","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1408609d-0da6-42cd-a821-602730ce0893","IsCreationKey":false,"Key":37.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1be2437-baaa-4d90-8525-5d35892a62d8","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5f2fde53-e3f2-443b-ba28-e1d346ed52d6","IsCreationKey":false,"Key":38.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc278a5a-97ce-4a30-acfd-3b077bfdc4e2","path":"sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad5b1c5f-3469-456c-b175-8414632eec5f","IsCreationKey":false,"Key":39.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":32,
+    "yorigin":32,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":64,
 }

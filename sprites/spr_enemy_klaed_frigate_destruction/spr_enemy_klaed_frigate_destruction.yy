@@ -1,391 +1,122 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_enemy_klaed_frigate_destruction",
-    "bboxMode":  0,
-    "bbox_bottom":  63,
-    "bbox_left":  0,
-    "bbox_right":  63,
-    "bbox_top":  0,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2f5d0fda-6d06-4fce-b373-32751db8b805",
-                       "name":  "2f5d0fda-6d06-4fce-b373-32751db8b805",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "f5e80dbf-3bb3-43d1-9fac-14e511e0782b",
-                       "name":  "f5e80dbf-3bb3-43d1-9fac-14e511e0782b",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "21f17809-9138-40a9-a05a-d54cd2473b50",
-                       "name":  "21f17809-9138-40a9-a05a-d54cd2473b50",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b6ee16c2-bc6a-47ea-9bac-ca1b2fb1eb44",
-                       "name":  "b6ee16c2-bc6a-47ea-9bac-ca1b2fb1eb44",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "90a59eea-1967-4434-b7ba-53c189e3da6b",
-                       "name":  "90a59eea-1967-4434-b7ba-53c189e3da6b",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6e5caeee-f0a8-44dd-9b60-0ac1f25fde19",
-                       "name":  "6e5caeee-f0a8-44dd-9b60-0ac1f25fde19",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "27eb9aff-9610-48e6-8b64-5807f712e013",
-                       "name":  "27eb9aff-9610-48e6-8b64-5807f712e013",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2b79f369-3a20-46d0-aafa-5ccdbeaa0a73",
-                       "name":  "2b79f369-3a20-46d0-aafa-5ccdbeaa0a73",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e5b26149-0855-4446-a473-0bc785a8bbdf",
-                       "name":  "e5b26149-0855-4446-a473-0bc785a8bbdf",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  64,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "31747df5-1a2a-4fd6-851b-d62862c1d30b",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "31747df5-1a2a-4fd6-851b-d62862c1d30b",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_enemy_klaed_frigate_destruction",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "destruction",
-                   "path":  "folders/Sprites/enemies/klaed/destruction.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_enemy_klaed_frigate_destruction",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  9,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_enemy_klaed_frigate_destruction",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2f5d0fda-6d06-4fce-b373-32751db8b805",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0b2a624f-7489-4f41-8b62-3000ae98c6e1",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "f5e80dbf-3bb3-43d1-9fac-14e511e0782b",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a57215e7-c48b-4e0b-bf8c-c55a22e06d73",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "21f17809-9138-40a9-a05a-d54cd2473b50",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "56daf186-6253-4454-87c1-42fdb934b697",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b6ee16c2-bc6a-47ea-9bac-ca1b2fb1eb44",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "87dcd2a3-fed1-43ed-9cfd-28a910ed8db3",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "90a59eea-1967-4434-b7ba-53c189e3da6b",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "51bfdf68-5b54-4b83-8e74-0fe069d34eb3",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6e5caeee-f0a8-44dd-9b60-0ac1f25fde19",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8f056fa5-525f-488d-b4e4-57954c0ddf39",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "27eb9aff-9610-48e6-8b64-5807f712e013",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "65d8428a-e609-40b0-841d-7c3fb2d3774e",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2b79f369-3a20-46d0-aafa-5ccdbeaa0a73",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "f6797ba9-d6b6-454c-a2d6-529654c7e283",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e5b26149-0855-4446-a473-0bc785a8bbdf",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "f4ab3977-bc0c-4c3b-b3b5-c5dfb47d4bba",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  8,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  32,
-                     "yorigin":  32
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  64
+  "$GMSprite":"v2",
+  "%Name":"spr_enemy_klaed_frigate_destruction",
+  "bboxMode":0,
+  "bbox_bottom":62,
+  "bbox_left":1,
+  "bbox_right":62,
+  "bbox_top":1,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"2f5d0fda-6d06-4fce-b373-32751db8b805","name":"2f5d0fda-6d06-4fce-b373-32751db8b805","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f5e80dbf-3bb3-43d1-9fac-14e511e0782b","name":"f5e80dbf-3bb3-43d1-9fac-14e511e0782b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"21f17809-9138-40a9-a05a-d54cd2473b50","name":"21f17809-9138-40a9-a05a-d54cd2473b50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b6ee16c2-bc6a-47ea-9bac-ca1b2fb1eb44","name":"b6ee16c2-bc6a-47ea-9bac-ca1b2fb1eb44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"90a59eea-1967-4434-b7ba-53c189e3da6b","name":"90a59eea-1967-4434-b7ba-53c189e3da6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e5caeee-f0a8-44dd-9b60-0ac1f25fde19","name":"6e5caeee-f0a8-44dd-9b60-0ac1f25fde19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27eb9aff-9610-48e6-8b64-5807f712e013","name":"27eb9aff-9610-48e6-8b64-5807f712e013","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b79f369-3a20-46d0-aafa-5ccdbeaa0a73","name":"2b79f369-3a20-46d0-aafa-5ccdbeaa0a73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e5b26149-0855-4446-a473-0bc785a8bbdf","name":"e5b26149-0855-4446-a473-0bc785a8bbdf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":64,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"31747df5-1a2a-4fd6-851b-d62862c1d30b","blendMode":0,"displayName":"default","isLocked":false,"name":"31747df5-1a2a-4fd6-851b-d62862c1d30b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_enemy_klaed_frigate_destruction",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"destruction",
+    "path":"folders/Sprites/enemies/klaed/destruction.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_enemy_klaed_frigate_destruction",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":9.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_enemy_klaed_frigate_destruction",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2f5d0fda-6d06-4fce-b373-32751db8b805","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0b2a624f-7489-4f41-8b62-3000ae98c6e1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5e80dbf-3bb3-43d1-9fac-14e511e0782b","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a57215e7-c48b-4e0b-bf8c-c55a22e06d73","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"21f17809-9138-40a9-a05a-d54cd2473b50","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"56daf186-6253-4454-87c1-42fdb934b697","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6ee16c2-bc6a-47ea-9bac-ca1b2fb1eb44","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"87dcd2a3-fed1-43ed-9cfd-28a910ed8db3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90a59eea-1967-4434-b7ba-53c189e3da6b","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"51bfdf68-5b54-4b83-8e74-0fe069d34eb3","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e5caeee-f0a8-44dd-9b60-0ac1f25fde19","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8f056fa5-525f-488d-b4e4-57954c0ddf39","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"27eb9aff-9610-48e6-8b64-5807f712e013","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"65d8428a-e609-40b0-841d-7c3fb2d3774e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b79f369-3a20-46d0-aafa-5ccdbeaa0a73","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f6797ba9-d6b6-454c-a2d6-529654c7e283","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5b26149-0855-4446-a473-0bc785a8bbdf","path":"sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f4ab3977-bc0c-4c3b-b3b5-c5dfb47d4bba","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":32,
+    "yorigin":32,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":64,
 }

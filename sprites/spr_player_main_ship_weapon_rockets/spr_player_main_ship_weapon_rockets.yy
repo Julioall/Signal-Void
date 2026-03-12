@@ -1,623 +1,154 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_player_main_ship_weapon_rockets",
-    "bboxMode":  0,
-    "bbox_bottom":  37,
-    "bbox_left":  3,
-    "bbox_right":  44,
-    "bbox_top":  13,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "26f522fa-8a83-4e4d-87ae-a91ea3d143bc",
-                       "name":  "26f522fa-8a83-4e4d-87ae-a91ea3d143bc",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "0dbd3770-4fa8-4a37-8893-be9cbe59f51d",
-                       "name":  "0dbd3770-4fa8-4a37-8893-be9cbe59f51d",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "85e088b9-7e50-4539-bc11-0cf65c04f7f7",
-                       "name":  "85e088b9-7e50-4539-bc11-0cf65c04f7f7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6c150dde-dcd6-465e-8d50-0c9e22dcf345",
-                       "name":  "6c150dde-dcd6-465e-8d50-0c9e22dcf345",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "686bc665-dbe5-49f0-b311-33cd81e8f74c",
-                       "name":  "686bc665-dbe5-49f0-b311-33cd81e8f74c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2abfc917-69de-4649-aec9-2e52796a95a0",
-                       "name":  "2abfc917-69de-4649-aec9-2e52796a95a0",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "87895abb-1143-448f-b326-8151956f7fc7",
-                       "name":  "87895abb-1143-448f-b326-8151956f7fc7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "3544a94e-1d98-41ac-92b1-3604ac2f1ce2",
-                       "name":  "3544a94e-1d98-41ac-92b1-3604ac2f1ce2",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "9df78eec-f3aa-4135-87f1-c7cc4d8bc4a7",
-                       "name":  "9df78eec-f3aa-4135-87f1-c7cc4d8bc4a7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2afb0519-17a0-4697-b3a9-ed59061d1fec",
-                       "name":  "2afb0519-17a0-4697-b3a9-ed59061d1fec",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "a69342f8-caca-4606-a0ec-d5f8da8b85e3",
-                       "name":  "a69342f8-caca-4606-a0ec-d5f8da8b85e3",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "7e7ebdaa-8954-406e-93b4-3475977a9afc",
-                       "name":  "7e7ebdaa-8954-406e-93b4-3475977a9afc",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "3505eb3d-51e2-412a-b210-6e9fa4396944",
-                       "name":  "3505eb3d-51e2-412a-b210-6e9fa4396944",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b9fb0047-3eb9-46ac-a71b-9216bf7387c0",
-                       "name":  "b9fb0047-3eb9-46ac-a71b-9216bf7387c0",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "c96282c8-c011-4bcd-8df4-3dcde69e8b19",
-                       "name":  "c96282c8-c011-4bcd-8df4-3dcde69e8b19",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "d769cde7-4e74-4b58-83dc-fa3c90559ea3",
-                       "name":  "d769cde7-4e74-4b58-83dc-fa3c90559ea3",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "f1151a8d-6ff7-43cf-9ca4-f0144e4e08f9",
-                       "name":  "f1151a8d-6ff7-43cf-9ca4-f0144e4e08f9",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  48,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "4e115b4f-a126-45d7-864a-0119f4bb35f5",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "4e115b4f-a126-45d7-864a-0119f4bb35f5",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_player_main_ship_weapon_rockets",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "weapons",
-                   "path":  "folders/Sprites/player/weapons.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_player_main_ship_weapon_rockets",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  17,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_player_main_ship_weapon_rockets",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "26f522fa-8a83-4e4d-87ae-a91ea3d143bc",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "7d833b8a-6fbc-4e8b-966d-5cd66f574b06",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "0dbd3770-4fa8-4a37-8893-be9cbe59f51d",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "cbf79340-ab01-43b2-9484-2e717eb7ffa4",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "85e088b9-7e50-4539-bc11-0cf65c04f7f7",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "31b41e90-726f-4d82-ba1d-7fe8c853ba55",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6c150dde-dcd6-465e-8d50-0c9e22dcf345",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "162a1931-df30-4018-a8e0-cff496639265",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "686bc665-dbe5-49f0-b311-33cd81e8f74c",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "aa0d6e22-1cc3-4902-92ad-4aabb52369fd",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2abfc917-69de-4649-aec9-2e52796a95a0",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5a5573c9-59d5-4ab3-b364-5ee092f5ee74",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "87895abb-1143-448f-b326-8151956f7fc7",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "9afd090e-d856-41bc-a385-289e4a0a70e6",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "3544a94e-1d98-41ac-92b1-3604ac2f1ce2",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a039d4b8-ae12-4898-82cd-e0ce2510fc67",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "9df78eec-f3aa-4135-87f1-c7cc4d8bc4a7",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "61e56eac-60c0-462b-be27-dc37d40b6b36",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  8,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2afb0519-17a0-4697-b3a9-ed59061d1fec",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "740779be-a420-4d47-b77a-05cfdde20865",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  9,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "a69342f8-caca-4606-a0ec-d5f8da8b85e3",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "760d8168-079b-43ff-aaf3-871ed819b284",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  10,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "7e7ebdaa-8954-406e-93b4-3475977a9afc",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "38c7ffcb-c099-4951-b099-2f615d9fe7d6",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  11,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "3505eb3d-51e2-412a-b210-6e9fa4396944",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a18d6f00-eeec-4d18-9e42-e749bbb89503",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  12,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b9fb0047-3eb9-46ac-a71b-9216bf7387c0",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "067ebf7d-2b95-4a34-967d-b5b5f11b7826",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  13,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "c96282c8-c011-4bcd-8df4-3dcde69e8b19",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "017b85cf-6269-4b19-b4d7-d90c407db374",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  14,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "d769cde7-4e74-4b58-83dc-fa3c90559ea3",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "9c5551a2-c956-4652-9dc3-36e6307ee7eb",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  15,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "f1151a8d-6ff7-43cf-9ca4-f0144e4e08f9",
-                                                                                                                      "path":  "sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "e2dcb985-fd06-4a54-933c-c342a2d9c1f8",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  16,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  24,
-                     "yorigin":  24
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  48
+  "$GMSprite":"v2",
+  "%Name":"spr_player_main_ship_weapon_rockets",
+  "bboxMode":0,
+  "bbox_bottom":37,
+  "bbox_left":3,
+  "bbox_right":44,
+  "bbox_top":13,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"26f522fa-8a83-4e4d-87ae-a91ea3d143bc","name":"26f522fa-8a83-4e4d-87ae-a91ea3d143bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0dbd3770-4fa8-4a37-8893-be9cbe59f51d","name":"0dbd3770-4fa8-4a37-8893-be9cbe59f51d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85e088b9-7e50-4539-bc11-0cf65c04f7f7","name":"85e088b9-7e50-4539-bc11-0cf65c04f7f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6c150dde-dcd6-465e-8d50-0c9e22dcf345","name":"6c150dde-dcd6-465e-8d50-0c9e22dcf345","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"686bc665-dbe5-49f0-b311-33cd81e8f74c","name":"686bc665-dbe5-49f0-b311-33cd81e8f74c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2abfc917-69de-4649-aec9-2e52796a95a0","name":"2abfc917-69de-4649-aec9-2e52796a95a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"87895abb-1143-448f-b326-8151956f7fc7","name":"87895abb-1143-448f-b326-8151956f7fc7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3544a94e-1d98-41ac-92b1-3604ac2f1ce2","name":"3544a94e-1d98-41ac-92b1-3604ac2f1ce2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9df78eec-f3aa-4135-87f1-c7cc4d8bc4a7","name":"9df78eec-f3aa-4135-87f1-c7cc4d8bc4a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2afb0519-17a0-4697-b3a9-ed59061d1fec","name":"2afb0519-17a0-4697-b3a9-ed59061d1fec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a69342f8-caca-4606-a0ec-d5f8da8b85e3","name":"a69342f8-caca-4606-a0ec-d5f8da8b85e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e7ebdaa-8954-406e-93b4-3475977a9afc","name":"7e7ebdaa-8954-406e-93b4-3475977a9afc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3505eb3d-51e2-412a-b210-6e9fa4396944","name":"3505eb3d-51e2-412a-b210-6e9fa4396944","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b9fb0047-3eb9-46ac-a71b-9216bf7387c0","name":"b9fb0047-3eb9-46ac-a71b-9216bf7387c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c96282c8-c011-4bcd-8df4-3dcde69e8b19","name":"c96282c8-c011-4bcd-8df4-3dcde69e8b19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d769cde7-4e74-4b58-83dc-fa3c90559ea3","name":"d769cde7-4e74-4b58-83dc-fa3c90559ea3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1151a8d-6ff7-43cf-9ca4-f0144e4e08f9","name":"f1151a8d-6ff7-43cf-9ca4-f0144e4e08f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":48,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"4e115b4f-a126-45d7-864a-0119f4bb35f5","blendMode":0,"displayName":"default","isLocked":false,"name":"4e115b4f-a126-45d7-864a-0119f4bb35f5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_player_main_ship_weapon_rockets",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"weapons",
+    "path":"folders/Sprites/player/weapons.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_player_main_ship_weapon_rockets",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":17.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_player_main_ship_weapon_rockets",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"26f522fa-8a83-4e4d-87ae-a91ea3d143bc","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7d833b8a-6fbc-4e8b-966d-5cd66f574b06","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0dbd3770-4fa8-4a37-8893-be9cbe59f51d","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cbf79340-ab01-43b2-9484-2e717eb7ffa4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"85e088b9-7e50-4539-bc11-0cf65c04f7f7","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"31b41e90-726f-4d82-ba1d-7fe8c853ba55","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c150dde-dcd6-465e-8d50-0c9e22dcf345","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"162a1931-df30-4018-a8e0-cff496639265","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"686bc665-dbe5-49f0-b311-33cd81e8f74c","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aa0d6e22-1cc3-4902-92ad-4aabb52369fd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2abfc917-69de-4649-aec9-2e52796a95a0","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a5573c9-59d5-4ab3-b364-5ee092f5ee74","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"87895abb-1143-448f-b326-8151956f7fc7","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9afd090e-d856-41bc-a385-289e4a0a70e6","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3544a94e-1d98-41ac-92b1-3604ac2f1ce2","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a039d4b8-ae12-4898-82cd-e0ce2510fc67","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9df78eec-f3aa-4135-87f1-c7cc4d8bc4a7","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"61e56eac-60c0-462b-be27-dc37d40b6b36","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2afb0519-17a0-4697-b3a9-ed59061d1fec","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"740779be-a420-4d47-b77a-05cfdde20865","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a69342f8-caca-4606-a0ec-d5f8da8b85e3","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"760d8168-079b-43ff-aaf3-871ed819b284","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e7ebdaa-8954-406e-93b4-3475977a9afc","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38c7ffcb-c099-4951-b099-2f615d9fe7d6","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3505eb3d-51e2-412a-b210-6e9fa4396944","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a18d6f00-eeec-4d18-9e42-e749bbb89503","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9fb0047-3eb9-46ac-a71b-9216bf7387c0","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"067ebf7d-2b95-4a34-967d-b5b5f11b7826","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c96282c8-c011-4bcd-8df4-3dcde69e8b19","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"017b85cf-6269-4b19-b4d7-d90c407db374","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d769cde7-4e74-4b58-83dc-fa3c90559ea3","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9c5551a2-c956-4652-9dc3-36e6307ee7eb","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1151a8d-6ff7-43cf-9ca4-f0144e4e08f9","path":"sprites/spr_player_main_ship_weapon_rockets/spr_player_main_ship_weapon_rockets.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e2dcb985-fd06-4a54-933c-c342a2d9c1f8","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":24,
+    "yorigin":24,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":48,
 }

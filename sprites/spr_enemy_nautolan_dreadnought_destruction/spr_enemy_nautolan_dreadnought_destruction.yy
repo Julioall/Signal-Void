@@ -1,478 +1,134 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_enemy_nautolan_dreadnought_destruction",
-    "bboxMode":  0,
-    "bbox_bottom":  127,
-    "bbox_left":  0,
-    "bbox_right":  127,
-    "bbox_top":  0,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "938121e3-07de-4e65-903a-8173a3f11b14",
-                       "name":  "938121e3-07de-4e65-903a-8173a3f11b14",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "3806ae3d-91f5-405d-8b1d-231a6d3d3c75",
-                       "name":  "3806ae3d-91f5-405d-8b1d-231a6d3d3c75",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "db4919ca-22c8-4dd7-9dda-2251b33e7d89",
-                       "name":  "db4919ca-22c8-4dd7-9dda-2251b33e7d89",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "5e681eb0-4bf8-4a18-92c5-e8b326dc3913",
-                       "name":  "5e681eb0-4bf8-4a18-92c5-e8b326dc3913",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "74925ec0-f85c-4918-ae1f-946d4d024b32",
-                       "name":  "74925ec0-f85c-4918-ae1f-946d4d024b32",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "634fa42e-4b99-48f4-a287-330650fb93a7",
-                       "name":  "634fa42e-4b99-48f4-a287-330650fb93a7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b5d059ca-8f40-47d6-83de-47d397d5fcca",
-                       "name":  "b5d059ca-8f40-47d6-83de-47d397d5fcca",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "091533a9-8e4b-4a5b-90f4-8911a9cc02d6",
-                       "name":  "091533a9-8e4b-4a5b-90f4-8911a9cc02d6",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6a08a130-b31f-46c9-8504-d3a1e86a09e2",
-                       "name":  "6a08a130-b31f-46c9-8504-d3a1e86a09e2",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "57d3d724-f046-49f2-8457-854bfca06dff",
-                       "name":  "57d3d724-f046-49f2-8457-854bfca06dff",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6a49ff8e-67d4-4155-8bdf-4dc696ac4740",
-                       "name":  "6a49ff8e-67d4-4155-8bdf-4dc696ac4740",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "35647b21-e598-4a3b-9bbe-df0ca3daa98e",
-                       "name":  "35647b21-e598-4a3b-9bbe-df0ca3daa98e",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  128,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "a264840a-c99d-4bff-898b-6a158b924895",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "a264840a-c99d-4bff-898b-6a158b924895",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_enemy_nautolan_dreadnought_destruction",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "destruction",
-                   "path":  "folders/Sprites/enemies/nautolan/destruction.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_enemy_nautolan_dreadnought_destruction",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  12,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_enemy_nautolan_dreadnought_destruction",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "938121e3-07de-4e65-903a-8173a3f11b14",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "c0f0cdff-3207-4a1c-a5a4-30a492b2f8e9",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "3806ae3d-91f5-405d-8b1d-231a6d3d3c75",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "aa158212-d425-4b25-8a31-a7a1e7b83c28",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "db4919ca-22c8-4dd7-9dda-2251b33e7d89",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "1c58a302-e253-48ba-b233-d91ab2ee6419",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "5e681eb0-4bf8-4a18-92c5-e8b326dc3913",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "1f7e7417-1cf8-4c41-9cc8-f86a85c663b2",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "74925ec0-f85c-4918-ae1f-946d4d024b32",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5030927a-83c4-410d-8a9a-22dffcd549aa",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "634fa42e-4b99-48f4-a287-330650fb93a7",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d5401e88-61f5-4926-990d-af8ded6534cd",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b5d059ca-8f40-47d6-83de-47d397d5fcca",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "9a4f151d-96cb-44c2-977c-5e82da68cd7c",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "091533a9-8e4b-4a5b-90f4-8911a9cc02d6",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d69f750e-2a37-45ed-8624-228c73123bc2",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6a08a130-b31f-46c9-8504-d3a1e86a09e2",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0cfb497a-9ac9-4c37-b85a-fff93ede942f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  8,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "57d3d724-f046-49f2-8457-854bfca06dff",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "cf687234-f5c6-4a83-9ce1-5a5ef06d9181",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  9,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6a49ff8e-67d4-4155-8bdf-4dc696ac4740",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "912fe529-cb72-43ac-85a4-0a9dbe000593",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  10,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "35647b21-e598-4a3b-9bbe-df0ca3daa98e",
-                                                                                                                      "path":  "sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "52343c20-dd28-45fd-8a27-cc61b3e55284",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  11,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  64,
-                     "yorigin":  64
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  128
+  "$GMSprite":"v2",
+  "%Name":"spr_enemy_nautolan_dreadnought_destruction",
+  "bboxMode":0,
+  "bbox_bottom":116,
+  "bbox_left":28,
+  "bbox_right":99,
+  "bbox_top":17,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"938121e3-07de-4e65-903a-8173a3f11b14","name":"938121e3-07de-4e65-903a-8173a3f11b14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3806ae3d-91f5-405d-8b1d-231a6d3d3c75","name":"3806ae3d-91f5-405d-8b1d-231a6d3d3c75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"db4919ca-22c8-4dd7-9dda-2251b33e7d89","name":"db4919ca-22c8-4dd7-9dda-2251b33e7d89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5e681eb0-4bf8-4a18-92c5-e8b326dc3913","name":"5e681eb0-4bf8-4a18-92c5-e8b326dc3913","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"74925ec0-f85c-4918-ae1f-946d4d024b32","name":"74925ec0-f85c-4918-ae1f-946d4d024b32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"634fa42e-4b99-48f4-a287-330650fb93a7","name":"634fa42e-4b99-48f4-a287-330650fb93a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5d059ca-8f40-47d6-83de-47d397d5fcca","name":"b5d059ca-8f40-47d6-83de-47d397d5fcca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"091533a9-8e4b-4a5b-90f4-8911a9cc02d6","name":"091533a9-8e4b-4a5b-90f4-8911a9cc02d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a08a130-b31f-46c9-8504-d3a1e86a09e2","name":"6a08a130-b31f-46c9-8504-d3a1e86a09e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"57d3d724-f046-49f2-8457-854bfca06dff","name":"57d3d724-f046-49f2-8457-854bfca06dff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a49ff8e-67d4-4155-8bdf-4dc696ac4740","name":"6a49ff8e-67d4-4155-8bdf-4dc696ac4740","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"35647b21-e598-4a3b-9bbe-df0ca3daa98e","name":"35647b21-e598-4a3b-9bbe-df0ca3daa98e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":128,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"a264840a-c99d-4bff-898b-6a158b924895","blendMode":0,"displayName":"default","isLocked":false,"name":"a264840a-c99d-4bff-898b-6a158b924895","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_enemy_nautolan_dreadnought_destruction",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"destruction",
+    "path":"folders/Sprites/enemies/nautolan/destruction.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_enemy_nautolan_dreadnought_destruction",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":12.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_enemy_nautolan_dreadnought_destruction",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"938121e3-07de-4e65-903a-8173a3f11b14","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0f0cdff-3207-4a1c-a5a4-30a492b2f8e9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3806ae3d-91f5-405d-8b1d-231a6d3d3c75","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aa158212-d425-4b25-8a31-a7a1e7b83c28","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db4919ca-22c8-4dd7-9dda-2251b33e7d89","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c58a302-e253-48ba-b233-d91ab2ee6419","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5e681eb0-4bf8-4a18-92c5-e8b326dc3913","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1f7e7417-1cf8-4c41-9cc8-f86a85c663b2","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"74925ec0-f85c-4918-ae1f-946d4d024b32","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5030927a-83c4-410d-8a9a-22dffcd549aa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"634fa42e-4b99-48f4-a287-330650fb93a7","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d5401e88-61f5-4926-990d-af8ded6534cd","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5d059ca-8f40-47d6-83de-47d397d5fcca","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9a4f151d-96cb-44c2-977c-5e82da68cd7c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"091533a9-8e4b-4a5b-90f4-8911a9cc02d6","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d69f750e-2a37-45ed-8624-228c73123bc2","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a08a130-b31f-46c9-8504-d3a1e86a09e2","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0cfb497a-9ac9-4c37-b85a-fff93ede942f","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"57d3d724-f046-49f2-8457-854bfca06dff","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cf687234-f5c6-4a83-9ce1-5a5ef06d9181","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a49ff8e-67d4-4155-8bdf-4dc696ac4740","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"912fe529-cb72-43ac-85a4-0a9dbe000593","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35647b21-e598-4a3b-9bbe-df0ca3daa98e","path":"sprites/spr_enemy_nautolan_dreadnought_destruction/spr_enemy_nautolan_dreadnought_destruction.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"52343c20-dd28-45fd-8a27-cc61b3e55284","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":64,
+    "yorigin":64,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":128,
 }

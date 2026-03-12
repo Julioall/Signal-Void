@@ -1,1870 +1,326 @@
 {
-    "$GMSprite":  "v2",
-    "%Name":  "spr_enemy_klaed_dreadnought_weapons",
-    "bboxMode":  0,
-    "bbox_bottom":  127,
-    "bbox_left":  0,
-    "bbox_right":  127,
-    "bbox_top":  0,
-    "collisionKind":  1,
-    "collisionTolerance":  0,
-    "DynamicTexturePage":  false,
-    "edgeFiltering":  false,
-    "For3D":  false,
-    "frames":  [
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "11116bb3-080f-4fa8-a9c6-3efcc6dbbdff",
-                       "name":  "11116bb3-080f-4fa8-a9c6-3efcc6dbbdff",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "bf4ef6c3-8900-4301-8b66-5b7e599c627b",
-                       "name":  "bf4ef6c3-8900-4301-8b66-5b7e599c627b",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "c44ecdce-eeb0-4273-be12-be979947886c",
-                       "name":  "c44ecdce-eeb0-4273-be12-be979947886c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "0cd3ff74-584a-4983-a3e5-807961b29f77",
-                       "name":  "0cd3ff74-584a-4983-a3e5-807961b29f77",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6c4afa06-9e35-4c9f-8fc9-cf0e9d804c60",
-                       "name":  "6c4afa06-9e35-4c9f-8fc9-cf0e9d804c60",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "05e47d0a-e5e0-48c9-9557-52de53deb93c",
-                       "name":  "05e47d0a-e5e0-48c9-9557-52de53deb93c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "cfea93b0-20cf-4738-ac13-7e674e920eb0",
-                       "name":  "cfea93b0-20cf-4738-ac13-7e674e920eb0",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ed1ffba9-7437-457e-ba2a-16aaabd62bd3",
-                       "name":  "ed1ffba9-7437-457e-ba2a-16aaabd62bd3",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b3964d06-61aa-4ba3-8d8e-8567996a9e26",
-                       "name":  "b3964d06-61aa-4ba3-8d8e-8567996a9e26",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e915eac2-e30e-44de-a485-480fd405f292",
-                       "name":  "e915eac2-e30e-44de-a485-480fd405f292",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "7014a89f-7dc1-4be8-a6eb-e9fe0fd470ae",
-                       "name":  "7014a89f-7dc1-4be8-a6eb-e9fe0fd470ae",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2ab006d9-28a5-4bad-92bc-05423594fd6c",
-                       "name":  "2ab006d9-28a5-4bad-92bc-05423594fd6c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "4f7d9414-8d44-49d1-80db-398244545d74",
-                       "name":  "4f7d9414-8d44-49d1-80db-398244545d74",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ec94a210-2220-45f2-a833-e2e766a2ea7c",
-                       "name":  "ec94a210-2220-45f2-a833-e2e766a2ea7c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e04c3747-ad01-486b-8465-b55367e95413",
-                       "name":  "e04c3747-ad01-486b-8465-b55367e95413",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "1d2250dd-18ac-46ab-811c-d15cffec9ebf",
-                       "name":  "1d2250dd-18ac-46ab-811c-d15cffec9ebf",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b43b3786-8ad8-46df-960b-17cc8682765f",
-                       "name":  "b43b3786-8ad8-46df-960b-17cc8682765f",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "86065b68-596c-4a74-8928-af5eeb96d2fb",
-                       "name":  "86065b68-596c-4a74-8928-af5eeb96d2fb",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "f32c70ff-38cc-4730-bef5-7be227e9e36e",
-                       "name":  "f32c70ff-38cc-4730-bef5-7be227e9e36e",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "241149f2-ccb3-4d66-a21e-f3474c942caf",
-                       "name":  "241149f2-ccb3-4d66-a21e-f3474c942caf",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "a99bf535-5dee-4fc5-b997-ccf89fd8347d",
-                       "name":  "a99bf535-5dee-4fc5-b997-ccf89fd8347d",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "30fd6058-c83d-417d-9f3c-2d6f0f450622",
-                       "name":  "30fd6058-c83d-417d-9f3c-2d6f0f450622",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "0b8305b6-cc38-42f3-8a05-061339569a37",
-                       "name":  "0b8305b6-cc38-42f3-8a05-061339569a37",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "47eb58aa-3061-4859-88d6-228b70547552",
-                       "name":  "47eb58aa-3061-4859-88d6-228b70547552",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "488a286d-5669-400e-aa05-e0fda2cdca1d",
-                       "name":  "488a286d-5669-400e-aa05-e0fda2cdca1d",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "06a3ff56-5c71-4026-9027-6fb392d6a8f7",
-                       "name":  "06a3ff56-5c71-4026-9027-6fb392d6a8f7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "d054247d-532e-47f8-b769-1f6dfa0a53c9",
-                       "name":  "d054247d-532e-47f8-b769-1f6dfa0a53c9",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "41ab3d36-4882-4ebc-b811-81bf47a864c4",
-                       "name":  "41ab3d36-4882-4ebc-b811-81bf47a864c4",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "19a9f726-2d3f-43b3-9457-b7214e77dd50",
-                       "name":  "19a9f726-2d3f-43b3-9457-b7214e77dd50",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "fdbbc6d5-5906-4404-b29b-6fefc11d0050",
-                       "name":  "fdbbc6d5-5906-4404-b29b-6fefc11d0050",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "758ba71a-4727-4c00-b272-d639ee6c3857",
-                       "name":  "758ba71a-4727-4c00-b272-d639ee6c3857",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "7021457e-f25e-41e9-a956-9868c155e2d9",
-                       "name":  "7021457e-f25e-41e9-a956-9868c155e2d9",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "e769725d-d3a1-4e2b-9652-0f194fb10943",
-                       "name":  "e769725d-d3a1-4e2b-9652-0f194fb10943",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2f32904f-0346-4f5d-9f14-dff34a244bd7",
-                       "name":  "2f32904f-0346-4f5d-9f14-dff34a244bd7",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "dcda931e-e04f-42bf-b059-4764de439403",
-                       "name":  "dcda931e-e04f-42bf-b059-4764de439403",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "48e80323-2539-49d1-92f9-34bfd934f76c",
-                       "name":  "48e80323-2539-49d1-92f9-34bfd934f76c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "4ddee7fc-56ad-459c-a7ea-5650c4fb2288",
-                       "name":  "4ddee7fc-56ad-459c-a7ea-5650c4fb2288",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "2d966931-ffd3-4f8e-a37a-83457a44ce18",
-                       "name":  "2d966931-ffd3-4f8e-a37a-83457a44ce18",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "a7b7efd1-5a74-4081-9f31-372c244bf87b",
-                       "name":  "a7b7efd1-5a74-4081-9f31-372c244bf87b",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "b4f78516-b0a2-4520-b7b5-04c724238372",
-                       "name":  "b4f78516-b0a2-4520-b7b5-04c724238372",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "6155d344-71b9-408e-9293-fb3c3f9413cd",
-                       "name":  "6155d344-71b9-408e-9293-fb3c3f9413cd",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "d436e46d-39aa-4248-8be4-2f732b25ca75",
-                       "name":  "d436e46d-39aa-4248-8be4-2f732b25ca75",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "c31e0b70-32f1-47c8-84dc-1108fee03a7d",
-                       "name":  "c31e0b70-32f1-47c8-84dc-1108fee03a7d",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "5a4fc02a-c23e-4f23-8ba3-880a137b76cf",
-                       "name":  "5a4fc02a-c23e-4f23-8ba3-880a137b76cf",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "83ed1906-1fb7-4199-bb40-1aefc795980e",
-                       "name":  "83ed1906-1fb7-4199-bb40-1aefc795980e",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "3db5b614-4429-4da9-9e8b-a1e8a5dfc886",
-                       "name":  "3db5b614-4429-4da9-9e8b-a1e8a5dfc886",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "9107a2a4-9660-4d8b-8271-0f4a83a9c01a",
-                       "name":  "9107a2a4-9660-4d8b-8271-0f4a83a9c01a",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "ac7e8a65-47fe-4dda-b4a2-74211a2f822b",
-                       "name":  "ac7e8a65-47fe-4dda-b4a2-74211a2f822b",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "7c81987a-7392-449e-8bd6-77fe26bdf911",
-                       "name":  "7c81987a-7392-449e-8bd6-77fe26bdf911",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "9da7bdba-444d-4adf-ae20-b73583f277ac",
-                       "name":  "9da7bdba-444d-4adf-ae20-b73583f277ac",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "94149ddd-4a5f-4518-aa1a-6d6b62494f6f",
-                       "name":  "94149ddd-4a5f-4518-aa1a-6d6b62494f6f",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "fd31067a-f874-4727-907e-dc5df32d074b",
-                       "name":  "fd31067a-f874-4727-907e-dc5df32d074b",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "c1f7a535-51da-4ead-8c1d-032842671b39",
-                       "name":  "c1f7a535-51da-4ead-8c1d-032842671b39",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "73824eb8-ccd8-478f-913a-d63284b6240c",
-                       "name":  "73824eb8-ccd8-478f-913a-d63284b6240c",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "04c40a0a-d647-45d5-82cb-2bbe4b664f9e",
-                       "name":  "04c40a0a-d647-45d5-82cb-2bbe4b664f9e",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "935e1275-ecb9-4e47-abda-e0967fe3e6ab",
-                       "name":  "935e1275-ecb9-4e47-abda-e0967fe3e6ab",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "3897a1c8-a8e8-4c73-85a8-82b9225eee52",
-                       "name":  "3897a1c8-a8e8-4c73-85a8-82b9225eee52",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "c01535f1-af56-4da3-93ca-6f15ec5f5639",
-                       "name":  "c01535f1-af56-4da3-93ca-6f15ec5f5639",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "8698046b-6609-4bd8-a7cf-c296f8bda646",
-                       "name":  "8698046b-6609-4bd8-a7cf-c296f8bda646",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   },
-                   {
-                       "$GMSpriteFrame":  "v1",
-                       "%Name":  "03b132f5-a163-4319-ad01-836acae80989",
-                       "name":  "03b132f5-a163-4319-ad01-836acae80989",
-                       "resourceType":  "GMSpriteFrame",
-                       "resourceVersion":  "2.0"
-                   }
-               ],
-    "gridX":  0,
-    "gridY":  0,
-    "height":  128,
-    "HTile":  false,
-    "layers":  [
-                   {
-                       "$GMImageLayer":  "",
-                       "%Name":  "9307f7b4-65c7-403f-9193-923bbd6ed0ce",
-                       "blendMode":  0,
-                       "displayName":  "default",
-                       "isLocked":  false,
-                       "name":  "9307f7b4-65c7-403f-9193-923bbd6ed0ce",
-                       "opacity":  100,
-                       "resourceType":  "GMImageLayer",
-                       "resourceVersion":  "2.0",
-                       "visible":  true
-                   }
-               ],
-    "name":  "spr_enemy_klaed_dreadnought_weapons",
-    "nineSlice":  null,
-    "origin":  4,
-    "parent":  {
-                   "name":  "weapons",
-                   "path":  "folders/Sprites/enemies/klaed/weapons.yy"
-               },
-    "preMultiplyAlpha":  false,
-    "resourceType":  "GMSprite",
-    "resourceVersion":  "2.0",
-    "sequence":  {
-                     "$GMSequence":  "v1",
-                     "%Name":  "spr_enemy_klaed_dreadnought_weapons",
-                     "autoRecord":  true,
-                     "backdropHeight":  768,
-                     "backdropImageOpacity":  0.5,
-                     "backdropImagePath":  "",
-                     "backdropWidth":  1366,
-                     "backdropXOffset":  0,
-                     "backdropYOffset":  0,
-                     "events":  {
-                                    "$KeyframeStore<MessageEventKeyframe>":  "",
-                                    "Keyframes":  [
-
-                                                  ],
-                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
-                                    "resourceVersion":  "2.0"
-                                },
-                     "eventStubScript":  null,
-                     "eventToFunction":  {
-
-                                         },
-                     "length":  60,
-                     "lockOrigin":  false,
-                     "moments":  {
-                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
-                                     "Keyframes":  [
-
-                                                   ],
-                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
-                                     "resourceVersion":  "2.0"
-                                 },
-                     "name":  "spr_enemy_klaed_dreadnought_weapons",
-                     "playback":  1,
-                     "playbackSpeed":  8,
-                     "playbackSpeedType":  0,
-                     "resourceType":  "GMSequence",
-                     "resourceVersion":  "2.0",
-                     "showBackdrop":  true,
-                     "showBackdropImage":  false,
-                     "timeUnits":  1,
-                     "tracks":  [
-                                    {
-                                        "$GMSpriteFramesTrack":  "",
-                                        "builtinName":  0,
-                                        "events":  [
-
-                                                   ],
-                                        "inheritsTrackColour":  true,
-                                        "interpolation":  1,
-                                        "isCreationTrack":  false,
-                                        "keyframes":  {
-                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
-                                                          "Keyframes":  [
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "11116bb3-080f-4fa8-a9c6-3efcc6dbbdff",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "91cd6e44-01e9-4609-8e7d-8145d3749d62",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  0,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "bf4ef6c3-8900-4301-8b66-5b7e599c627b",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0f4a9720-8f6e-4407-8366-0e8ebed95b85",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  1,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "c44ecdce-eeb0-4273-be12-be979947886c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "ee1770d3-2f87-4e57-a47b-e01acf9a1cf5",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  2,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "0cd3ff74-584a-4983-a3e5-807961b29f77",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "bf1d0cf4-9821-4546-81c0-454d8fca66ae",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  3,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6c4afa06-9e35-4c9f-8fc9-cf0e9d804c60",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "2585be6c-a786-418f-a9ee-0fd5cd706f79",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  4,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "05e47d0a-e5e0-48c9-9557-52de53deb93c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5091166c-5016-4e46-a0d9-a575ca9aaab5",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  5,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "cfea93b0-20cf-4738-ac13-7e674e920eb0",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "16f31a61-1ac4-4317-bc82-e03432b7359f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  6,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ed1ffba9-7437-457e-ba2a-16aaabd62bd3",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "bc2d84bc-b1e1-4f2d-829a-39fe20c6fd8d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  7,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b3964d06-61aa-4ba3-8d8e-8567996a9e26",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "f68ac6fa-4efd-40a8-9ce0-cf4bb77165dd",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  8,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e915eac2-e30e-44de-a485-480fd405f292",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "530b74fe-b4b5-4b9b-9556-f5e2bd7bdb0f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  9,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "7014a89f-7dc1-4be8-a6eb-e9fe0fd470ae",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "fd5cca6e-61b3-4529-afc7-5d6ae49f2962",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  10,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2ab006d9-28a5-4bad-92bc-05423594fd6c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "36f87aad-845a-400c-90ca-fdf994643761",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  11,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "4f7d9414-8d44-49d1-80db-398244545d74",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "fad4a4c3-80d9-441c-a199-05e432f45dab",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  12,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ec94a210-2220-45f2-a833-e2e766a2ea7c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "9253f8ac-449d-4d28-9da1-839445edeaac",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  13,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e04c3747-ad01-486b-8465-b55367e95413",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "205b4c18-0139-4533-9b2e-1ae64477b2b3",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  14,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "1d2250dd-18ac-46ab-811c-d15cffec9ebf",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "b4fe03da-b271-404a-92a6-3e31666d0edb",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  15,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b43b3786-8ad8-46df-960b-17cc8682765f",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "2e57c2dc-9e29-44e5-a0fe-a8a5208d0a24",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  16,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "86065b68-596c-4a74-8928-af5eeb96d2fb",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "74819a6b-a29c-4687-91be-2ba5ed5137d2",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  17,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "f32c70ff-38cc-4730-bef5-7be227e9e36e",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0b6e95e2-b216-4484-953c-9dd7bf7f52ad",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  18,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "241149f2-ccb3-4d66-a21e-f3474c942caf",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "722278ab-4428-489a-8a98-7aa76831cbcb",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  19,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "a99bf535-5dee-4fc5-b997-ccf89fd8347d",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "40ff9de6-ab80-4eb6-9a91-15d961096ff6",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  20,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "30fd6058-c83d-417d-9f3c-2d6f0f450622",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "afe53fe1-72c9-4b95-95d1-16c8c148834f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  21,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "0b8305b6-cc38-42f3-8a05-061339569a37",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "cd490921-df6f-43b1-bdaf-3cb7a20e2aca",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  22,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "47eb58aa-3061-4859-88d6-228b70547552",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "6fd13fd6-21cd-4d72-942a-b5493bd614d5",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  23,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "488a286d-5669-400e-aa05-e0fda2cdca1d",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a51f935d-1518-421f-8d17-3abed8bb253a",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  24,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "06a3ff56-5c71-4026-9027-6fb392d6a8f7",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "cdcfc1a0-e996-49fd-a269-7cb4a7222c4f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  25,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "d054247d-532e-47f8-b769-1f6dfa0a53c9",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "299d5976-e2f7-4faa-8720-7f7d7283c64d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  26,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "41ab3d36-4882-4ebc-b811-81bf47a864c4",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "fbb88f66-d21a-41ca-9921-fdf7b2e9ae29",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  27,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "19a9f726-2d3f-43b3-9457-b7214e77dd50",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "c68e25e6-e0a4-4572-80ee-c0f4af8d1f77",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  28,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "fdbbc6d5-5906-4404-b29b-6fefc11d0050",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0a2c6a7b-b0a2-445a-82e6-4ebf51ba7da1",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  29,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "758ba71a-4727-4c00-b272-d639ee6c3857",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "815e9f1b-6e86-4b11-95f0-140d51249078",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  30,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "7021457e-f25e-41e9-a956-9868c155e2d9",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "6cb1eeba-cac4-4860-864c-37ba2a866369",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  31,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "e769725d-d3a1-4e2b-9652-0f194fb10943",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d7ecc27c-6e04-47c0-8cdd-d948e7f040f9",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  32,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2f32904f-0346-4f5d-9f14-dff34a244bd7",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "ca30beea-24d6-4c49-a7f9-fb89aa097eea",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  33,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "dcda931e-e04f-42bf-b059-4764de439403",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8cd874cf-7cc9-4bca-8aa2-132ab8fbce3b",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  34,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "48e80323-2539-49d1-92f9-34bfd934f76c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "cc7f3e89-8eb2-4609-8998-f36f3ea4ba06",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  35,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "4ddee7fc-56ad-459c-a7ea-5650c4fb2288",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "1fb71678-a227-4d90-866d-c2abf66dd60a",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  36,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "2d966931-ffd3-4f8e-a37a-83457a44ce18",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "d6565132-e431-4ed2-96bb-6d0aea29e669",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  37,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "a7b7efd1-5a74-4081-9f31-372c244bf87b",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "5cbdc8f6-e541-4d22-83b1-c657300c531d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  38,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "b4f78516-b0a2-4520-b7b5-04c724238372",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "b635f619-7e50-4e36-97c1-da713bc2946d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  39,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "6155d344-71b9-408e-9293-fb3c3f9413cd",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "92431798-d464-4484-abfe-3d3cdc3276b1",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  40,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "d436e46d-39aa-4248-8be4-2f732b25ca75",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "7bc48d27-c180-4e2a-9ae9-255b49f85248",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  41,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "c31e0b70-32f1-47c8-84dc-1108fee03a7d",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "b3856d0c-6d47-480b-b1d6-49bd4d34aa7f",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  42,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "5a4fc02a-c23e-4f23-8ba3-880a137b76cf",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "06bd8954-e334-461b-9062-f4eda2d8ad7e",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  43,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "83ed1906-1fb7-4199-bb40-1aefc795980e",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "c8ffdf8c-c590-488f-affd-c85cb175dd3a",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  44,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "3db5b614-4429-4da9-9e8b-a1e8a5dfc886",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "64f5fad2-6846-4198-82d2-5f7f4788934a",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  45,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "9107a2a4-9660-4d8b-8271-0f4a83a9c01a",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "c517838f-46ac-4dc4-8c53-f01f069c57a5",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  46,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "ac7e8a65-47fe-4dda-b4a2-74211a2f822b",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "e0530e1b-5506-4954-ace3-1d5aa8ddaee9",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  47,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "7c81987a-7392-449e-8bd6-77fe26bdf911",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "245d9dbc-c95a-4e5e-afaa-e3d572a8fefc",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  48,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "9da7bdba-444d-4adf-ae20-b73583f277ac",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "04ba8c28-5a6b-4938-a8e9-3a58c9aa3cdc",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  49,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "94149ddd-4a5f-4518-aa1a-6d6b62494f6f",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a0699126-35a9-46db-abd8-a3b72aabfc18",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  50,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "fd31067a-f874-4727-907e-dc5df32d074b",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "df7e8dff-6543-413d-bcc3-334dcba6779d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  51,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "c1f7a535-51da-4ead-8c1d-032842671b39",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "00959dde-dc68-46c2-8ec6-bc0c5a05ab76",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  52,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "73824eb8-ccd8-478f-913a-d63284b6240c",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "a1511ddb-672d-4ad6-a66b-963981e90d20",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  53,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "04c40a0a-d647-45d5-82cb-2bbe4b664f9e",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "ce57ee93-26da-4dfe-b1f2-82e7dce2f57d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  54,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "935e1275-ecb9-4e47-abda-e0967fe3e6ab",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0a2e4360-18ef-4a90-99ef-6f7f9ca0122c",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  55,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "3897a1c8-a8e8-4c73-85a8-82b9225eee52",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "0f0f364d-e0f4-4817-b602-4fe41a9f5032",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  56,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "c01535f1-af56-4da3-93ca-6f15ec5f5639",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "8510a781-1c38-4b4c-9074-f56d507b3945",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  57,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "8698046b-6609-4bd8-a7cf-c296f8bda646",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "76f89032-396a-41bd-b311-12ca4e68369d",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  58,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            },
-                                                                            {
-                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
-                                                                                "Channels":  {
-                                                                                                 "0":  {
-                                                                                                           "$SpriteFrameKeyframe":  "",
-                                                                                                           "Id":  {
-                                                                                                                      "name":  "03b132f5-a163-4319-ad01-836acae80989",
-                                                                                                                      "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
-                                                                                                                  },
-                                                                                                           "resourceType":  "SpriteFrameKeyframe",
-                                                                                                           "resourceVersion":  "2.0"
-                                                                                                       }
-                                                                                             },
-                                                                                "Disabled":  false,
-                                                                                "id":  "1148ab65-296b-4b5d-999d-f4beea51dcbb",
-                                                                                "IsCreationKey":  false,
-                                                                                "Key":  59,
-                                                                                "Length":  1,
-                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
-                                                                                "resourceVersion":  "2.0",
-                                                                                "Stretch":  false
-                                                                            }
-                                                                        ],
-                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
-                                                          "resourceVersion":  "2.0"
-                                                      },
-                                        "modifiers":  [
-
-                                                      ],
-                                        "name":  "frames",
-                                        "resourceType":  "GMSpriteFramesTrack",
-                                        "resourceVersion":  "2.0",
-                                        "spriteId":  null,
-                                        "trackColour":  0,
-                                        "tracks":  [
-
-                                                   ],
-                                        "traits":  0
-                                    }
-                                ],
-                     "visibleRange":  null,
-                     "volume":  1,
-                     "xorigin":  64,
-                     "yorigin":  64
-                 },
-    "swatchColours":  null,
-    "swfPrecision":  2.525,
-    "textureGroupId":  {
-                           "name":  "Default",
-                           "path":  "texturegroups/Default"
-                       },
-    "type":  0,
-    "VTile":  false,
-    "width":  128
+  "$GMSprite":"v2",
+  "%Name":"spr_enemy_klaed_dreadnought_weapons",
+  "bboxMode":0,
+  "bbox_bottom":112,
+  "bbox_left":28,
+  "bbox_right":99,
+  "bbox_top":13,
+  "collisionKind":0,
+  "collisionTolerance":0,
+  "DynamicTexturePage":false,
+  "edgeFiltering":false,
+  "For3D":false,
+  "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"11116bb3-080f-4fa8-a9c6-3efcc6dbbdff","name":"11116bb3-080f-4fa8-a9c6-3efcc6dbbdff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bf4ef6c3-8900-4301-8b66-5b7e599c627b","name":"bf4ef6c3-8900-4301-8b66-5b7e599c627b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c44ecdce-eeb0-4273-be12-be979947886c","name":"c44ecdce-eeb0-4273-be12-be979947886c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0cd3ff74-584a-4983-a3e5-807961b29f77","name":"0cd3ff74-584a-4983-a3e5-807961b29f77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6c4afa06-9e35-4c9f-8fc9-cf0e9d804c60","name":"6c4afa06-9e35-4c9f-8fc9-cf0e9d804c60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05e47d0a-e5e0-48c9-9557-52de53deb93c","name":"05e47d0a-e5e0-48c9-9557-52de53deb93c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cfea93b0-20cf-4738-ac13-7e674e920eb0","name":"cfea93b0-20cf-4738-ac13-7e674e920eb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed1ffba9-7437-457e-ba2a-16aaabd62bd3","name":"ed1ffba9-7437-457e-ba2a-16aaabd62bd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3964d06-61aa-4ba3-8d8e-8567996a9e26","name":"b3964d06-61aa-4ba3-8d8e-8567996a9e26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e915eac2-e30e-44de-a485-480fd405f292","name":"e915eac2-e30e-44de-a485-480fd405f292","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7014a89f-7dc1-4be8-a6eb-e9fe0fd470ae","name":"7014a89f-7dc1-4be8-a6eb-e9fe0fd470ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2ab006d9-28a5-4bad-92bc-05423594fd6c","name":"2ab006d9-28a5-4bad-92bc-05423594fd6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f7d9414-8d44-49d1-80db-398244545d74","name":"4f7d9414-8d44-49d1-80db-398244545d74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ec94a210-2220-45f2-a833-e2e766a2ea7c","name":"ec94a210-2220-45f2-a833-e2e766a2ea7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e04c3747-ad01-486b-8465-b55367e95413","name":"e04c3747-ad01-486b-8465-b55367e95413","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1d2250dd-18ac-46ab-811c-d15cffec9ebf","name":"1d2250dd-18ac-46ab-811c-d15cffec9ebf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b43b3786-8ad8-46df-960b-17cc8682765f","name":"b43b3786-8ad8-46df-960b-17cc8682765f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"86065b68-596c-4a74-8928-af5eeb96d2fb","name":"86065b68-596c-4a74-8928-af5eeb96d2fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f32c70ff-38cc-4730-bef5-7be227e9e36e","name":"f32c70ff-38cc-4730-bef5-7be227e9e36e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"241149f2-ccb3-4d66-a21e-f3474c942caf","name":"241149f2-ccb3-4d66-a21e-f3474c942caf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a99bf535-5dee-4fc5-b997-ccf89fd8347d","name":"a99bf535-5dee-4fc5-b997-ccf89fd8347d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"30fd6058-c83d-417d-9f3c-2d6f0f450622","name":"30fd6058-c83d-417d-9f3c-2d6f0f450622","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b8305b6-cc38-42f3-8a05-061339569a37","name":"0b8305b6-cc38-42f3-8a05-061339569a37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47eb58aa-3061-4859-88d6-228b70547552","name":"47eb58aa-3061-4859-88d6-228b70547552","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"488a286d-5669-400e-aa05-e0fda2cdca1d","name":"488a286d-5669-400e-aa05-e0fda2cdca1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06a3ff56-5c71-4026-9027-6fb392d6a8f7","name":"06a3ff56-5c71-4026-9027-6fb392d6a8f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d054247d-532e-47f8-b769-1f6dfa0a53c9","name":"d054247d-532e-47f8-b769-1f6dfa0a53c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41ab3d36-4882-4ebc-b811-81bf47a864c4","name":"41ab3d36-4882-4ebc-b811-81bf47a864c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"19a9f726-2d3f-43b3-9457-b7214e77dd50","name":"19a9f726-2d3f-43b3-9457-b7214e77dd50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fdbbc6d5-5906-4404-b29b-6fefc11d0050","name":"fdbbc6d5-5906-4404-b29b-6fefc11d0050","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"758ba71a-4727-4c00-b272-d639ee6c3857","name":"758ba71a-4727-4c00-b272-d639ee6c3857","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7021457e-f25e-41e9-a956-9868c155e2d9","name":"7021457e-f25e-41e9-a956-9868c155e2d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e769725d-d3a1-4e2b-9652-0f194fb10943","name":"e769725d-d3a1-4e2b-9652-0f194fb10943","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f32904f-0346-4f5d-9f14-dff34a244bd7","name":"2f32904f-0346-4f5d-9f14-dff34a244bd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dcda931e-e04f-42bf-b059-4764de439403","name":"dcda931e-e04f-42bf-b059-4764de439403","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"48e80323-2539-49d1-92f9-34bfd934f76c","name":"48e80323-2539-49d1-92f9-34bfd934f76c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4ddee7fc-56ad-459c-a7ea-5650c4fb2288","name":"4ddee7fc-56ad-459c-a7ea-5650c4fb2288","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d966931-ffd3-4f8e-a37a-83457a44ce18","name":"2d966931-ffd3-4f8e-a37a-83457a44ce18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a7b7efd1-5a74-4081-9f31-372c244bf87b","name":"a7b7efd1-5a74-4081-9f31-372c244bf87b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4f78516-b0a2-4520-b7b5-04c724238372","name":"b4f78516-b0a2-4520-b7b5-04c724238372","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6155d344-71b9-408e-9293-fb3c3f9413cd","name":"6155d344-71b9-408e-9293-fb3c3f9413cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d436e46d-39aa-4248-8be4-2f732b25ca75","name":"d436e46d-39aa-4248-8be4-2f732b25ca75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c31e0b70-32f1-47c8-84dc-1108fee03a7d","name":"c31e0b70-32f1-47c8-84dc-1108fee03a7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5a4fc02a-c23e-4f23-8ba3-880a137b76cf","name":"5a4fc02a-c23e-4f23-8ba3-880a137b76cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83ed1906-1fb7-4199-bb40-1aefc795980e","name":"83ed1906-1fb7-4199-bb40-1aefc795980e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3db5b614-4429-4da9-9e8b-a1e8a5dfc886","name":"3db5b614-4429-4da9-9e8b-a1e8a5dfc886","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9107a2a4-9660-4d8b-8271-0f4a83a9c01a","name":"9107a2a4-9660-4d8b-8271-0f4a83a9c01a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac7e8a65-47fe-4dda-b4a2-74211a2f822b","name":"ac7e8a65-47fe-4dda-b4a2-74211a2f822b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c81987a-7392-449e-8bd6-77fe26bdf911","name":"7c81987a-7392-449e-8bd6-77fe26bdf911","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9da7bdba-444d-4adf-ae20-b73583f277ac","name":"9da7bdba-444d-4adf-ae20-b73583f277ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"94149ddd-4a5f-4518-aa1a-6d6b62494f6f","name":"94149ddd-4a5f-4518-aa1a-6d6b62494f6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fd31067a-f874-4727-907e-dc5df32d074b","name":"fd31067a-f874-4727-907e-dc5df32d074b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c1f7a535-51da-4ead-8c1d-032842671b39","name":"c1f7a535-51da-4ead-8c1d-032842671b39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73824eb8-ccd8-478f-913a-d63284b6240c","name":"73824eb8-ccd8-478f-913a-d63284b6240c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04c40a0a-d647-45d5-82cb-2bbe4b664f9e","name":"04c40a0a-d647-45d5-82cb-2bbe4b664f9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"935e1275-ecb9-4e47-abda-e0967fe3e6ab","name":"935e1275-ecb9-4e47-abda-e0967fe3e6ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3897a1c8-a8e8-4c73-85a8-82b9225eee52","name":"3897a1c8-a8e8-4c73-85a8-82b9225eee52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c01535f1-af56-4da3-93ca-6f15ec5f5639","name":"c01535f1-af56-4da3-93ca-6f15ec5f5639","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8698046b-6609-4bd8-a7cf-c296f8bda646","name":"8698046b-6609-4bd8-a7cf-c296f8bda646","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"03b132f5-a163-4319-ad01-836acae80989","name":"03b132f5-a163-4319-ad01-836acae80989","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":128,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"9307f7b4-65c7-403f-9193-923bbd6ed0ce","blendMode":0,"displayName":"default","isLocked":false,"name":"9307f7b4-65c7-403f-9193-923bbd6ed0ce","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"spr_enemy_klaed_dreadnought_weapons",
+  "nineSlice":null,
+  "origin":4,
+  "parent":{
+    "name":"weapons",
+    "path":"folders/Sprites/enemies/klaed/weapons.yy",
+  },
+  "preMultiplyAlpha":false,
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0",
+  "sequence":{
+    "$GMSequence":"v1",
+    "%Name":"spr_enemy_klaed_dreadnought_weapons",
+    "autoRecord":true,
+    "backdropHeight":768,
+    "backdropImageOpacity":0.5,
+    "backdropImagePath":"",
+    "backdropWidth":1366,
+    "backdropXOffset":0.0,
+    "backdropYOffset":0.0,
+    "events":{
+      "$KeyframeStore<MessageEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "eventStubScript":null,
+    "eventToFunction":{},
+    "length":60.0,
+    "lockOrigin":false,
+    "moments":{
+      "$KeyframeStore<MomentsEventKeyframe>":"",
+      "Keyframes":[],
+      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion":"2.0",
+    },
+    "name":"spr_enemy_klaed_dreadnought_weapons",
+    "playback":1,
+    "playbackSpeed":8.0,
+    "playbackSpeedType":0,
+    "resourceType":"GMSequence",
+    "resourceVersion":"2.0",
+    "showBackdrop":true,
+    "showBackdropImage":false,
+    "timeUnits":1,
+    "tracks":[
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"11116bb3-080f-4fa8-a9c6-3efcc6dbbdff","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"91cd6e44-01e9-4609-8e7d-8145d3749d62","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf4ef6c3-8900-4301-8b66-5b7e599c627b","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f4a9720-8f6e-4407-8366-0e8ebed95b85","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c44ecdce-eeb0-4273-be12-be979947886c","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ee1770d3-2f87-4e57-a47b-e01acf9a1cf5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0cd3ff74-584a-4983-a3e5-807961b29f77","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bf1d0cf4-9821-4546-81c0-454d8fca66ae","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c4afa06-9e35-4c9f-8fc9-cf0e9d804c60","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2585be6c-a786-418f-a9ee-0fd5cd706f79","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05e47d0a-e5e0-48c9-9557-52de53deb93c","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5091166c-5016-4e46-a0d9-a575ca9aaab5","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfea93b0-20cf-4738-ac13-7e674e920eb0","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"16f31a61-1ac4-4317-bc82-e03432b7359f","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed1ffba9-7437-457e-ba2a-16aaabd62bd3","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bc2d84bc-b1e1-4f2d-829a-39fe20c6fd8d","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3964d06-61aa-4ba3-8d8e-8567996a9e26","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f68ac6fa-4efd-40a8-9ce0-cf4bb77165dd","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e915eac2-e30e-44de-a485-480fd405f292","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"530b74fe-b4b5-4b9b-9556-f5e2bd7bdb0f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7014a89f-7dc1-4be8-a6eb-e9fe0fd470ae","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd5cca6e-61b3-4529-afc7-5d6ae49f2962","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ab006d9-28a5-4bad-92bc-05423594fd6c","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"36f87aad-845a-400c-90ca-fdf994643761","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f7d9414-8d44-49d1-80db-398244545d74","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fad4a4c3-80d9-441c-a199-05e432f45dab","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ec94a210-2220-45f2-a833-e2e766a2ea7c","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9253f8ac-449d-4d28-9da1-839445edeaac","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e04c3747-ad01-486b-8465-b55367e95413","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"205b4c18-0139-4533-9b2e-1ae64477b2b3","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d2250dd-18ac-46ab-811c-d15cffec9ebf","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b4fe03da-b271-404a-92a6-3e31666d0edb","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b43b3786-8ad8-46df-960b-17cc8682765f","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2e57c2dc-9e29-44e5-a0fe-a8a5208d0a24","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"86065b68-596c-4a74-8928-af5eeb96d2fb","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"74819a6b-a29c-4687-91be-2ba5ed5137d2","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f32c70ff-38cc-4730-bef5-7be227e9e36e","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0b6e95e2-b216-4484-953c-9dd7bf7f52ad","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"241149f2-ccb3-4d66-a21e-f3474c942caf","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"722278ab-4428-489a-8a98-7aa76831cbcb","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a99bf535-5dee-4fc5-b997-ccf89fd8347d","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"40ff9de6-ab80-4eb6-9a91-15d961096ff6","IsCreationKey":false,"Key":20.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30fd6058-c83d-417d-9f3c-2d6f0f450622","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"afe53fe1-72c9-4b95-95d1-16c8c148834f","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b8305b6-cc38-42f3-8a05-061339569a37","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cd490921-df6f-43b1-bdaf-3cb7a20e2aca","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47eb58aa-3061-4859-88d6-228b70547552","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6fd13fd6-21cd-4d72-942a-b5493bd614d5","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"488a286d-5669-400e-aa05-e0fda2cdca1d","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a51f935d-1518-421f-8d17-3abed8bb253a","IsCreationKey":false,"Key":24.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06a3ff56-5c71-4026-9027-6fb392d6a8f7","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cdcfc1a0-e996-49fd-a269-7cb4a7222c4f","IsCreationKey":false,"Key":25.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d054247d-532e-47f8-b769-1f6dfa0a53c9","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"299d5976-e2f7-4faa-8720-7f7d7283c64d","IsCreationKey":false,"Key":26.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41ab3d36-4882-4ebc-b811-81bf47a864c4","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fbb88f66-d21a-41ca-9921-fdf7b2e9ae29","IsCreationKey":false,"Key":27.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"19a9f726-2d3f-43b3-9457-b7214e77dd50","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c68e25e6-e0a4-4572-80ee-c0f4af8d1f77","IsCreationKey":false,"Key":28.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fdbbc6d5-5906-4404-b29b-6fefc11d0050","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0a2c6a7b-b0a2-445a-82e6-4ebf51ba7da1","IsCreationKey":false,"Key":29.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"758ba71a-4727-4c00-b272-d639ee6c3857","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"815e9f1b-6e86-4b11-95f0-140d51249078","IsCreationKey":false,"Key":30.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7021457e-f25e-41e9-a956-9868c155e2d9","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6cb1eeba-cac4-4860-864c-37ba2a866369","IsCreationKey":false,"Key":31.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e769725d-d3a1-4e2b-9652-0f194fb10943","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7ecc27c-6e04-47c0-8cdd-d948e7f040f9","IsCreationKey":false,"Key":32.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2f32904f-0346-4f5d-9f14-dff34a244bd7","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ca30beea-24d6-4c49-a7f9-fb89aa097eea","IsCreationKey":false,"Key":33.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dcda931e-e04f-42bf-b059-4764de439403","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8cd874cf-7cc9-4bca-8aa2-132ab8fbce3b","IsCreationKey":false,"Key":34.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48e80323-2539-49d1-92f9-34bfd934f76c","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cc7f3e89-8eb2-4609-8998-f36f3ea4ba06","IsCreationKey":false,"Key":35.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ddee7fc-56ad-459c-a7ea-5650c4fb2288","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1fb71678-a227-4d90-866d-c2abf66dd60a","IsCreationKey":false,"Key":36.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d966931-ffd3-4f8e-a37a-83457a44ce18","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d6565132-e431-4ed2-96bb-6d0aea29e669","IsCreationKey":false,"Key":37.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7b7efd1-5a74-4081-9f31-372c244bf87b","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5cbdc8f6-e541-4d22-83b1-c657300c531d","IsCreationKey":false,"Key":38.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4f78516-b0a2-4520-b7b5-04c724238372","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b635f619-7e50-4e36-97c1-da713bc2946d","IsCreationKey":false,"Key":39.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6155d344-71b9-408e-9293-fb3c3f9413cd","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"92431798-d464-4484-abfe-3d3cdc3276b1","IsCreationKey":false,"Key":40.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d436e46d-39aa-4248-8be4-2f732b25ca75","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7bc48d27-c180-4e2a-9ae9-255b49f85248","IsCreationKey":false,"Key":41.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c31e0b70-32f1-47c8-84dc-1108fee03a7d","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b3856d0c-6d47-480b-b1d6-49bd4d34aa7f","IsCreationKey":false,"Key":42.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a4fc02a-c23e-4f23-8ba3-880a137b76cf","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"06bd8954-e334-461b-9062-f4eda2d8ad7e","IsCreationKey":false,"Key":43.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83ed1906-1fb7-4199-bb40-1aefc795980e","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c8ffdf8c-c590-488f-affd-c85cb175dd3a","IsCreationKey":false,"Key":44.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3db5b614-4429-4da9-9e8b-a1e8a5dfc886","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"64f5fad2-6846-4198-82d2-5f7f4788934a","IsCreationKey":false,"Key":45.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9107a2a4-9660-4d8b-8271-0f4a83a9c01a","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c517838f-46ac-4dc4-8c53-f01f069c57a5","IsCreationKey":false,"Key":46.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac7e8a65-47fe-4dda-b4a2-74211a2f822b","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e0530e1b-5506-4954-ace3-1d5aa8ddaee9","IsCreationKey":false,"Key":47.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c81987a-7392-449e-8bd6-77fe26bdf911","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"245d9dbc-c95a-4e5e-afaa-e3d572a8fefc","IsCreationKey":false,"Key":48.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9da7bdba-444d-4adf-ae20-b73583f277ac","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"04ba8c28-5a6b-4938-a8e9-3a58c9aa3cdc","IsCreationKey":false,"Key":49.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94149ddd-4a5f-4518-aa1a-6d6b62494f6f","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a0699126-35a9-46db-abd8-a3b72aabfc18","IsCreationKey":false,"Key":50.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd31067a-f874-4727-907e-dc5df32d074b","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"df7e8dff-6543-413d-bcc3-334dcba6779d","IsCreationKey":false,"Key":51.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1f7a535-51da-4ead-8c1d-032842671b39","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"00959dde-dc68-46c2-8ec6-bc0c5a05ab76","IsCreationKey":false,"Key":52.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"73824eb8-ccd8-478f-913a-d63284b6240c","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a1511ddb-672d-4ad6-a66b-963981e90d20","IsCreationKey":false,"Key":53.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04c40a0a-d647-45d5-82cb-2bbe4b664f9e","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ce57ee93-26da-4dfe-b1f2-82e7dce2f57d","IsCreationKey":false,"Key":54.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"935e1275-ecb9-4e47-abda-e0967fe3e6ab","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0a2e4360-18ef-4a90-99ef-6f7f9ca0122c","IsCreationKey":false,"Key":55.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3897a1c8-a8e8-4c73-85a8-82b9225eee52","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f0f364d-e0f4-4817-b602-4fe41a9f5032","IsCreationKey":false,"Key":56.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c01535f1-af56-4da3-93ca-6f15ec5f5639","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8510a781-1c38-4b4c-9074-f56d507b3945","IsCreationKey":false,"Key":57.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8698046b-6609-4bd8-a7cf-c296f8bda646","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"76f89032-396a-41bd-b311-12ca4e68369d","IsCreationKey":false,"Key":58.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03b132f5-a163-4319-ad01-836acae80989","path":"sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1148ab65-296b-4b5d-999d-f4beea51dcbb","IsCreationKey":false,"Key":59.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange":null,
+    "volume":1.0,
+    "xorigin":64,
+    "yorigin":64,
+  },
+  "swatchColours":null,
+  "swfPrecision":2.525,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "type":0,
+  "VTile":false,
+  "width":128,
 }
