@@ -1,0 +1,2363 @@
+{
+    "$GMSprite":  "v2",
+    "%Name":  "spr_environment_planet_earth_like_without_back_glow",
+    "bboxMode":  0,
+    "bbox_bottom":  95,
+    "bbox_left":  0,
+    "bbox_right":  95,
+    "bbox_top":  0,
+    "collisionKind":  1,
+    "collisionTolerance":  0,
+    "DynamicTexturePage":  false,
+    "edgeFiltering":  false,
+    "For3D":  false,
+    "frames":  [
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "5eceb164-7e81-4e6f-9fc6-b1a912a7f0ec",
+                       "name":  "5eceb164-7e81-4e6f-9fc6-b1a912a7f0ec",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "1c96c7da-fcb0-4761-8295-964d457d075a",
+                       "name":  "1c96c7da-fcb0-4761-8295-964d457d075a",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "17c02a3c-ceb5-479b-b1b1-14a622575bf6",
+                       "name":  "17c02a3c-ceb5-479b-b1b1-14a622575bf6",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "63600bd8-89f7-4af0-aa26-61b20a292fa1",
+                       "name":  "63600bd8-89f7-4af0-aa26-61b20a292fa1",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6f52e19e-2f2d-4b0c-9a30-cd1e334cb52c",
+                       "name":  "6f52e19e-2f2d-4b0c-9a30-cd1e334cb52c",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "4eba5e80-af87-4c57-84df-0e66e51c835c",
+                       "name":  "4eba5e80-af87-4c57-84df-0e66e51c835c",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "09acc7ca-5722-4b77-a17f-2e4ff23c81a4",
+                       "name":  "09acc7ca-5722-4b77-a17f-2e4ff23c81a4",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "616d36ec-8fce-4e92-a378-93120fac8529",
+                       "name":  "616d36ec-8fce-4e92-a378-93120fac8529",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "20c21fd5-ad90-4b48-b0fb-d97b63f1f86b",
+                       "name":  "20c21fd5-ad90-4b48-b0fb-d97b63f1f86b",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6b141002-75d2-4f4d-a532-3dd5f2e3084b",
+                       "name":  "6b141002-75d2-4f4d-a532-3dd5f2e3084b",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "1746d348-2a73-4871-b888-3c197398ba54",
+                       "name":  "1746d348-2a73-4871-b888-3c197398ba54",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "a02df9d3-f75e-47e4-bd44-408f8b06b221",
+                       "name":  "a02df9d3-f75e-47e4-bd44-408f8b06b221",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "11168c72-1a3f-44c6-835a-69b1470847ef",
+                       "name":  "11168c72-1a3f-44c6-835a-69b1470847ef",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "5e34dc33-d61e-4f71-83c7-9691020a00da",
+                       "name":  "5e34dc33-d61e-4f71-83c7-9691020a00da",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "ef571359-8795-4ccd-87f8-1cdf07090c02",
+                       "name":  "ef571359-8795-4ccd-87f8-1cdf07090c02",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "13cece28-be18-40b6-91d1-979909620c71",
+                       "name":  "13cece28-be18-40b6-91d1-979909620c71",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "311372a8-afa7-4e26-883d-4eea06a2bb3d",
+                       "name":  "311372a8-afa7-4e26-883d-4eea06a2bb3d",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "babaa5a0-b885-421f-bd4c-06c62ac98a4a",
+                       "name":  "babaa5a0-b885-421f-bd4c-06c62ac98a4a",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "921ea722-8aeb-4d08-8c88-91b760477da4",
+                       "name":  "921ea722-8aeb-4d08-8c88-91b760477da4",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "14b1da43-3b84-4b21-8c48-f57f9b0c1778",
+                       "name":  "14b1da43-3b84-4b21-8c48-f57f9b0c1778",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9fef8100-38ef-4fab-83a1-251c377810ef",
+                       "name":  "9fef8100-38ef-4fab-83a1-251c377810ef",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "8c3dbe5f-1e3f-4f74-9f41-7090cb2b8e90",
+                       "name":  "8c3dbe5f-1e3f-4f74-9f41-7090cb2b8e90",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "4e591ac9-58f0-4b89-8e6a-0e111b7a90fb",
+                       "name":  "4e591ac9-58f0-4b89-8e6a-0e111b7a90fb",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "e8cc4f69-4afa-4086-8d70-1fbb741c9c6a",
+                       "name":  "e8cc4f69-4afa-4086-8d70-1fbb741c9c6a",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "10ab3d85-a918-4f41-9fc6-0cdec9a033f0",
+                       "name":  "10ab3d85-a918-4f41-9fc6-0cdec9a033f0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "5c1c1c9a-e626-4fda-b935-1ddf270d3163",
+                       "name":  "5c1c1c9a-e626-4fda-b935-1ddf270d3163",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b206cfd5-6471-45e6-903a-c88e05178c5b",
+                       "name":  "b206cfd5-6471-45e6-903a-c88e05178c5b",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "327563f7-8ee2-43f3-9e01-439fd0cde823",
+                       "name":  "327563f7-8ee2-43f3-9e01-439fd0cde823",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "f147f235-087b-457d-813d-652477555122",
+                       "name":  "f147f235-087b-457d-813d-652477555122",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "89c04040-6cb3-4d88-ae17-ee9d82a3e0cc",
+                       "name":  "89c04040-6cb3-4d88-ae17-ee9d82a3e0cc",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b784cde1-fd7c-42c1-9a5f-dfaae1042833",
+                       "name":  "b784cde1-fd7c-42c1-9a5f-dfaae1042833",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "7f3573b4-d84c-4224-b849-a0cef6f85477",
+                       "name":  "7f3573b4-d84c-4224-b849-a0cef6f85477",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "8ac37ffc-be52-4d46-8a6c-3be41fc373a7",
+                       "name":  "8ac37ffc-be52-4d46-8a6c-3be41fc373a7",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "aae0d7b0-b0c8-403a-9722-1c450d568e8c",
+                       "name":  "aae0d7b0-b0c8-403a-9722-1c450d568e8c",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "0e215ebc-a3f7-4ce6-970c-788b0e0f128c",
+                       "name":  "0e215ebc-a3f7-4ce6-970c-788b0e0f128c",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "146a890c-4299-45c2-8735-88658061c301",
+                       "name":  "146a890c-4299-45c2-8735-88658061c301",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "456207f6-200c-4417-ba3e-54193c103947",
+                       "name":  "456207f6-200c-4417-ba3e-54193c103947",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "ff615790-3e16-494e-8b5d-33e726b2dbcf",
+                       "name":  "ff615790-3e16-494e-8b5d-33e726b2dbcf",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "377e679a-2613-4f07-9756-cd89d6c9b883",
+                       "name":  "377e679a-2613-4f07-9756-cd89d6c9b883",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d8a95c32-e617-455d-8af4-dab10aeca917",
+                       "name":  "d8a95c32-e617-455d-8af4-dab10aeca917",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "390ea7ea-7c5b-4854-897f-49b1cb735873",
+                       "name":  "390ea7ea-7c5b-4854-897f-49b1cb735873",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "cea97e40-bbc1-456e-b28e-d29133738cbb",
+                       "name":  "cea97e40-bbc1-456e-b28e-d29133738cbb",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "081313a6-7c18-4570-8a5c-51ffe7f273a0",
+                       "name":  "081313a6-7c18-4570-8a5c-51ffe7f273a0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "2ee98375-2187-4a2a-9757-a44be365ede9",
+                       "name":  "2ee98375-2187-4a2a-9757-a44be365ede9",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b1880d31-c740-4fd9-8e24-5b93717799a5",
+                       "name":  "b1880d31-c740-4fd9-8e24-5b93717799a5",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "373cd0ac-13ba-4aaa-ad72-f460c6c9b8e0",
+                       "name":  "373cd0ac-13ba-4aaa-ad72-f460c6c9b8e0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6a4b1ac3-1e0d-413a-9b77-0466791b92d2",
+                       "name":  "6a4b1ac3-1e0d-413a-9b77-0466791b92d2",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9898ce2e-f7ae-4fca-bd62-0aa9a4474b37",
+                       "name":  "9898ce2e-f7ae-4fca-bd62-0aa9a4474b37",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "ad5e8a53-fd06-4924-80ad-618f9cc1362b",
+                       "name":  "ad5e8a53-fd06-4924-80ad-618f9cc1362b",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "725ca2df-bba4-420e-9f76-39a141412546",
+                       "name":  "725ca2df-bba4-420e-9f76-39a141412546",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d5879dd5-93dc-4a69-8083-6c27af2d2017",
+                       "name":  "d5879dd5-93dc-4a69-8083-6c27af2d2017",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "3d26be3d-8146-4de3-a0c0-08276e6b9695",
+                       "name":  "3d26be3d-8146-4de3-a0c0-08276e6b9695",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6661cb61-f17b-4693-bff1-01e785547e39",
+                       "name":  "6661cb61-f17b-4693-bff1-01e785547e39",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "1449ea93-f7da-484a-80e9-213f6dc31330",
+                       "name":  "1449ea93-f7da-484a-80e9-213f6dc31330",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d5d2bddc-ffe7-4b96-a2cf-269bef3f7da6",
+                       "name":  "d5d2bddc-ffe7-4b96-a2cf-269bef3f7da6",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "3d0eb0b9-4575-43d5-a52d-89355c68d497",
+                       "name":  "3d0eb0b9-4575-43d5-a52d-89355c68d497",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "0f5b7721-e93d-4ace-967a-b76c1811afba",
+                       "name":  "0f5b7721-e93d-4ace-967a-b76c1811afba",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "ac94f3bb-5979-4434-af8a-041d693058e6",
+                       "name":  "ac94f3bb-5979-4434-af8a-041d693058e6",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "03ddaa96-cde4-4052-96b7-6ff2be3edfa7",
+                       "name":  "03ddaa96-cde4-4052-96b7-6ff2be3edfa7",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "7ad6d3d4-598b-4036-8074-f22f4a49f071",
+                       "name":  "7ad6d3d4-598b-4036-8074-f22f4a49f071",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "69863c38-047a-481a-822a-c914cff49871",
+                       "name":  "69863c38-047a-481a-822a-c914cff49871",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "2fce8457-2b00-4869-b2e6-c36a0521b1ef",
+                       "name":  "2fce8457-2b00-4869-b2e6-c36a0521b1ef",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "121e1325-1b9c-4b6a-8bd3-b9a0fed78896",
+                       "name":  "121e1325-1b9c-4b6a-8bd3-b9a0fed78896",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "0494c3bc-c615-41da-8d2c-9e436807b439",
+                       "name":  "0494c3bc-c615-41da-8d2c-9e436807b439",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9770f77e-f3bd-4363-b0d2-e3f04cf2b9f0",
+                       "name":  "9770f77e-f3bd-4363-b0d2-e3f04cf2b9f0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "a7cf0aa8-599f-4f13-9d3f-30ffe894abad",
+                       "name":  "a7cf0aa8-599f-4f13-9d3f-30ffe894abad",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "88fe5589-c582-4a07-8005-35affea9a973",
+                       "name":  "88fe5589-c582-4a07-8005-35affea9a973",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "984fffff-4e3a-4730-af3d-bbb57017d193",
+                       "name":  "984fffff-4e3a-4730-af3d-bbb57017d193",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "586f9ecc-e9f8-41a3-aafb-dc0f91cdeb6e",
+                       "name":  "586f9ecc-e9f8-41a3-aafb-dc0f91cdeb6e",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "72913a7e-7cb8-46db-96b0-a6a87038ccad",
+                       "name":  "72913a7e-7cb8-46db-96b0-a6a87038ccad",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6c3de6b3-6c98-443b-a2b9-39d523953b09",
+                       "name":  "6c3de6b3-6c98-443b-a2b9-39d523953b09",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "35434402-2f19-469c-ae0b-eb67fcce5d1e",
+                       "name":  "35434402-2f19-469c-ae0b-eb67fcce5d1e",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "7dfa4aaa-c072-47d9-967b-11499cc9bf85",
+                       "name":  "7dfa4aaa-c072-47d9-967b-11499cc9bf85",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "c7f76e81-e8d4-426d-bf92-e701c65ebd63",
+                       "name":  "c7f76e81-e8d4-426d-bf92-e701c65ebd63",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "039ae87c-7026-4605-901e-e1c3b5e51656",
+                       "name":  "039ae87c-7026-4605-901e-e1c3b5e51656",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "22d6fa07-171e-4170-9069-e4cd0ffc32bb",
+                       "name":  "22d6fa07-171e-4170-9069-e4cd0ffc32bb",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9cca2d2e-2f2f-4e2b-ab35-2682c96ee342",
+                       "name":  "9cca2d2e-2f2f-4e2b-ab35-2682c96ee342",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   }
+               ],
+    "gridX":  0,
+    "gridY":  0,
+    "height":  96,
+    "HTile":  false,
+    "layers":  [
+                   {
+                       "$GMImageLayer":  "",
+                       "%Name":  "e6aa3aab-7200-48f5-8de2-a026b14285d1",
+                       "blendMode":  0,
+                       "displayName":  "default",
+                       "isLocked":  false,
+                       "name":  "e6aa3aab-7200-48f5-8de2-a026b14285d1",
+                       "opacity":  100,
+                       "resourceType":  "GMImageLayer",
+                       "resourceVersion":  "2.0",
+                       "visible":  true
+                   }
+               ],
+    "name":  "spr_environment_planet_earth_like_without_back_glow",
+    "nineSlice":  null,
+    "origin":  4,
+    "parent":  {
+                   "name":  "planets",
+                   "path":  "folders/Sprites/environment/planets.yy"
+               },
+    "preMultiplyAlpha":  false,
+    "resourceType":  "GMSprite",
+    "resourceVersion":  "2.0",
+    "sequence":  {
+                     "$GMSequence":  "v1",
+                     "%Name":  "spr_environment_planet_earth_like_without_back_glow",
+                     "autoRecord":  true,
+                     "backdropHeight":  768,
+                     "backdropImageOpacity":  0.5,
+                     "backdropImagePath":  "",
+                     "backdropWidth":  1366,
+                     "backdropXOffset":  0,
+                     "backdropYOffset":  0,
+                     "events":  {
+                                    "$KeyframeStore<MessageEventKeyframe>":  "",
+                                    "Keyframes":  [
+
+                                                  ],
+                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
+                                    "resourceVersion":  "2.0"
+                                },
+                     "eventStubScript":  null,
+                     "eventToFunction":  {
+
+                                         },
+                     "length":  77,
+                     "lockOrigin":  false,
+                     "moments":  {
+                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
+                                     "Keyframes":  [
+
+                                                   ],
+                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
+                                     "resourceVersion":  "2.0"
+                                 },
+                     "name":  "spr_environment_planet_earth_like_without_back_glow",
+                     "playback":  1,
+                     "playbackSpeed":  8,
+                     "playbackSpeedType":  0,
+                     "resourceType":  "GMSequence",
+                     "resourceVersion":  "2.0",
+                     "showBackdrop":  true,
+                     "showBackdropImage":  false,
+                     "timeUnits":  1,
+                     "tracks":  [
+                                    {
+                                        "$GMSpriteFramesTrack":  "",
+                                        "builtinName":  0,
+                                        "events":  [
+
+                                                   ],
+                                        "inheritsTrackColour":  true,
+                                        "interpolation":  1,
+                                        "isCreationTrack":  false,
+                                        "keyframes":  {
+                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
+                                                          "Keyframes":  [
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "5eceb164-7e81-4e6f-9fc6-b1a912a7f0ec",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "4c835ba6-93c2-4dc6-a6fd-e7b1d411e98b",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  0,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "1c96c7da-fcb0-4761-8295-964d457d075a",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "8ad43712-ab11-424b-b30b-e351edead2b1",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  1,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "17c02a3c-ceb5-479b-b1b1-14a622575bf6",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "d0934424-a591-4a5c-969d-010a7b7b9382",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  2,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "63600bd8-89f7-4af0-aa26-61b20a292fa1",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c0c7cdcf-cf36-4ccc-877e-6d5c54d6d47a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  3,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6f52e19e-2f2d-4b0c-9a30-cd1e334cb52c",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "44946390-1bda-42cd-a034-1d9e38d674b7",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  4,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "4eba5e80-af87-4c57-84df-0e66e51c835c",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "36364b9c-cabe-4c3e-a39d-aeac6eebc884",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  5,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "09acc7ca-5722-4b77-a17f-2e4ff23c81a4",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "bb84f999-f6e5-42f1-8efa-681025cbf128",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  6,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "616d36ec-8fce-4e92-a378-93120fac8529",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "abf72ea0-336e-4cba-a793-b6059b873de1",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  7,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "20c21fd5-ad90-4b48-b0fb-d97b63f1f86b",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "2e9eaa3f-20b2-4f1c-9960-b65d4abb5ab1",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  8,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6b141002-75d2-4f4d-a532-3dd5f2e3084b",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "1560a366-e539-4bae-889f-366e02a19ddb",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  9,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "1746d348-2a73-4871-b888-3c197398ba54",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "500d7349-521e-4708-932b-83b48de44b55",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  10,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "a02df9d3-f75e-47e4-bd44-408f8b06b221",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f2f35f14-895c-4da9-8ed6-f25623212c34",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  11,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "11168c72-1a3f-44c6-835a-69b1470847ef",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "be6e7664-ab05-4554-ad37-7e6bab9073ec",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  12,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "5e34dc33-d61e-4f71-83c7-9691020a00da",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "cccb9bff-8520-42b4-ab32-c4636da6d59d",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  13,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "ef571359-8795-4ccd-87f8-1cdf07090c02",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "eaf62c45-153d-4d1f-bf0d-1e9569994bb7",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  14,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "13cece28-be18-40b6-91d1-979909620c71",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "bbc2044e-52da-49d2-9943-07bc41fe010f",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  15,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "311372a8-afa7-4e26-883d-4eea06a2bb3d",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "b797c9e7-d538-471c-b006-95c9538da81a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  16,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "babaa5a0-b885-421f-bd4c-06c62ac98a4a",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "ff2d20d7-dd73-4a41-ae8e-aaa23866c06a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  17,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "921ea722-8aeb-4d08-8c88-91b760477da4",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "db76217c-fc89-4fec-9e90-098454ba386a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  18,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "14b1da43-3b84-4b21-8c48-f57f9b0c1778",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "a641260c-077d-4509-a1d2-723925795139",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  19,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9fef8100-38ef-4fab-83a1-251c377810ef",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "7695d02e-a418-400a-aa61-05aea1dc5102",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  20,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "8c3dbe5f-1e3f-4f74-9f41-7090cb2b8e90",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "9a135be7-fd74-47ae-a86d-4d9c329e52c5",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  21,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "4e591ac9-58f0-4b89-8e6a-0e111b7a90fb",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "b1c2b19d-8b26-45a6-8d42-59ba2b264f7c",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  22,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "e8cc4f69-4afa-4086-8d70-1fbb741c9c6a",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "1cedd03a-4562-4037-af37-b1cc8b10666f",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  23,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "10ab3d85-a918-4f41-9fc6-0cdec9a033f0",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "21ef4c64-a920-4cbf-af8c-8e5bb462af29",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  24,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "5c1c1c9a-e626-4fda-b935-1ddf270d3163",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "6c9999d0-8a4b-4966-b2b3-6738dc73bf3d",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  25,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b206cfd5-6471-45e6-903a-c88e05178c5b",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "89b2fbf0-ed98-45ea-99d9-51d26625b703",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  26,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "327563f7-8ee2-43f3-9e01-439fd0cde823",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "e249d4ea-9bf2-4c16-a03a-c6a33b0547ad",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  27,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "f147f235-087b-457d-813d-652477555122",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "7972d6b5-b622-4689-aace-dc57d26e1f8c",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  28,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "89c04040-6cb3-4d88-ae17-ee9d82a3e0cc",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "58decc40-db8a-4d4d-b76f-bd2e466b55b8",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  29,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b784cde1-fd7c-42c1-9a5f-dfaae1042833",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "9f703209-d2af-486e-a095-0d68c4669762",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  30,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "7f3573b4-d84c-4224-b849-a0cef6f85477",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "5b998491-29a8-47ed-9458-0b2701e6bebf",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  31,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "8ac37ffc-be52-4d46-8a6c-3be41fc373a7",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "d7f762f7-84d7-4472-8363-25cfe9b633ac",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  32,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "aae0d7b0-b0c8-403a-9722-1c450d568e8c",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "619158b0-824a-4465-b7ea-044e52644fc5",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  33,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "0e215ebc-a3f7-4ce6-970c-788b0e0f128c",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "a13ef4ee-a41e-4f09-8b3d-e0fa9c6d7bf3",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  34,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "146a890c-4299-45c2-8735-88658061c301",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "aa4d9381-a7d8-4ada-8f05-94e9d68c6446",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  35,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "456207f6-200c-4417-ba3e-54193c103947",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "0e234c54-2385-403c-9237-e4b81c547d4a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  36,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "ff615790-3e16-494e-8b5d-33e726b2dbcf",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c99cac8e-29c6-4471-b09a-dd13c5dd4467",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  37,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "377e679a-2613-4f07-9756-cd89d6c9b883",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "9868bc56-b11d-4b61-8a4a-b9c3a5418e68",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  38,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d8a95c32-e617-455d-8af4-dab10aeca917",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "67eaaac0-5c3c-4db9-ac20-95aa9e657a30",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  39,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "390ea7ea-7c5b-4854-897f-49b1cb735873",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "8ef1b710-0c40-42c7-bdaf-c228220d58aa",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  40,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "cea97e40-bbc1-456e-b28e-d29133738cbb",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c0588aac-913e-4a58-94d6-2431eee6dfa6",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  41,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "081313a6-7c18-4570-8a5c-51ffe7f273a0",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "7e6686c6-9ff5-416a-8467-5747d9dbf4c2",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  42,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "2ee98375-2187-4a2a-9757-a44be365ede9",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "3ae6c074-e50e-4a13-84bc-c63ee97a70ec",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  43,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b1880d31-c740-4fd9-8e24-5b93717799a5",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "ccd251f4-1de3-4b3c-b65d-8aad9d4bfe8c",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  44,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "373cd0ac-13ba-4aaa-ad72-f460c6c9b8e0",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "929bc46d-c0f7-4d0a-8f37-299add805fef",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  45,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6a4b1ac3-1e0d-413a-9b77-0466791b92d2",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "2f9f2139-db4b-4414-a9b5-495e2c4257a9",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  46,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9898ce2e-f7ae-4fca-bd62-0aa9a4474b37",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "88691231-338d-4223-bfd9-f7069ef701ea",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  47,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "ad5e8a53-fd06-4924-80ad-618f9cc1362b",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "fbafee3d-a32b-427d-8b98-28aecd168db3",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  48,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "725ca2df-bba4-420e-9f76-39a141412546",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "5048bd9f-3176-4d3d-aa42-48438474326e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  49,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d5879dd5-93dc-4a69-8083-6c27af2d2017",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "18a6f6e7-4ffa-4731-bfaf-e4586e79c7fc",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  50,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "3d26be3d-8146-4de3-a0c0-08276e6b9695",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "827ff3fd-f5a3-492a-90f6-ef370ddd55e6",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  51,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6661cb61-f17b-4693-bff1-01e785547e39",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "5aca6537-9240-48c3-ab01-dd6b2960d19e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  52,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "1449ea93-f7da-484a-80e9-213f6dc31330",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "60125dd6-9666-457d-ad1a-dfee6fb630d9",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  53,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d5d2bddc-ffe7-4b96-a2cf-269bef3f7da6",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c6e6b377-ef31-4c55-80ea-640f8e0e38db",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  54,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "3d0eb0b9-4575-43d5-a52d-89355c68d497",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f89ea3ba-8ee2-42de-80db-b0b37ef1c53d",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  55,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "0f5b7721-e93d-4ace-967a-b76c1811afba",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "1f78e736-940f-4ffa-9a5f-ec1b7c39f8e7",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  56,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "ac94f3bb-5979-4434-af8a-041d693058e6",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "81f6c45f-2ee1-4de6-b8fb-abb37c9e7da8",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  57,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "03ddaa96-cde4-4052-96b7-6ff2be3edfa7",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "eaad9a34-4a75-4a86-a92e-345e8202c0bb",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  58,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "7ad6d3d4-598b-4036-8074-f22f4a49f071",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "7b5281b6-2f6f-445e-9f4f-9d8500697707",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  59,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "69863c38-047a-481a-822a-c914cff49871",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c64907ec-c60c-4c2c-a486-e891a8836a77",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  60,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "2fce8457-2b00-4869-b2e6-c36a0521b1ef",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "ba6ed596-6d6c-42d4-956e-44dcef3cc642",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  61,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "121e1325-1b9c-4b6a-8bd3-b9a0fed78896",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "bc8acaf4-1407-469c-a35e-26d57d648aba",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  62,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "0494c3bc-c615-41da-8d2c-9e436807b439",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "773ba988-f724-43d1-8f19-4b7317a1ee15",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  63,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9770f77e-f3bd-4363-b0d2-e3f04cf2b9f0",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "07f19081-dd36-4c03-8ec5-bb84d41b48a1",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  64,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "a7cf0aa8-599f-4f13-9d3f-30ffe894abad",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "e9b69eb2-fec2-4c31-bb94-bad18e01dbe3",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  65,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "88fe5589-c582-4a07-8005-35affea9a973",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "720ee220-af46-443d-bf7c-9b177fbbaa48",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  66,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "984fffff-4e3a-4730-af3d-bbb57017d193",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "0058c41d-d37f-491a-b051-2ad45d5b36af",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  67,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "586f9ecc-e9f8-41a3-aafb-dc0f91cdeb6e",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "11d54de2-8da8-4f31-ab43-87f4ba8d9e43",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  68,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "72913a7e-7cb8-46db-96b0-a6a87038ccad",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "85478e29-7394-43be-b60f-d94a56710ac6",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  69,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6c3de6b3-6c98-443b-a2b9-39d523953b09",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "39d1c227-b6fc-4a07-8e8a-d7838cc2c97a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  70,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "35434402-2f19-469c-ae0b-eb67fcce5d1e",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c0b70d49-15f6-445d-afc2-62c93a0fae10",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  71,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "7dfa4aaa-c072-47d9-967b-11499cc9bf85",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "d2c32727-2112-4a90-96ef-918055d7367c",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  72,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "c7f76e81-e8d4-426d-bf92-e701c65ebd63",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "15927611-32cb-4c55-82bc-fe8dd7d647f7",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  73,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "039ae87c-7026-4605-901e-e1c3b5e51656",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "fd48410e-d6b1-4234-a61c-87843c54a67a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  74,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "22d6fa07-171e-4170-9069-e4cd0ffc32bb",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "0a1ddcdc-4c90-4bda-900e-cd2ef44dc10b",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  75,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9cca2d2e-2f2f-4e2b-ab35-2682c96ee342",
+                                                                                                                      "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "ef196cb4-55d0-4761-a736-eab6692aa47b",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  76,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            }
+                                                                        ],
+                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
+                                                          "resourceVersion":  "2.0"
+                                                      },
+                                        "modifiers":  [
+
+                                                      ],
+                                        "name":  "frames",
+                                        "resourceType":  "GMSpriteFramesTrack",
+                                        "resourceVersion":  "2.0",
+                                        "spriteId":  null,
+                                        "trackColour":  0,
+                                        "tracks":  [
+
+                                                   ],
+                                        "traits":  0
+                                    }
+                                ],
+                     "visibleRange":  null,
+                     "volume":  1,
+                     "xorigin":  48,
+                     "yorigin":  48
+                 },
+    "swatchColours":  null,
+    "swfPrecision":  2.525,
+    "textureGroupId":  {
+                           "name":  "Default",
+                           "path":  "texturegroups/Default"
+                       },
+    "type":  0,
+    "VTile":  false,
+    "width":  96
+}

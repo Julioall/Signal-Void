@@ -371,6 +371,62 @@
                         "name":  "weapons",
                         "resourceType":  "GMFolder",
                         "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "environment",
+                        "folderPath":  "folders/Sprites/environment.yy",
+                        "name":  "environment",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "asteroids",
+                        "folderPath":  "folders/Sprites/environment/asteroids.yy",
+                        "name":  "asteroids",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "backgrounds",
+                        "folderPath":  "folders/Sprites/environment/backgrounds.yy",
+                        "name":  "backgrounds",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "condensed",
+                        "folderPath":  "folders/Sprites/environment/backgrounds/condensed.yy",
+                        "name":  "condensed",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "split_up",
+                        "folderPath":  "folders/Sprites/environment/backgrounds/split_up.yy",
+                        "name":  "split_up",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "effects",
+                        "folderPath":  "folders/Sprites/environment/effects.yy",
+                        "name":  "effects",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "planets",
+                        "folderPath":  "folders/Sprites/environment/planets.yy",
+                        "name":  "planets",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
                     }
                 ],
     "ForcedPrefabProjectReferences":  [
@@ -1430,6 +1486,114 @@
                           "id":  {
                                      "name":  "spr_enemy_nautolan_projectile_wave",
                                      "path":  "sprites/spr_enemy_nautolan_projectile_wave/spr_enemy_nautolan_projectile_wave.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_environment_asteroid_01_base",
+                                     "path":  "sprites/spr_environment_asteroid_01_base/spr_environment_asteroid_01_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_environment_asteroid_01_explode",
+                                     "path":  "sprites/spr_environment_asteroid_01_explode/spr_environment_asteroid_01_explode.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_condensed_layer_01_void",
+                                     "path":  "sprites/spr_background_starry_condensed_layer_01_void/spr_background_starry_condensed_layer_01_void.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_condensed_layer_02_stars",
+                                     "path":  "sprites/spr_background_starry_condensed_layer_02_stars/spr_background_starry_condensed_layer_02_stars.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_condensed_layer_03_stars",
+                                     "path":  "sprites/spr_background_starry_condensed_layer_03_stars/spr_background_starry_condensed_layer_03_stars.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_01_solid_colour",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_01_solid_colour/spr_background_starry_split_up_layer_01_solid_colour.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_02_shadows",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_02_shadows/spr_background_starry_split_up_layer_02_shadows.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_02_shadows_2",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_02_shadows_2/spr_background_starry_split_up_layer_02_shadows_2.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_03_stars",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_03_stars/spr_background_starry_split_up_layer_03_stars.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_03_stars_2",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_03_stars_2/spr_background_starry_split_up_layer_03_stars_2.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_x_big_star",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_x_big_star/spr_background_starry_split_up_layer_x_big_star.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_x_big_star_2",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_x_big_star_2/spr_background_starry_split_up_layer_x_big_star_2.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_x_black_hole",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_x_black_hole/spr_background_starry_split_up_layer_x_black_hole.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_x_rotary_star",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_x_rotary_star/spr_background_starry_split_up_layer_x_rotary_star.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_background_starry_split_up_layer_x_rotary_star_2",
+                                     "path":  "sprites/spr_background_starry_split_up_layer_x_rotary_star_2/spr_background_starry_split_up_layer_x_rotary_star_2.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_environment_effect_asteroid_flame",
+                                     "path":  "sprites/spr_environment_effect_asteroid_flame/spr_environment_effect_asteroid_flame.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_environment_planet_earth_like",
+                                     "path":  "sprites/spr_environment_planet_earth_like/spr_environment_planet_earth_like.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_environment_planet_earth_like_without_back_glow",
+                                     "path":  "sprites/spr_environment_planet_earth_like_without_back_glow/spr_environment_planet_earth_like_without_back_glow.yy"
                                  }
                       }
                   ],
