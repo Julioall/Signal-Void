@@ -1,0 +1,362 @@
+{
+    "$GMSprite":  "v2",
+    "%Name":  "spr_enemy_nautolan_support_engine_effect",
+    "bboxMode":  0,
+    "bbox_bottom":  63,
+    "bbox_left":  0,
+    "bbox_right":  63,
+    "bbox_top":  0,
+    "collisionKind":  1,
+    "collisionTolerance":  0,
+    "DynamicTexturePage":  false,
+    "edgeFiltering":  false,
+    "For3D":  false,
+    "frames":  [
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d18a83ca-6986-40f5-8762-b7c977da133d",
+                       "name":  "d18a83ca-6986-40f5-8762-b7c977da133d",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d1b0a84c-8f4e-4d43-954d-b277ec6794bc",
+                       "name":  "d1b0a84c-8f4e-4d43-954d-b277ec6794bc",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d9203718-2245-4f2c-848c-4da04babe0bd",
+                       "name":  "d9203718-2245-4f2c-848c-4da04babe0bd",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "02ebe7da-f304-45fa-b754-e7eb7c2c94a9",
+                       "name":  "02ebe7da-f304-45fa-b754-e7eb7c2c94a9",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "68f3376f-9ab3-4bfb-8a24-c0e7884d7c66",
+                       "name":  "68f3376f-9ab3-4bfb-8a24-c0e7884d7c66",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "be0e49b2-2bfe-4ab5-bbd3-578503984501",
+                       "name":  "be0e49b2-2bfe-4ab5-bbd3-578503984501",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6cb32708-4022-47e5-9d9b-7192a03bb122",
+                       "name":  "6cb32708-4022-47e5-9d9b-7192a03bb122",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b2ccc228-63c3-49d6-84a9-bd7c21cf80d4",
+                       "name":  "b2ccc228-63c3-49d6-84a9-bd7c21cf80d4",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   }
+               ],
+    "gridX":  0,
+    "gridY":  0,
+    "height":  64,
+    "HTile":  false,
+    "layers":  [
+                   {
+                       "$GMImageLayer":  "",
+                       "%Name":  "42530724-857f-46c1-8871-51a074f73154",
+                       "blendMode":  0,
+                       "displayName":  "default",
+                       "isLocked":  false,
+                       "name":  "42530724-857f-46c1-8871-51a074f73154",
+                       "opacity":  100,
+                       "resourceType":  "GMImageLayer",
+                       "resourceVersion":  "2.0",
+                       "visible":  true
+                   }
+               ],
+    "name":  "spr_enemy_nautolan_support_engine_effect",
+    "nineSlice":  null,
+    "origin":  4,
+    "parent":  {
+                   "name":  "engines",
+                   "path":  "folders/Sprites/enemies/nautolan/engines.yy"
+               },
+    "preMultiplyAlpha":  false,
+    "resourceType":  "GMSprite",
+    "resourceVersion":  "2.0",
+    "sequence":  {
+                     "$GMSequence":  "v1",
+                     "%Name":  "spr_enemy_nautolan_support_engine_effect",
+                     "autoRecord":  true,
+                     "backdropHeight":  768,
+                     "backdropImageOpacity":  0.5,
+                     "backdropImagePath":  "",
+                     "backdropWidth":  1366,
+                     "backdropXOffset":  0,
+                     "backdropYOffset":  0,
+                     "events":  {
+                                    "$KeyframeStore<MessageEventKeyframe>":  "",
+                                    "Keyframes":  [
+
+                                                  ],
+                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
+                                    "resourceVersion":  "2.0"
+                                },
+                     "eventStubScript":  null,
+                     "eventToFunction":  {
+
+                                         },
+                     "length":  8,
+                     "lockOrigin":  false,
+                     "moments":  {
+                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
+                                     "Keyframes":  [
+
+                                                   ],
+                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
+                                     "resourceVersion":  "2.0"
+                                 },
+                     "name":  "spr_enemy_nautolan_support_engine_effect",
+                     "playback":  1,
+                     "playbackSpeed":  8,
+                     "playbackSpeedType":  0,
+                     "resourceType":  "GMSequence",
+                     "resourceVersion":  "2.0",
+                     "showBackdrop":  true,
+                     "showBackdropImage":  false,
+                     "timeUnits":  1,
+                     "tracks":  [
+                                    {
+                                        "$GMSpriteFramesTrack":  "",
+                                        "builtinName":  0,
+                                        "events":  [
+
+                                                   ],
+                                        "inheritsTrackColour":  true,
+                                        "interpolation":  1,
+                                        "isCreationTrack":  false,
+                                        "keyframes":  {
+                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
+                                                          "Keyframes":  [
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d18a83ca-6986-40f5-8762-b7c977da133d",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "6b5083e6-1e3d-41ef-80df-4d7ea8c8cef1",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  0,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d1b0a84c-8f4e-4d43-954d-b277ec6794bc",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "198ee144-b121-4e65-a4d3-d2e8fe41f2f4",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  1,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d9203718-2245-4f2c-848c-4da04babe0bd",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "449cc715-6747-4985-b4ee-234fc02c0709",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  2,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "02ebe7da-f304-45fa-b754-e7eb7c2c94a9",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "cab3ce07-a807-4ef2-9cb1-b8d0bd8d69b2",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  3,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "68f3376f-9ab3-4bfb-8a24-c0e7884d7c66",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "3dc1fe2a-b813-4ad9-b2eb-21bbc742886b",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  4,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "be0e49b2-2bfe-4ab5-bbd3-578503984501",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f38975f9-e59d-4013-9bd3-5ea7a1a93668",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  5,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6cb32708-4022-47e5-9d9b-7192a03bb122",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "52f754f0-4b56-4788-bcc7-c6cf180c4d1e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  6,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b2ccc228-63c3-49d6-84a9-bd7c21cf80d4",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_support_engine_effect/spr_enemy_nautolan_support_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "4a9bc846-721c-4a74-b68a-50439a715246",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  7,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            }
+                                                                        ],
+                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
+                                                          "resourceVersion":  "2.0"
+                                                      },
+                                        "modifiers":  [
+
+                                                      ],
+                                        "name":  "frames",
+                                        "resourceType":  "GMSpriteFramesTrack",
+                                        "resourceVersion":  "2.0",
+                                        "spriteId":  null,
+                                        "trackColour":  0,
+                                        "tracks":  [
+
+                                                   ],
+                                        "traits":  0
+                                    }
+                                ],
+                     "visibleRange":  null,
+                     "volume":  1,
+                     "xorigin":  32,
+                     "yorigin":  32
+                 },
+    "swatchColours":  null,
+    "swfPrecision":  2.525,
+    "textureGroupId":  {
+                           "name":  "Default",
+                           "path":  "texturegroups/Default"
+                       },
+    "type":  0,
+    "VTile":  false,
+    "width":  64
+}

@@ -1,0 +1,362 @@
+{
+    "$GMSprite":  "v2",
+    "%Name":  "spr_enemy_nautolan_bomber_engine_effect",
+    "bboxMode":  0,
+    "bbox_bottom":  63,
+    "bbox_left":  0,
+    "bbox_right":  63,
+    "bbox_top":  0,
+    "collisionKind":  1,
+    "collisionTolerance":  0,
+    "DynamicTexturePage":  false,
+    "edgeFiltering":  false,
+    "For3D":  false,
+    "frames":  [
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "a0be494c-b9c4-4720-a22c-9814b6129eaf",
+                       "name":  "a0be494c-b9c4-4720-a22c-9814b6129eaf",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "e68725be-e67b-4b13-a2b5-5eea4dea77d2",
+                       "name":  "e68725be-e67b-4b13-a2b5-5eea4dea77d2",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "ddf71bf1-39f4-403a-a716-9f58382119f3",
+                       "name":  "ddf71bf1-39f4-403a-a716-9f58382119f3",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "ac7cb4b1-b07b-435f-ad2d-a4470a46ef21",
+                       "name":  "ac7cb4b1-b07b-435f-ad2d-a4470a46ef21",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9579d853-7e03-4e20-b2ca-c702fcc803d3",
+                       "name":  "9579d853-7e03-4e20-b2ca-c702fcc803d3",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "86d3d834-c58e-4b78-8ffd-588e776489f3",
+                       "name":  "86d3d834-c58e-4b78-8ffd-588e776489f3",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "cf722905-ffa7-4b25-a097-fa0efecee9c1",
+                       "name":  "cf722905-ffa7-4b25-a097-fa0efecee9c1",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b0eccd2c-a12c-43e8-811a-c6f33664a867",
+                       "name":  "b0eccd2c-a12c-43e8-811a-c6f33664a867",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   }
+               ],
+    "gridX":  0,
+    "gridY":  0,
+    "height":  64,
+    "HTile":  false,
+    "layers":  [
+                   {
+                       "$GMImageLayer":  "",
+                       "%Name":  "18c55d89-14c1-4dd5-a446-856cdcfd37b1",
+                       "blendMode":  0,
+                       "displayName":  "default",
+                       "isLocked":  false,
+                       "name":  "18c55d89-14c1-4dd5-a446-856cdcfd37b1",
+                       "opacity":  100,
+                       "resourceType":  "GMImageLayer",
+                       "resourceVersion":  "2.0",
+                       "visible":  true
+                   }
+               ],
+    "name":  "spr_enemy_nautolan_bomber_engine_effect",
+    "nineSlice":  null,
+    "origin":  4,
+    "parent":  {
+                   "name":  "engines",
+                   "path":  "folders/Sprites/enemies/nautolan/engines.yy"
+               },
+    "preMultiplyAlpha":  false,
+    "resourceType":  "GMSprite",
+    "resourceVersion":  "2.0",
+    "sequence":  {
+                     "$GMSequence":  "v1",
+                     "%Name":  "spr_enemy_nautolan_bomber_engine_effect",
+                     "autoRecord":  true,
+                     "backdropHeight":  768,
+                     "backdropImageOpacity":  0.5,
+                     "backdropImagePath":  "",
+                     "backdropWidth":  1366,
+                     "backdropXOffset":  0,
+                     "backdropYOffset":  0,
+                     "events":  {
+                                    "$KeyframeStore<MessageEventKeyframe>":  "",
+                                    "Keyframes":  [
+
+                                                  ],
+                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
+                                    "resourceVersion":  "2.0"
+                                },
+                     "eventStubScript":  null,
+                     "eventToFunction":  {
+
+                                         },
+                     "length":  8,
+                     "lockOrigin":  false,
+                     "moments":  {
+                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
+                                     "Keyframes":  [
+
+                                                   ],
+                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
+                                     "resourceVersion":  "2.0"
+                                 },
+                     "name":  "spr_enemy_nautolan_bomber_engine_effect",
+                     "playback":  1,
+                     "playbackSpeed":  8,
+                     "playbackSpeedType":  0,
+                     "resourceType":  "GMSequence",
+                     "resourceVersion":  "2.0",
+                     "showBackdrop":  true,
+                     "showBackdropImage":  false,
+                     "timeUnits":  1,
+                     "tracks":  [
+                                    {
+                                        "$GMSpriteFramesTrack":  "",
+                                        "builtinName":  0,
+                                        "events":  [
+
+                                                   ],
+                                        "inheritsTrackColour":  true,
+                                        "interpolation":  1,
+                                        "isCreationTrack":  false,
+                                        "keyframes":  {
+                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
+                                                          "Keyframes":  [
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "a0be494c-b9c4-4720-a22c-9814b6129eaf",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "3ccb99d3-e22e-4804-82e6-0b4e853b0870",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  0,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "e68725be-e67b-4b13-a2b5-5eea4dea77d2",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "7e101abe-1910-4933-a1a3-7410cfb3a4e8",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  1,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "ddf71bf1-39f4-403a-a716-9f58382119f3",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "de2561ff-741b-4a02-a179-06109634518d",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  2,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "ac7cb4b1-b07b-435f-ad2d-a4470a46ef21",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "9701a62f-14a0-40bb-9414-5c89b88bc21f",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  3,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9579d853-7e03-4e20-b2ca-c702fcc803d3",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "b28e2ada-1776-4d08-8149-9a38d8b2961a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  4,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "86d3d834-c58e-4b78-8ffd-588e776489f3",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "5a4e4745-b299-4e7e-a687-933cc2c1a772",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  5,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "cf722905-ffa7-4b25-a097-fa0efecee9c1",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "baf227ea-a425-4bb6-a060-1f4c17f84301",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  6,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b0eccd2c-a12c-43e8-811a-c6f33664a867",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_bomber_engine_effect/spr_enemy_nautolan_bomber_engine_effect.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "9d767b8d-0ad6-4f30-9ab7-238f35e6b194",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  7,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            }
+                                                                        ],
+                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
+                                                          "resourceVersion":  "2.0"
+                                                      },
+                                        "modifiers":  [
+
+                                                      ],
+                                        "name":  "frames",
+                                        "resourceType":  "GMSpriteFramesTrack",
+                                        "resourceVersion":  "2.0",
+                                        "spriteId":  null,
+                                        "trackColour":  0,
+                                        "tracks":  [
+
+                                                   ],
+                                        "traits":  0
+                                    }
+                                ],
+                     "visibleRange":  null,
+                     "volume":  1,
+                     "xorigin":  32,
+                     "yorigin":  32
+                 },
+    "swatchColours":  null,
+    "swfPrecision":  2.525,
+    "textureGroupId":  {
+                           "name":  "Default",
+                           "path":  "texturegroups/Default"
+                       },
+    "type":  0,
+    "VTile":  false,
+    "width":  64
+}

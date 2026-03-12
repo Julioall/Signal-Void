@@ -1,0 +1,391 @@
+{
+    "$GMSprite":  "v2",
+    "%Name":  "spr_enemy_nautolan_battlecruiser_weapons",
+    "bboxMode":  0,
+    "bbox_bottom":  127,
+    "bbox_left":  0,
+    "bbox_right":  127,
+    "bbox_top":  0,
+    "collisionKind":  1,
+    "collisionTolerance":  0,
+    "DynamicTexturePage":  false,
+    "edgeFiltering":  false,
+    "For3D":  false,
+    "frames":  [
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "289f3620-085a-420a-bb49-033d9d8d62b2",
+                       "name":  "289f3620-085a-420a-bb49-033d9d8d62b2",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9ff1c9db-5e8d-447a-94a2-adec009c6d81",
+                       "name":  "9ff1c9db-5e8d-447a-94a2-adec009c6d81",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "8ee5893c-9114-4cdd-986b-f6a0d99a0349",
+                       "name":  "8ee5893c-9114-4cdd-986b-f6a0d99a0349",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "29761a85-122b-4513-8366-aec31c15463f",
+                       "name":  "29761a85-122b-4513-8366-aec31c15463f",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "fe5bde8d-5a2b-4268-ab4a-96a4c28bd778",
+                       "name":  "fe5bde8d-5a2b-4268-ab4a-96a4c28bd778",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "23b466fd-4d10-436a-a846-c25803e3bfaa",
+                       "name":  "23b466fd-4d10-436a-a846-c25803e3bfaa",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "80730c6f-8e9b-4fd1-8c16-116330a7fc50",
+                       "name":  "80730c6f-8e9b-4fd1-8c16-116330a7fc50",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "996b9e2f-fee3-4cb7-867a-6c2ce72ad85d",
+                       "name":  "996b9e2f-fee3-4cb7-867a-6c2ce72ad85d",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "491930b0-5fb2-46f7-b724-1f2b4ab8f22c",
+                       "name":  "491930b0-5fb2-46f7-b724-1f2b4ab8f22c",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   }
+               ],
+    "gridX":  0,
+    "gridY":  0,
+    "height":  128,
+    "HTile":  false,
+    "layers":  [
+                   {
+                       "$GMImageLayer":  "",
+                       "%Name":  "3742c737-6699-42e2-a2a3-337632f3a1d8",
+                       "blendMode":  0,
+                       "displayName":  "default",
+                       "isLocked":  false,
+                       "name":  "3742c737-6699-42e2-a2a3-337632f3a1d8",
+                       "opacity":  100,
+                       "resourceType":  "GMImageLayer",
+                       "resourceVersion":  "2.0",
+                       "visible":  true
+                   }
+               ],
+    "name":  "spr_enemy_nautolan_battlecruiser_weapons",
+    "nineSlice":  null,
+    "origin":  4,
+    "parent":  {
+                   "name":  "weapons",
+                   "path":  "folders/Sprites/enemies/nautolan/weapons.yy"
+               },
+    "preMultiplyAlpha":  false,
+    "resourceType":  "GMSprite",
+    "resourceVersion":  "2.0",
+    "sequence":  {
+                     "$GMSequence":  "v1",
+                     "%Name":  "spr_enemy_nautolan_battlecruiser_weapons",
+                     "autoRecord":  true,
+                     "backdropHeight":  768,
+                     "backdropImageOpacity":  0.5,
+                     "backdropImagePath":  "",
+                     "backdropWidth":  1366,
+                     "backdropXOffset":  0,
+                     "backdropYOffset":  0,
+                     "events":  {
+                                    "$KeyframeStore<MessageEventKeyframe>":  "",
+                                    "Keyframes":  [
+
+                                                  ],
+                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
+                                    "resourceVersion":  "2.0"
+                                },
+                     "eventStubScript":  null,
+                     "eventToFunction":  {
+
+                                         },
+                     "length":  9,
+                     "lockOrigin":  false,
+                     "moments":  {
+                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
+                                     "Keyframes":  [
+
+                                                   ],
+                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
+                                     "resourceVersion":  "2.0"
+                                 },
+                     "name":  "spr_enemy_nautolan_battlecruiser_weapons",
+                     "playback":  1,
+                     "playbackSpeed":  8,
+                     "playbackSpeedType":  0,
+                     "resourceType":  "GMSequence",
+                     "resourceVersion":  "2.0",
+                     "showBackdrop":  true,
+                     "showBackdropImage":  false,
+                     "timeUnits":  1,
+                     "tracks":  [
+                                    {
+                                        "$GMSpriteFramesTrack":  "",
+                                        "builtinName":  0,
+                                        "events":  [
+
+                                                   ],
+                                        "inheritsTrackColour":  true,
+                                        "interpolation":  1,
+                                        "isCreationTrack":  false,
+                                        "keyframes":  {
+                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
+                                                          "Keyframes":  [
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "289f3620-085a-420a-bb49-033d9d8d62b2",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "0f9a60ff-76f3-44cc-a509-0984cfb1209e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  0,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9ff1c9db-5e8d-447a-94a2-adec009c6d81",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "398df4cc-c088-41db-93fb-37cb16503728",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  1,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "8ee5893c-9114-4cdd-986b-f6a0d99a0349",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "12904f29-71fa-4edc-9577-3b335a542258",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  2,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "29761a85-122b-4513-8366-aec31c15463f",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f633f0cf-121c-447e-959a-90f8dd57d45a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  3,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "fe5bde8d-5a2b-4268-ab4a-96a4c28bd778",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f39dfc93-1369-4059-a280-2d6bc179cd87",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  4,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "23b466fd-4d10-436a-a846-c25803e3bfaa",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "dfe64359-a4c9-433a-ad3e-06128f47eb56",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  5,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "80730c6f-8e9b-4fd1-8c16-116330a7fc50",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "a12adb87-7f59-48c7-8b9c-9a5fa23a20c1",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  6,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "996b9e2f-fee3-4cb7-867a-6c2ce72ad85d",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "db5dd457-7725-4f4a-a2da-a021f8d2597e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  7,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "491930b0-5fb2-46f7-b724-1f2b4ab8f22c",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_battlecruiser_weapons/spr_enemy_nautolan_battlecruiser_weapons.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "4b16d480-5497-409b-8b45-a0ddfbf9e6f5",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  8,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            }
+                                                                        ],
+                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
+                                                          "resourceVersion":  "2.0"
+                                                      },
+                                        "modifiers":  [
+
+                                                      ],
+                                        "name":  "frames",
+                                        "resourceType":  "GMSpriteFramesTrack",
+                                        "resourceVersion":  "2.0",
+                                        "spriteId":  null,
+                                        "trackColour":  0,
+                                        "tracks":  [
+
+                                                   ],
+                                        "traits":  0
+                                    }
+                                ],
+                     "visibleRange":  null,
+                     "volume":  1,
+                     "xorigin":  64,
+                     "yorigin":  64
+                 },
+    "swatchColours":  null,
+    "swfPrecision":  2.525,
+    "textureGroupId":  {
+                           "name":  "Default",
+                           "path":  "texturegroups/Default"
+                       },
+    "type":  0,
+    "VTile":  false,
+    "width":  128
+}

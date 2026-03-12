@@ -1,0 +1,1174 @@
+{
+    "$GMSprite":  "v2",
+    "%Name":  "spr_enemy_nautolan_frigate_shield",
+    "bboxMode":  0,
+    "bbox_bottom":  62,
+    "bbox_left":  0,
+    "bbox_right":  62,
+    "bbox_top":  0,
+    "collisionKind":  1,
+    "collisionTolerance":  0,
+    "DynamicTexturePage":  false,
+    "edgeFiltering":  false,
+    "For3D":  false,
+    "frames":  [
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "e4f6cce1-8bd1-4ef5-9c4e-8dab4b8ef6aa",
+                       "name":  "e4f6cce1-8bd1-4ef5-9c4e-8dab4b8ef6aa",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "7b69aa32-f152-423c-9241-cae4d947d42e",
+                       "name":  "7b69aa32-f152-423c-9241-cae4d947d42e",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "86df18ed-49b6-467c-9661-7e534f31c511",
+                       "name":  "86df18ed-49b6-467c-9661-7e534f31c511",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "2804e7eb-3165-4042-b44b-97603be7d297",
+                       "name":  "2804e7eb-3165-4042-b44b-97603be7d297",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "6aca1866-9449-4e40-bafd-8e8ca650252d",
+                       "name":  "6aca1866-9449-4e40-bafd-8e8ca650252d",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "18617c1a-9a06-4a63-961f-d6d6370255f7",
+                       "name":  "18617c1a-9a06-4a63-961f-d6d6370255f7",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "507a04d4-d663-404b-9aec-bcedab4b7807",
+                       "name":  "507a04d4-d663-404b-9aec-bcedab4b7807",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "44d2c5ba-905c-4979-910c-8124a9283cfb",
+                       "name":  "44d2c5ba-905c-4979-910c-8124a9283cfb",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "3c0f228f-e93b-449e-8322-05a79676599d",
+                       "name":  "3c0f228f-e93b-449e-8322-05a79676599d",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "05bca86d-6f61-46ff-a55b-79dc8d332d38",
+                       "name":  "05bca86d-6f61-46ff-a55b-79dc8d332d38",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "e8710b03-40a9-4288-b4c9-eeeee6e502f2",
+                       "name":  "e8710b03-40a9-4288-b4c9-eeeee6e502f2",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "1a327972-fc30-459d-9044-f3e09eb6ccb4",
+                       "name":  "1a327972-fc30-459d-9044-f3e09eb6ccb4",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "8b131156-b778-4817-bf3d-56826a1758d2",
+                       "name":  "8b131156-b778-4817-bf3d-56826a1758d2",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "3aef4f70-9323-4b2e-bcdc-68d98bc93f09",
+                       "name":  "3aef4f70-9323-4b2e-bcdc-68d98bc93f09",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "74a7b083-0768-4bca-9c1a-5722d0850377",
+                       "name":  "74a7b083-0768-4bca-9c1a-5722d0850377",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b9e066af-608e-43b1-a162-00233d0ac3b0",
+                       "name":  "b9e066af-608e-43b1-a162-00233d0ac3b0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9c69c396-8f1c-4849-8b65-46ed2392d4c6",
+                       "name":  "9c69c396-8f1c-4849-8b65-46ed2392d4c6",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "37db6afb-1e06-4ad1-991b-3a744c40b8d0",
+                       "name":  "37db6afb-1e06-4ad1-991b-3a744c40b8d0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "0cb83c8d-c76e-42b3-a768-c4533b372348",
+                       "name":  "0cb83c8d-c76e-42b3-a768-c4533b372348",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "9c60e742-905d-4dab-941c-027dcd8ca487",
+                       "name":  "9c60e742-905d-4dab-941c-027dcd8ca487",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "2c6c9a06-aab1-4b64-b8a3-d990bb80d418",
+                       "name":  "2c6c9a06-aab1-4b64-b8a3-d990bb80d418",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "51830688-f1b7-43ec-b0dc-913e38fe43b3",
+                       "name":  "51830688-f1b7-43ec-b0dc-913e38fe43b3",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "dc519500-94d5-4460-b400-5a37f32272c3",
+                       "name":  "dc519500-94d5-4460-b400-5a37f32272c3",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b8cfc441-7aa1-4832-9770-7b0c7c038c12",
+                       "name":  "b8cfc441-7aa1-4832-9770-7b0c7c038c12",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "cc87a8c2-337f-4390-9adf-ef676d8dce2a",
+                       "name":  "cc87a8c2-337f-4390-9adf-ef676d8dce2a",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "2850bcfe-d764-41eb-b1f9-2fa3036dab19",
+                       "name":  "2850bcfe-d764-41eb-b1f9-2fa3036dab19",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "2ce5eb94-b55c-4ec7-8bed-969cba7170fe",
+                       "name":  "2ce5eb94-b55c-4ec7-8bed-969cba7170fe",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "dde1d1e4-014c-40ff-9340-f13d343f80d9",
+                       "name":  "dde1d1e4-014c-40ff-9340-f13d343f80d9",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "b8a0829c-e7e4-467b-9144-cf0c408eb4ed",
+                       "name":  "b8a0829c-e7e4-467b-9144-cf0c408eb4ed",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d5f6bc5a-4004-47ea-927d-42226e811a79",
+                       "name":  "d5f6bc5a-4004-47ea-927d-42226e811a79",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "825904ad-c26e-4b0b-938e-534711186ea0",
+                       "name":  "825904ad-c26e-4b0b-938e-534711186ea0",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "bb87d707-3f4f-4c1b-874b-2c257626c83c",
+                       "name":  "bb87d707-3f4f-4c1b-874b-2c257626c83c",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "0b51acfa-ca1b-4fe1-9323-1c435fc04494",
+                       "name":  "0b51acfa-ca1b-4fe1-9323-1c435fc04494",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "a280c026-5a46-4ed8-a837-e5d4fa6e63a1",
+                       "name":  "a280c026-5a46-4ed8-a837-e5d4fa6e63a1",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "71dbfdb4-6b4b-40c5-916a-472e3bc969fb",
+                       "name":  "71dbfdb4-6b4b-40c5-916a-472e3bc969fb",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   },
+                   {
+                       "$GMSpriteFrame":  "v1",
+                       "%Name":  "d40d7e7b-1a3a-4426-a732-bac11826721d",
+                       "name":  "d40d7e7b-1a3a-4426-a732-bac11826721d",
+                       "resourceType":  "GMSpriteFrame",
+                       "resourceVersion":  "2.0"
+                   }
+               ],
+    "gridX":  0,
+    "gridY":  0,
+    "height":  63,
+    "HTile":  false,
+    "layers":  [
+                   {
+                       "$GMImageLayer":  "",
+                       "%Name":  "9269669e-5779-4bd1-b108-46499af18215",
+                       "blendMode":  0,
+                       "displayName":  "default",
+                       "isLocked":  false,
+                       "name":  "9269669e-5779-4bd1-b108-46499af18215",
+                       "opacity":  100,
+                       "resourceType":  "GMImageLayer",
+                       "resourceVersion":  "2.0",
+                       "visible":  true
+                   }
+               ],
+    "name":  "spr_enemy_nautolan_frigate_shield",
+    "nineSlice":  null,
+    "origin":  4,
+    "parent":  {
+                   "name":  "shields",
+                   "path":  "folders/Sprites/enemies/nautolan/shields.yy"
+               },
+    "preMultiplyAlpha":  false,
+    "resourceType":  "GMSprite",
+    "resourceVersion":  "2.0",
+    "sequence":  {
+                     "$GMSequence":  "v1",
+                     "%Name":  "spr_enemy_nautolan_frigate_shield",
+                     "autoRecord":  true,
+                     "backdropHeight":  768,
+                     "backdropImageOpacity":  0.5,
+                     "backdropImagePath":  "",
+                     "backdropWidth":  1366,
+                     "backdropXOffset":  0,
+                     "backdropYOffset":  0,
+                     "events":  {
+                                    "$KeyframeStore<MessageEventKeyframe>":  "",
+                                    "Keyframes":  [
+
+                                                  ],
+                                    "resourceType":  "KeyframeStore<MessageEventKeyframe>",
+                                    "resourceVersion":  "2.0"
+                                },
+                     "eventStubScript":  null,
+                     "eventToFunction":  {
+
+                                         },
+                     "length":  36,
+                     "lockOrigin":  false,
+                     "moments":  {
+                                     "$KeyframeStore<MomentsEventKeyframe>":  "",
+                                     "Keyframes":  [
+
+                                                   ],
+                                     "resourceType":  "KeyframeStore<MomentsEventKeyframe>",
+                                     "resourceVersion":  "2.0"
+                                 },
+                     "name":  "spr_enemy_nautolan_frigate_shield",
+                     "playback":  1,
+                     "playbackSpeed":  8,
+                     "playbackSpeedType":  0,
+                     "resourceType":  "GMSequence",
+                     "resourceVersion":  "2.0",
+                     "showBackdrop":  true,
+                     "showBackdropImage":  false,
+                     "timeUnits":  1,
+                     "tracks":  [
+                                    {
+                                        "$GMSpriteFramesTrack":  "",
+                                        "builtinName":  0,
+                                        "events":  [
+
+                                                   ],
+                                        "inheritsTrackColour":  true,
+                                        "interpolation":  1,
+                                        "isCreationTrack":  false,
+                                        "keyframes":  {
+                                                          "$KeyframeStore<SpriteFrameKeyframe>":  "",
+                                                          "Keyframes":  [
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "e4f6cce1-8bd1-4ef5-9c4e-8dab4b8ef6aa",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "4cf45410-81f5-48b8-9689-cbe11f777279",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  0,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "7b69aa32-f152-423c-9241-cae4d947d42e",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "b0f2b7dc-1f6a-45fe-962b-eb940387b874",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  1,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "86df18ed-49b6-467c-9661-7e534f31c511",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "0a746981-3e1f-46f0-970d-eff1f2ef7948",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  2,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "2804e7eb-3165-4042-b44b-97603be7d297",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "500b487c-8df9-4cb1-b310-d80c54640cf6",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  3,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "6aca1866-9449-4e40-bafd-8e8ca650252d",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "eed94306-b26b-499a-8901-5637793aa43d",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  4,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "18617c1a-9a06-4a63-961f-d6d6370255f7",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "72494cd2-f535-44b6-a9a6-58632834345a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  5,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "507a04d4-d663-404b-9aec-bcedab4b7807",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "016312e9-0c41-400c-8d86-535a6d3b4981",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  6,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "44d2c5ba-905c-4979-910c-8124a9283cfb",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "a73ca385-1b73-490a-95ef-ffe6f625b69e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  7,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "3c0f228f-e93b-449e-8322-05a79676599d",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "14538951-1ade-44ee-9e9f-7e8a328b7178",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  8,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "05bca86d-6f61-46ff-a55b-79dc8d332d38",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "9186b16c-f5ca-48d2-a9e6-7963d0ecce54",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  9,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "e8710b03-40a9-4288-b4c9-eeeee6e502f2",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f83ee935-4312-46f6-8b11-e0a8c9a7381a",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  10,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "1a327972-fc30-459d-9044-f3e09eb6ccb4",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "5b55e67c-ecaf-4c4e-a8b1-1afee815f426",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  11,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "8b131156-b778-4817-bf3d-56826a1758d2",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "6f4a6c4d-3499-4437-a3b1-15eab9a5759c",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  12,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "3aef4f70-9323-4b2e-bcdc-68d98bc93f09",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "16591326-3d5b-4eaf-ba81-b6106e7dad64",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  13,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "74a7b083-0768-4bca-9c1a-5722d0850377",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "7c1a64e0-d092-4bc3-9fe0-18a4b62c0340",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  14,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b9e066af-608e-43b1-a162-00233d0ac3b0",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "d9e0b1ff-b881-4233-b530-7718fcc738ec",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  15,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9c69c396-8f1c-4849-8b65-46ed2392d4c6",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "a0d03574-d281-421d-be17-bb4b6b9425b2",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  16,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "37db6afb-1e06-4ad1-991b-3a744c40b8d0",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "68070019-c137-4c7e-b3e9-9c513a56760b",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  17,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "0cb83c8d-c76e-42b3-a768-c4533b372348",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "2ca14245-0ad9-4226-a26e-7c35ffee1560",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  18,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "9c60e742-905d-4dab-941c-027dcd8ca487",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c511914a-2f46-439c-8abe-e1e47b9c0566",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  19,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "2c6c9a06-aab1-4b64-b8a3-d990bb80d418",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "bfe31330-4a01-43f0-a298-b1ee928d7743",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  20,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "51830688-f1b7-43ec-b0dc-913e38fe43b3",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "6e4a428c-271a-435c-b676-db98cb8ed879",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  21,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "dc519500-94d5-4460-b400-5a37f32272c3",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "92223d02-99f8-4399-ac21-f0d04b468735",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  22,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b8cfc441-7aa1-4832-9770-7b0c7c038c12",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "258bc78e-3132-4e51-a7d1-000fad18a152",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  23,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "cc87a8c2-337f-4390-9adf-ef676d8dce2a",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "c317bcf1-6aa7-4eb5-9fdb-449c16c2ee59",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  24,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "2850bcfe-d764-41eb-b1f9-2fa3036dab19",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "90777468-08c8-4cf8-9a39-58a3b3b415db",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  25,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "2ce5eb94-b55c-4ec7-8bed-969cba7170fe",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "8513123a-4b20-4c65-a4cb-82bedfe405b4",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  26,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "dde1d1e4-014c-40ff-9340-f13d343f80d9",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "88724567-efb3-4ddc-b1c7-3da5c5545e9e",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  27,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "b8a0829c-e7e4-467b-9144-cf0c408eb4ed",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "f6d5450a-d4f7-4c62-9b9f-e05280c113e3",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  28,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d5f6bc5a-4004-47ea-927d-42226e811a79",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "cea45fac-3d2b-4229-a42b-93478c7edaa8",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  29,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "825904ad-c26e-4b0b-938e-534711186ea0",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "31ff5bc6-ba18-4302-8917-ee1b8fb69620",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  30,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "bb87d707-3f4f-4c1b-874b-2c257626c83c",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "39ce0670-15ce-47d4-8a55-9414962508e4",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  31,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "0b51acfa-ca1b-4fe1-9323-1c435fc04494",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "d2a035c8-eda5-4379-a875-4ef4c005251f",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  32,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "a280c026-5a46-4ed8-a837-e5d4fa6e63a1",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "11b0f453-388b-40eb-9261-02bf5ec6f12b",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  33,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "71dbfdb4-6b4b-40c5-916a-472e3bc969fb",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "6fe29ceb-899d-4f9e-a7cc-5bab0988af76",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  34,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            },
+                                                                            {
+                                                                                "$Keyframe<SpriteFrameKeyframe>":  "",
+                                                                                "Channels":  {
+                                                                                                 "0":  {
+                                                                                                           "$SpriteFrameKeyframe":  "",
+                                                                                                           "Id":  {
+                                                                                                                      "name":  "d40d7e7b-1a3a-4426-a732-bac11826721d",
+                                                                                                                      "path":  "sprites/spr_enemy_nautolan_frigate_shield/spr_enemy_nautolan_frigate_shield.yy"
+                                                                                                                  },
+                                                                                                           "resourceType":  "SpriteFrameKeyframe",
+                                                                                                           "resourceVersion":  "2.0"
+                                                                                                       }
+                                                                                             },
+                                                                                "Disabled":  false,
+                                                                                "id":  "04806372-8954-4b84-af02-749d7d645a13",
+                                                                                "IsCreationKey":  false,
+                                                                                "Key":  35,
+                                                                                "Length":  1,
+                                                                                "resourceType":  "Keyframe<SpriteFrameKeyframe>",
+                                                                                "resourceVersion":  "2.0",
+                                                                                "Stretch":  false
+                                                                            }
+                                                                        ],
+                                                          "resourceType":  "KeyframeStore<SpriteFrameKeyframe>",
+                                                          "resourceVersion":  "2.0"
+                                                      },
+                                        "modifiers":  [
+
+                                                      ],
+                                        "name":  "frames",
+                                        "resourceType":  "GMSpriteFramesTrack",
+                                        "resourceVersion":  "2.0",
+                                        "spriteId":  null,
+                                        "trackColour":  0,
+                                        "tracks":  [
+
+                                                   ],
+                                        "traits":  0
+                                    }
+                                ],
+                     "visibleRange":  null,
+                     "volume":  1,
+                     "xorigin":  32,
+                     "yorigin":  32
+                 },
+    "swatchColours":  null,
+    "swfPrecision":  2.525,
+    "textureGroupId":  {
+                           "name":  "Default",
+                           "path":  "texturegroups/Default"
+                       },
+    "type":  0,
+    "VTile":  false,
+    "width":  63
+}
