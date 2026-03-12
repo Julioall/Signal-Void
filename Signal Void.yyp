@@ -195,6 +195,70 @@
                         "name":  "weapons",
                         "resourceType":  "GMFolder",
                         "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "enemies",
+                        "folderPath":  "folders/Sprites/enemies.yy",
+                        "name":  "enemies",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "klaed",
+                        "folderPath":  "folders/Sprites/enemies/klaed.yy",
+                        "name":  "klaed",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "base",
+                        "folderPath":  "folders/Sprites/enemies/klaed/base.yy",
+                        "name":  "base",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "destruction",
+                        "folderPath":  "folders/Sprites/enemies/klaed/destruction.yy",
+                        "name":  "destruction",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "engines",
+                        "folderPath":  "folders/Sprites/enemies/klaed/engines.yy",
+                        "name":  "engines",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "projectiles",
+                        "folderPath":  "folders/Sprites/enemies/klaed/projectiles.yy",
+                        "name":  "projectiles",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "shields",
+                        "folderPath":  "folders/Sprites/enemies/klaed/shields.yy",
+                        "name":  "shields",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
+                    },
+                    {
+                        "$GMFolder":  "",
+                        "%Name":  "weapons",
+                        "folderPath":  "folders/Sprites/enemies/klaed/weapons.yy",
+                        "name":  "weapons",
+                        "resourceType":  "GMFolder",
+                        "resourceVersion":  "2.0"
                     }
                 ],
     "ForcedPrefabProjectReferences":  [
@@ -498,6 +562,258 @@
                           "id":  {
                                      "name":  "spr_player_main_ship_weapon_zapper",
                                      "path":  "sprites/spr_player_main_ship_weapon_zapper/spr_player_main_ship_weapon_zapper.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_battlecruiser_base",
+                                     "path":  "sprites/spr_enemy_klaed_battlecruiser_base/spr_enemy_klaed_battlecruiser_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_bomber_base",
+                                     "path":  "sprites/spr_enemy_klaed_bomber_base/spr_enemy_klaed_bomber_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_dreadnought_base",
+                                     "path":  "sprites/spr_enemy_klaed_dreadnought_base/spr_enemy_klaed_dreadnought_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_fighter_base",
+                                     "path":  "sprites/spr_enemy_klaed_fighter_base/spr_enemy_klaed_fighter_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_frigate_base",
+                                     "path":  "sprites/spr_enemy_klaed_frigate_base/spr_enemy_klaed_frigate_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_scout_base",
+                                     "path":  "sprites/spr_enemy_klaed_scout_base/spr_enemy_klaed_scout_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_support_ship_base",
+                                     "path":  "sprites/spr_enemy_klaed_support_ship_base/spr_enemy_klaed_support_ship_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_torpedo_ship_base",
+                                     "path":  "sprites/spr_enemy_klaed_torpedo_ship_base/spr_enemy_klaed_torpedo_ship_base.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_battlecruiser_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_battlecruiser_destruction/spr_enemy_klaed_battlecruiser_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_bomber_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_bomber_destruction/spr_enemy_klaed_bomber_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_dreadnought_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_dreadnought_destruction/spr_enemy_klaed_dreadnought_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_fighter_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_fighter_destruction/spr_enemy_klaed_fighter_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_frigate_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_frigate_destruction/spr_enemy_klaed_frigate_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_scout_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_scout_destruction/spr_enemy_klaed_scout_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_support_ship_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_support_ship_destruction/spr_enemy_klaed_support_ship_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_torpedo_ship_destruction",
+                                     "path":  "sprites/spr_enemy_klaed_torpedo_ship_destruction/spr_enemy_klaed_torpedo_ship_destruction.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_battlecruiser_engine",
+                                     "path":  "sprites/spr_enemy_klaed_battlecruiser_engine/spr_enemy_klaed_battlecruiser_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_bomber_engine",
+                                     "path":  "sprites/spr_enemy_klaed_bomber_engine/spr_enemy_klaed_bomber_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_dreadnought_engine",
+                                     "path":  "sprites/spr_enemy_klaed_dreadnought_engine/spr_enemy_klaed_dreadnought_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_fighter_engine",
+                                     "path":  "sprites/spr_enemy_klaed_fighter_engine/spr_enemy_klaed_fighter_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_frigate_engine",
+                                     "path":  "sprites/spr_enemy_klaed_frigate_engine/spr_enemy_klaed_frigate_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_scout_engine",
+                                     "path":  "sprites/spr_enemy_klaed_scout_engine/spr_enemy_klaed_scout_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_support_ship_engine",
+                                     "path":  "sprites/spr_enemy_klaed_support_ship_engine/spr_enemy_klaed_support_ship_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_torpedo_ship_engine",
+                                     "path":  "sprites/spr_enemy_klaed_torpedo_ship_engine/spr_enemy_klaed_torpedo_ship_engine.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_battlecruiser_shield",
+                                     "path":  "sprites/spr_enemy_klaed_battlecruiser_shield/spr_enemy_klaed_battlecruiser_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_bomber_shield",
+                                     "path":  "sprites/spr_enemy_klaed_bomber_shield/spr_enemy_klaed_bomber_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_dreadnought_shield",
+                                     "path":  "sprites/spr_enemy_klaed_dreadnought_shield/spr_enemy_klaed_dreadnought_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_fighter_shield",
+                                     "path":  "sprites/spr_enemy_klaed_fighter_shield/spr_enemy_klaed_fighter_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_frigate_shield",
+                                     "path":  "sprites/spr_enemy_klaed_frigate_shield/spr_enemy_klaed_frigate_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_scout_shield",
+                                     "path":  "sprites/spr_enemy_klaed_scout_shield/spr_enemy_klaed_scout_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_torpedo_ship_shield",
+                                     "path":  "sprites/spr_enemy_klaed_torpedo_ship_shield/spr_enemy_klaed_torpedo_ship_shield.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_battlecruiser_weapons",
+                                     "path":  "sprites/spr_enemy_klaed_battlecruiser_weapons/spr_enemy_klaed_battlecruiser_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_dreadnought_weapons",
+                                     "path":  "sprites/spr_enemy_klaed_dreadnought_weapons/spr_enemy_klaed_dreadnought_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_fighter_weapons",
+                                     "path":  "sprites/spr_enemy_klaed_fighter_weapons/spr_enemy_klaed_fighter_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_frigate_weapons",
+                                     "path":  "sprites/spr_enemy_klaed_frigate_weapons/spr_enemy_klaed_frigate_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_scout_weapons",
+                                     "path":  "sprites/spr_enemy_klaed_scout_weapons/spr_enemy_klaed_scout_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_torpedo_ship_weapons",
+                                     "path":  "sprites/spr_enemy_klaed_torpedo_ship_weapons/spr_enemy_klaed_torpedo_ship_weapons.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_projectile_big_bullet",
+                                     "path":  "sprites/spr_enemy_klaed_projectile_big_bullet/spr_enemy_klaed_projectile_big_bullet.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_projectile_bullet",
+                                     "path":  "sprites/spr_enemy_klaed_projectile_bullet/spr_enemy_klaed_projectile_bullet.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_projectile_ray",
+                                     "path":  "sprites/spr_enemy_klaed_projectile_ray/spr_enemy_klaed_projectile_ray.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_projectile_torpedo",
+                                     "path":  "sprites/spr_enemy_klaed_projectile_torpedo/spr_enemy_klaed_projectile_torpedo.yy"
+                                 }
+                      },
+                      {
+                          "id":  {
+                                     "name":  "spr_enemy_klaed_projectile_wave",
+                                     "path":  "sprites/spr_enemy_klaed_projectile_wave/spr_enemy_klaed_projectile_wave.yy"
                                  }
                       }
                   ],
