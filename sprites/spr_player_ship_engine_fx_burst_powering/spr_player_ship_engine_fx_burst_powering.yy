@@ -1,4 +1,4 @@
-﻿{
+{
     "$GMSprite":  "v2",
     "%Name":  "spr_player_ship_engine_fx_burst_powering",
     "bboxMode":  0,
@@ -77,8 +77,8 @@
     "nineSlice":  null,
     "origin":  4,
     "parent":  {
-                   "name":  "Sprites",
-                   "path":  "folders/Sprites.yy"
+                   "name":  "engine_effects",
+                   "path":  "folders/Sprites/player/engine_effects.yy"
                },
     "preMultiplyAlpha":  false,
     "resourceType":  "GMSprite",
@@ -302,4 +302,3 @@
     "VTile":  false,
     "width":  48
 }
-
