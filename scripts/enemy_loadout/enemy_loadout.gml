@@ -8,7 +8,8 @@ function enemy_get_roster() {
         "klaed_torpedo_ship",
         "klaed_battlecruiser",
         "klaed_dreadnought",
-        "nairan_scout"
+        "nairan_scout",
+        "nairan_fighter"
     ];
 }
 
