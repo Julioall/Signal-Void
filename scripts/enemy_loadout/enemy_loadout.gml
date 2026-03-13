@@ -17,7 +17,8 @@ function enemy_get_roster() {
         "nairan_battlecruiser",
         "nairan_dreadnought",
         "nautolan_scout",
-        "nautolan_fighter"
+        "nautolan_fighter",
+        "nautolan_bomber"
     ];
 }
 
