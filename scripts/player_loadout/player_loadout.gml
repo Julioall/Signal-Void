@@ -402,10 +402,10 @@ function player_weapon_find_beam_collision(_start_x, _start_y, _direction, _max_
         y: beam_end_y,
         collided: false
     };
-    var enemy_count = instance_number(obj_enemy_ship_basic);
+    var enemy_count = instance_number(obj_enemy_ship);
 
     for (var enemy_index = 0; enemy_index < enemy_count; enemy_index++) {
-        var enemy = instance_find(obj_enemy_ship_basic, enemy_index);
+        var enemy = instance_find(obj_enemy_ship, enemy_index);
 
         if (!instance_exists(enemy)) {
             continue;

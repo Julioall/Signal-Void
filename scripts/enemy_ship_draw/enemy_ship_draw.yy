@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"enemy_basic_step",
+  "%Name":"enemy_ship_draw",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"enemy_basic_step",
+  "name":"enemy_ship_draw",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

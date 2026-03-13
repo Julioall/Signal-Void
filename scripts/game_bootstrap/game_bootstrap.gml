@@ -4,6 +4,9 @@ function game_bootstrap() {
     global.restart_cooldown = -1;
     global.enemy_attack_enabled = false;
     global.enemy_invulnerable = false;
+    global.enemy_roster_index = 0;
+    global.enemy_last_spawned_id = "";
+    global.enemy_last_spawned_index = -1;
 }
 
 function game_reset_room_state() {

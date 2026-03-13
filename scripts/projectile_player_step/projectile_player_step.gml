@@ -17,7 +17,7 @@ function projectile_player_get_target_anchor_y() {
 function projectile_player_find_target() {
     var anchor_x = projectile_player_get_target_anchor_x();
     var anchor_y = projectile_player_get_target_anchor_y();
-    var target = instance_nearest(anchor_x, anchor_y, obj_enemy_ship_basic);
+    var target = instance_nearest(anchor_x, anchor_y, obj_enemy_ship);
 
     if (!instance_exists(target)) {
         return noone;
@@ -79,7 +79,7 @@ function projectile_player_step() {
 
     var next_x = x + lengthdir_x(move_speed, direction_angle);
     var next_y = y + lengthdir_y(move_speed, direction_angle);
-    var enemy = collision_line(x, y, next_x, next_y, obj_enemy_ship_basic, true, true);
+    var enemy = collision_line(x, y, next_x, next_y, obj_enemy_ship, true, true);
 
     if (instance_exists(enemy)) {
         if (combat_apply_damage(enemy, damage)) {

@@ -20,7 +20,7 @@ if (keyboard_check_pressed(ord("9"))) {
     global.enemy_invulnerable = !global.enemy_invulnerable;
 }
 
-if (!instance_exists(obj_enemy_ship_basic)) {
+if (!instance_exists(obj_enemy_ship)) {
     enemy_respawn_timer = max(0, enemy_respawn_timer - 1);
 
     if (enemy_respawn_timer <= 0) {
@@ -32,6 +32,7 @@ if (!instance_exists(obj_enemy_ship_basic)) {
 }
 
 var caption = "Signal Void | Fase 1";
+var active_enemy = instance_find(obj_enemy_ship, 0);
 
 if (instance_exists(player_id)) {
     caption += " | HP " + string(player_id.hp) + "/" + string(player_id.max_hp);
@@ -48,8 +49,19 @@ if (instance_exists(player_id)) {
     caption += " | Reiniciando";
 }
 
-caption += " | Inimigo " + (global.enemy_attack_enabled ? "Ativo" : "Parado");
+if (instance_exists(active_enemy) && is_struct(active_enemy.enemy_profile)) {
+    var roster_count = array_length(enemy_get_roster());
+
+    caption += " | Alvo " + string(active_enemy.enemy_profile.display_name);
+    caption += " | HP alvo " + string(active_enemy.hp) + "/" + string(active_enemy.max_hp);
+
+    if (roster_count > 0 && global.enemy_last_spawned_index >= 0) {
+        caption += " | Roster " + string(global.enemy_last_spawned_index + 1) + "/" + string(roster_count);
+    }
+}
+
+caption += " | Contato " + (global.enemy_attack_enabled ? "Ativo" : "Parado");
 caption += " | Imortal " + (global.enemy_invulnerable ? "Sim" : "Nao");
 caption += " | Kills " + string(global.session_kills);
-caption += " | Mouse mira | W/S acelera | 1-4 motor | 0 inimigo | 9 imortal | Q/E arma | R/T escudo";
+caption += " | Mouse mira | W/S acelera | 1-4 motor | 0 contato | 9 imortal | Q/E arma | R/T escudo";
 window_set_caption(caption);

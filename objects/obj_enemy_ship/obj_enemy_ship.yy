@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_ship_basic",
+  "%Name":"obj_enemy_ship",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":false,
-  "name":"obj_enemy_ship_basic",
+  "name":"obj_enemy_ship",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_ship_basic",
-    "path":"sprites/spr_enemy_ship_basic/spr_enemy_ship_basic.yy",
+    "name":"spr_enemy_klaed_scout_base",
+    "path":"sprites/spr_enemy_klaed_scout_base/spr_enemy_klaed_scout_base.yy",
   },
   "spriteMaskId":null,
   "visible":true,
