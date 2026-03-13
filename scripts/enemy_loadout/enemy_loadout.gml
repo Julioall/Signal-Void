@@ -4,7 +4,8 @@ function enemy_get_roster() {
         "klaed_fighter",
         "klaed_bomber",
         "klaed_frigate",
-        "klaed_support_ship"
+        "klaed_support_ship",
+        "klaed_torpedo_ship"
     ];
 }
 
