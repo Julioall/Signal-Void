@@ -8,8 +8,25 @@ function player_movement_approach(_value, _target, _step) {
 
 function player_movement_apply(_move_input) {
     var profile = movement_profile;
-    image_angle += _move_input.turn * profile.turn_speed;
-    aim_direction = image_angle + 90;
+    var current_direction = image_angle + 90;
+
+    if (_move_input.mouse_aim_active) {
+        var target_direction = _move_input.target_direction;
+        var turn_step = profile.turn_speed * mouse_turn_speed_scale;
+        var remaining_turn = angle_difference(target_direction, current_direction);
+
+        if (abs(remaining_turn) <= turn_step) {
+            aim_direction = target_direction;
+        } else {
+            aim_direction = current_direction + clamp(remaining_turn, -turn_step, turn_step);
+        }
+
+        image_angle = aim_direction - 90;
+    } else {
+        image_angle += _move_input.turn * profile.turn_speed;
+        aim_direction = image_angle + 90;
+    }
+
     engine_boost = player_movement_approach(engine_boost, max(_move_input.thrust, 0), 0.2);
 
     var forward_x = lengthdir_x(1, aim_direction);

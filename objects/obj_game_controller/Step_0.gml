@@ -12,6 +12,14 @@ if (!instance_exists(player_id)) {
     restart_cooldown = -1;
 }
 
+if (keyboard_check_pressed(ord("0"))) {
+    global.enemy_attack_enabled = !global.enemy_attack_enabled;
+}
+
+if (keyboard_check_pressed(ord("9"))) {
+    global.enemy_invulnerable = !global.enemy_invulnerable;
+}
+
 if (!instance_exists(obj_enemy_ship_basic)) {
     enemy_respawn_timer = max(0, enemy_respawn_timer - 1);
 
@@ -40,6 +48,8 @@ if (instance_exists(player_id)) {
     caption += " | Reiniciando";
 }
 
+caption += " | Inimigo " + (global.enemy_attack_enabled ? "Ativo" : "Parado");
+caption += " | Imortal " + (global.enemy_invulnerable ? "Sim" : "Nao");
 caption += " | Kills " + string(global.session_kills);
-caption += " | 1-4 motor | Q/E arma | R/T escudo";
+caption += " | Mouse mira | W/S acelera | 1-4 motor | 0 inimigo | 9 imortal | Q/E arma | R/T escudo";
 window_set_caption(caption);

@@ -121,32 +121,31 @@ function player_ship_draw() {
     }
 
     if (player_weapon_has_beam(weapon_profile) && weapon_beam_active) {
-        var muzzle_offsets = weapon_profile.muzzle_offsets;
-        var muzzle_count = array_length(muzzle_offsets);
-
-        if (muzzle_count <= 0) {
-            muzzle_offsets = [{ x: 0, y: -18 }];
-            muzzle_count = 1;
-        }
-
         var beam_sprite = weapon_profile.projectile_sprite;
         var beam_frame_count = max(1, sprite_get_number(beam_sprite));
         var beam_frame = floor((current_time * weapon_profile.projectile_fps / 1000)) mod beam_frame_count;
-        var beam_length = weapon_profile.beam_length;
-        var beam_mid_distance = beam_length * 0.5;
         var beam_scale = max(abs(image_xscale), 1);
         var beam_alpha = 0.92;
-        var beam_xscale = weapon_profile.projectile_scale * beam_scale * 0.5;
-        var beam_yscale = beam_length / max(1, sprite_get_height(beam_sprite));
+        var beam_xscale = weapon_profile.projectile_scale * beam_scale * 0.375;
+        var beam_glow_color = make_color_rgb(110, 255, 255);
+        var beam_core_width = max(2, weapon_profile.beam_width * beam_scale * 0.165);
+        var beam_glow_width = max(3, weapon_profile.beam_width * beam_scale * 0.4875);
+        var segment_count = array_length(weapon_beam_segments);
 
-        for (var beam_index = 0; beam_index < muzzle_count; beam_index++) {
-            var beam_origin = player_weapon_get_muzzle_world_position(
-                muzzle_offsets[beam_index],
-                weapon_beam_direction,
-                weapon_profile.projectile_spawn_padding
-            );
-            var beam_mid_x = beam_origin.x + lengthdir_x(beam_mid_distance, weapon_beam_direction);
-            var beam_mid_y = beam_origin.y + lengthdir_y(beam_mid_distance, weapon_beam_direction);
+        for (var beam_index = 0; beam_index < segment_count; beam_index++) {
+            var segment = weapon_beam_segments[beam_index];
+            var segment_length = point_distance(segment.start_x, segment.start_y, segment.end_x, segment.end_y);
+            var beam_mid_x = (segment.start_x + segment.end_x) * 0.5;
+            var beam_mid_y = (segment.start_y + segment.end_y) * 0.5;
+            var beam_yscale = segment_length / max(1, sprite_get_height(beam_sprite));
+
+            draw_set_alpha(0.18);
+            draw_set_color(beam_glow_color);
+            draw_line_width(segment.start_x, segment.start_y, segment.end_x, segment.end_y, beam_glow_width);
+
+            draw_set_alpha(0.32);
+            draw_set_color(c_white);
+            draw_line_width(segment.start_x, segment.start_y, segment.end_x, segment.end_y, beam_core_width);
 
             draw_sprite_ext(
                 beam_sprite,
@@ -161,6 +160,9 @@ function player_ship_draw() {
             );
         }
     }
+
+    draw_set_alpha(1);
+    draw_set_color(c_white);
 
     if (is_struct(shield_profile) && shield_profile.sprite != noone && shield_profile.max_hp > 0) {
         var shield_ratio = clamp(shield_hp / shield_profile.max_hp, 0, 1);

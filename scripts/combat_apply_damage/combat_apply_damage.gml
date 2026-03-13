@@ -7,6 +7,10 @@ function combat_apply_damage(target, amount) {
         return false;
     }
 
+    if (target.object_index == obj_enemy_ship_basic && global.enemy_invulnerable) {
+        return false;
+    }
+
     if (variable_instance_exists(target, "invulnerability_timer") && target.invulnerability_timer > 0) {
         return false;
     }

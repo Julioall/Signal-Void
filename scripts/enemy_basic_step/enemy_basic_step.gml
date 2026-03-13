@@ -1,6 +1,10 @@
 function enemy_basic_step() {
     touch_cooldown = max(0, touch_cooldown - 1);
 
+    if (!global.enemy_attack_enabled) {
+        return;
+    }
+
     var player = instance_find(obj_player_ship, 0);
 
     if (instance_exists(player)) {

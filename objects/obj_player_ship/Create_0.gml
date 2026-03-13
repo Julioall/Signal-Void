@@ -16,6 +16,9 @@ engine_load = 0;
 engine_boost = 0;
 aim_direction = 90;
 image_angle = aim_direction - 90;
+mouse_aim_enabled = true;
+mouse_aim_deadzone = 12;
+mouse_turn_speed_scale = 0.78;
 image_xscale = visual_scale;
 image_yscale = visual_scale;
 sprite_index = spr_player_ship;
@@ -39,6 +42,8 @@ weapon_ready_charge_position = 0;
 weapon_beam_active = false;
 weapon_beam_tick_timer = 0;
 weapon_beam_direction = aim_direction;
+weapon_beam_segments = [];
+weapon_beam_particles = [];
 invulnerability_timer = 0;
 
 player_reset_weapon_animation_state();

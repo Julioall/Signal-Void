@@ -103,7 +103,7 @@ function player_weapon_build_profile(_weapon_id) {
             profile.display_name = "Zapper";
             profile.sprite = spr_player_main_ship_weapon_zapper;
             profile.projectile_sprite = spr_player_main_ship_projectile_zapper;
-            profile.projectile_scale = 2;
+            profile.projectile_scale = 2.6;
             profile.projectile_speed = 18;
             profile.projectile_fps = 8;
             profile.damage = 1;
@@ -119,7 +119,7 @@ function player_weapon_build_profile(_weapon_id) {
             profile.fire_pattern = "dual";
             profile.beam_enabled = true;
             profile.beam_length = point_distance(0, 0, room_width, room_height);
-            profile.beam_width = 10;
+            profile.beam_width = 13;
             profile.beam_fire_start_frame = 3;
             profile.beam_fire_end_frame = 7;
             profile.beam_tick_interval = 4;
@@ -167,6 +167,78 @@ function player_weapon_has_ready_charge(_profile) {
 
 function player_weapon_has_beam(_profile) {
     return is_struct(_profile) && _profile.beam_enabled;
+}
+
+function player_weapon_clear_beam_segments() {
+    weapon_beam_segments = [];
+}
+
+function player_weapon_add_beam_segment(_start_x, _start_y, _end_x, _end_y, _collided) {
+    var segment_index = array_length(weapon_beam_segments);
+
+    weapon_beam_segments[segment_index] = {
+        start_x: _start_x,
+        start_y: _start_y,
+        end_x: _end_x,
+        end_y: _end_y,
+        collided: _collided
+    };
+}
+
+function player_weapon_emit_beam_burst(_x, _y, _direction, _strength, _strong_hit, _is_origin) {
+    var effect_depth = depth - 20;
+    var impact_color = make_color_rgb(140 + irandom(40), 235 + irandom(20), 255);
+    var spark_count = max(2, round((_is_origin ? 2 : 3) * _strength));
+    var spread = (_is_origin ? 18 : 28) + (_strength * (_is_origin ? 8 : 20));
+    var size_level = 0;
+    var flare_color = c_white;
+    var scatter_base_direction = _direction + (_is_origin ? 0 : 180);
+
+    if (_strength >= 1.35) {
+        size_level = 2;
+    } else if (_strength >= 0.85) {
+        size_level = 1;
+    }
+
+    if (_is_origin) {
+        flare_color = merge_color(c_white, impact_color, 0.35);
+    }
+
+    effect_create_depth(effect_depth, ef_flare, _x, _y, max(0, size_level - (_is_origin ? 1 : 0)), flare_color);
+
+    for (var i = 0; i < spark_count; i++) {
+        var scatter_direction = scatter_base_direction + random_range(-spread, spread);
+        var scatter_distance = random_range(0, (_is_origin ? 5 : 8) * _strength);
+        var scatter_x = _x + lengthdir_x(scatter_distance, scatter_direction);
+        var scatter_y = _y + lengthdir_y(scatter_distance, scatter_direction);
+        var spark_size = (_strong_hit && !_is_origin && i >= spark_count - 2) ? max(1, size_level) : size_level;
+
+        effect_create_depth(effect_depth, ef_spark, scatter_x, scatter_y, spark_size, impact_color);
+    }
+
+    if (_strong_hit && !_is_origin) {
+        effect_create_depth(effect_depth, ef_ring, _x, _y, max(0, size_level - 1), merge_color(c_aqua, c_white, 0.25));
+    }
+}
+
+function player_weapon_spawn_beam_origin_particles(_x, _y, _direction) {
+    player_weapon_emit_beam_burst(_x, _y, _direction, 0.75, false, true);
+}
+
+function player_weapon_spawn_beam_particles(_x, _y, _direction, _strong_hit, _distance_from_origin) {
+    var beam_length = max(1, weapon_profile.beam_length);
+    var proximity = clamp(1 - (_distance_from_origin / beam_length), 0, 1);
+    var impact_strength = lerp(0.75, 1.65, proximity);
+
+    if (_strong_hit) {
+        impact_strength += 0.1;
+    }
+
+    player_weapon_emit_beam_burst(_x, _y, _direction, impact_strength, _strong_hit, false);
+}
+
+function player_weapon_update_beam_particles() {
+    weapon_beam_particles = [];
 }
 
 function player_weapon_is_ready_to_fire() {
@@ -268,9 +340,151 @@ function player_weapon_start_beam() {
     weapon_beam_active = false;
     weapon_beam_tick_timer = 0;
     weapon_beam_direction = aim_direction;
+    player_weapon_clear_beam_segments();
+}
+
+function player_weapon_get_beam_target_sprite(_target) {
+    if (variable_instance_exists(_target, "mask_index")) {
+        var mask_sprite_id = _target.mask_index;
+
+        if (is_real(mask_sprite_id) && mask_sprite_id >= 0) {
+            return mask_sprite_id;
+        }
+    }
+
+    if (variable_instance_exists(_target, "sprite_index")) {
+        var sprite_id = _target.sprite_index;
+
+        if (is_real(sprite_id) && sprite_id >= 0) {
+            return sprite_id;
+        }
+    }
+
+    return noone;
+}
+
+function player_weapon_get_beam_target_collision_data(_target) {
+    var target_sprite_id = player_weapon_get_beam_target_sprite(_target);
+
+    if (target_sprite_id == noone) {
+        return {
+            center_x: _target.x,
+            center_y: _target.y,
+            radius: 0
+        };
+    }
+
+    var sprite_bbox_left = sprite_get_bbox_left(target_sprite_id);
+    var sprite_bbox_right = sprite_get_bbox_right(target_sprite_id);
+    var sprite_bbox_top = sprite_get_bbox_top(target_sprite_id);
+    var sprite_bbox_bottom = sprite_get_bbox_bottom(target_sprite_id);
+    var bbox_center_x = ((sprite_bbox_left + sprite_bbox_right) * 0.5) - sprite_get_xoffset(target_sprite_id);
+    var bbox_center_y = ((sprite_bbox_top + sprite_bbox_bottom) * 0.5) - sprite_get_yoffset(target_sprite_id);
+    var half_width = ((sprite_bbox_right - sprite_bbox_left) + 1) * abs(_target.image_xscale) * 0.5;
+    var half_height = ((sprite_bbox_bottom - sprite_bbox_top) + 1) * abs(_target.image_yscale) * 0.5;
+
+    return {
+        center_x: _target.x + (bbox_center_x * _target.image_xscale),
+        center_y: _target.y + (bbox_center_y * _target.image_yscale),
+        radius: max(half_width, half_height)
+    };
+}
+
+function player_weapon_find_beam_collision(_start_x, _start_y, _direction, _max_distance) {
+    var direction_x = lengthdir_x(1, _direction);
+    var direction_y = lengthdir_y(1, _direction);
+    var beam_end_x = _start_x + (direction_x * _max_distance);
+    var beam_end_y = _start_y + (direction_y * _max_distance);
+    var closest_hit = {
+        target_id: noone,
+        distance: _max_distance,
+        x: beam_end_x,
+        y: beam_end_y,
+        collided: false
+    };
+    var enemy_count = instance_number(obj_enemy_ship_basic);
+
+    for (var enemy_index = 0; enemy_index < enemy_count; enemy_index++) {
+        var enemy = instance_find(obj_enemy_ship_basic, enemy_index);
+
+        if (!instance_exists(enemy)) {
+            continue;
+        }
+
+        var precise_hit = collision_line(_start_x, _start_y, beam_end_x, beam_end_y, enemy, true, true);
+        var impact_distance = _max_distance;
+
+        if (precise_hit == enemy) {
+            var search_min = 0;
+            var search_max = _max_distance;
+
+            for (var refine_step = 0; refine_step < 10; refine_step++) {
+                var mid_distance = (search_min + search_max) * 0.5;
+                var mid_x = _start_x + (direction_x * mid_distance);
+                var mid_y = _start_y + (direction_y * mid_distance);
+
+                if (collision_line(_start_x, _start_y, mid_x, mid_y, enemy, true, true) == enemy) {
+                    search_max = mid_distance;
+                } else {
+                    search_min = mid_distance;
+                }
+            }
+
+            impact_distance = search_max;
+        } else {
+            var broad_hit = collision_line(_start_x, _start_y, beam_end_x, beam_end_y, enemy, false, true);
+
+            if (broad_hit != enemy) {
+                continue;
+            }
+
+            var collision_data = player_weapon_get_beam_target_collision_data(enemy);
+            var target_radius = collision_data.radius;
+
+            if (target_radius <= 0) {
+                continue;
+            }
+
+            var to_target_x = collision_data.center_x - _start_x;
+            var to_target_y = collision_data.center_y - _start_y;
+            var projected_distance = (to_target_x * direction_x) + (to_target_y * direction_y);
+
+            if (projected_distance < -target_radius || projected_distance > _max_distance + target_radius) {
+                continue;
+            }
+
+            var clamped_projection = clamp(projected_distance, 0, _max_distance);
+            var closest_x = _start_x + (direction_x * clamped_projection);
+            var closest_y = _start_y + (direction_y * clamped_projection);
+            var distance_to_center = point_distance(closest_x, closest_y, collision_data.center_x, collision_data.center_y);
+
+            if (distance_to_center > target_radius) {
+                continue;
+            }
+
+            var impact_offset = sqrt(max(0, sqr(target_radius) - sqr(distance_to_center)));
+            impact_distance = clamp(projected_distance - impact_offset, 0, _max_distance);
+        }
+
+        if (impact_distance >= closest_hit.distance) {
+            continue;
+        }
+
+        closest_hit = {
+            target_id: enemy,
+            distance: impact_distance,
+            x: _start_x + (direction_x * impact_distance),
+            y: _start_y + (direction_y * impact_distance),
+            collided: true
+        };
+    }
+
+    return closest_hit;
 }
 
 function player_weapon_update_beam() {
+    player_weapon_clear_beam_segments();
+
     if (!player_weapon_has_beam(weapon_profile)) {
         return;
     }
@@ -299,10 +513,7 @@ function player_weapon_update_beam() {
     weapon_flash = max(weapon_flash, 0.7);
     weapon_idle_frame = weapon_anim_end_frame;
 
-    if (weapon_beam_tick_timer > 0) {
-        return;
-    }
-
+    var can_apply_damage = (weapon_beam_tick_timer <= 0);
     var muzzle_offsets = weapon_profile.muzzle_offsets;
     var muzzle_count = array_length(muzzle_offsets);
 
@@ -317,37 +528,50 @@ function player_weapon_update_beam() {
             weapon_beam_direction,
             weapon_profile.projectile_spawn_padding
         );
-        var beam_end_x = beam_origin.x + lengthdir_x(weapon_profile.beam_length, weapon_beam_direction);
-        var beam_end_y = beam_origin.y + lengthdir_y(weapon_profile.beam_length, weapon_beam_direction);
-        var hit_list = ds_list_create();
-        var hit_count = collision_line_list(
+
+        player_weapon_spawn_beam_origin_particles(
             beam_origin.x,
             beam_origin.y,
-            beam_end_x,
-            beam_end_y,
-            obj_enemy_ship_basic,
-            true,
-            true,
-            hit_list,
-            false
+            weapon_beam_direction
         );
 
-        for (var hit_index = 0; hit_index < hit_count; hit_index++) {
-            var enemy = hit_list[| hit_index];
+        var collision = player_weapon_find_beam_collision(
+            beam_origin.x,
+            beam_origin.y,
+            weapon_beam_direction,
+            weapon_profile.beam_length
+        );
 
-            if (!instance_exists(enemy)) {
-                continue;
-            }
+        player_weapon_add_beam_segment(
+            beam_origin.x,
+            beam_origin.y,
+            collision.x,
+            collision.y,
+            collision.collided
+        );
 
-            if (combat_apply_damage(enemy, weapon_profile.beam_damage)) {
+        if (!collision.collided) {
+            continue;
+        }
+
+        player_weapon_spawn_beam_particles(
+            collision.x,
+            collision.y,
+            weapon_beam_direction,
+            can_apply_damage,
+            collision.distance
+        );
+
+        if (can_apply_damage && instance_exists(collision.target_id)) {
+            if (combat_apply_damage(collision.target_id, weapon_profile.beam_damage)) {
                 global.session_kills += 1;
             }
         }
-
-        ds_list_destroy(hit_list);
     }
 
-    weapon_beam_tick_timer = weapon_profile.beam_tick_interval;
+    if (can_apply_damage) {
+        weapon_beam_tick_timer = weapon_profile.beam_tick_interval;
+    }
 }
 
 function player_weapon_spawn_projectile(_muzzle_offset) {
@@ -523,6 +747,7 @@ function player_set_weapon(_weapon_id) {
     weapon_beam_active = false;
     weapon_beam_tick_timer = 0;
     weapon_beam_direction = aim_direction;
+    player_weapon_clear_beam_segments();
     player_reset_weapon_animation_state();
     player_reset_weapon_animation();
     weapon_flash = 1;
@@ -622,6 +847,7 @@ function player_update_loadout_state() {
         player_weapon_update_beam();
     }
 
+    player_weapon_update_beam_particles();
     weapon_flash = max(0, weapon_flash - 0.12);
     damage_flash = max(0, damage_flash - 0.08);
     shield_flash = max(0, shield_flash - 0.08);
