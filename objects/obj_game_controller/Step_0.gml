@@ -20,11 +20,21 @@ if (keyboard_check_pressed(ord("9"))) {
     global.enemy_invulnerable = !global.enemy_invulnerable;
 }
 
-if (!instance_exists(obj_enemy_ship)) {
+var roster_count = array_length(enemy_get_roster());
+var active_enemy_count = instance_number(obj_enemy_ship);
+
+if (global.enemy_showcase_mode && active_enemy_count < roster_count) {
     enemy_respawn_timer = max(0, enemy_respawn_timer - 1);
 
     if (enemy_respawn_timer <= 0) {
-        game_spawn_enemy();
+        game_spawn_missing_enemy_roster_entries();
+        enemy_respawn_timer = room_speed;
+    }
+} else if (!instance_exists(obj_enemy_ship)) {
+    enemy_respawn_timer = max(0, enemy_respawn_timer - 1);
+
+    if (enemy_respawn_timer <= 0) {
+        game_spawn_enemy(undefined, undefined, undefined);
         enemy_respawn_timer = room_speed;
     }
 } else {
@@ -50,8 +60,6 @@ if (instance_exists(player_id)) {
 }
 
 if (instance_exists(active_enemy) && is_struct(active_enemy.enemy_profile)) {
-    var roster_count = array_length(enemy_get_roster());
-
     caption += " | Alvo " + string(active_enemy.enemy_profile.display_name);
     caption += " | HP alvo " + string(active_enemy.hp) + "/" + string(active_enemy.max_hp);
 
@@ -60,6 +68,8 @@ if (instance_exists(active_enemy) && is_struct(active_enemy.enemy_profile)) {
     }
 }
 
+caption += " | Inimigos " + string(active_enemy_count) + "/" + string(roster_count);
+caption += " | Showcase " + (global.enemy_showcase_mode ? "Ligado" : "Desligado");
 caption += " | Contato " + (global.enemy_attack_enabled ? "Ativo" : "Parado");
 caption += " | Imortal " + (global.enemy_invulnerable ? "Sim" : "Nao");
 caption += " | Kills " + string(global.session_kills);

@@ -103,6 +103,28 @@ function enemy_ship_draw() {
         }
     }
 
+    if (global.enemy_showcase_mode && showcase_motion_enabled) {
+        var hull_height = 64;
+
+        if (hull_sprite != noone) {
+            hull_height = sprite_get_height(hull_sprite);
+        }
+
+        var label_y = y - (hull_height * abs(image_yscale) * 0.55) - 18;
+        var label_text = enemy_profile.faction_display_name + "\n" + enemy_get_role_display_name(ship_role_id);
+
+        draw_set_halign(fa_center);
+        draw_set_valign(fa_middle);
+        draw_set_alpha(0.7);
+        draw_set_color(c_black);
+        draw_text(x + 1, label_y + 1, label_text);
+        draw_set_alpha(1);
+        draw_set_color(c_white);
+        draw_text(x, label_y, label_text);
+        draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
+    }
+
     draw_set_alpha(1);
     draw_set_color(c_white);
 }

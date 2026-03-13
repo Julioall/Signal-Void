@@ -109,18 +109,251 @@ function enemy_get_optional_sprite(_sprite_name) {
     return sprite_id;
 }
 
-function enemy_get_optional_module_sprite(_enemy_id, _module_suffix) {
-    return enemy_get_optional_sprite("spr_enemy_" + _enemy_id + "_" + _module_suffix);
+function enemy_get_base_sprite(_faction_id, _ship_slug) {
+    switch (_faction_id) {
+        case "nairan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nairan_fighter_base;
+                case "bomber": return spr_enemy_nairan_bomber_base;
+                case "frigate": return spr_enemy_nairan_frigate_base;
+                case "support_ship": return spr_enemy_nairan_support_ship_base;
+                case "torpedo_ship": return spr_enemy_nairan_torpedo_ship_base;
+                case "battlecruiser": return spr_enemy_nairan_battlecruiser_base;
+                case "dreadnought": return spr_enemy_nairan_dreadnought_base;
+                default: return spr_enemy_nairan_scout_base;
+            }
+
+        case "nautolan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nautolan_fighter_base;
+                case "bomber": return spr_enemy_nautolan_bomber_base;
+                case "frigate": return spr_enemy_nautolan_frigate_base;
+                case "support": return spr_enemy_nautolan_support_base;
+                case "torpedo_ship": return spr_enemy_nautolan_torpedo_ship_base;
+                case "battlecruiser": return spr_enemy_nautolan_battlecruiser_base;
+                case "dreadnought": return spr_enemy_nautolan_dreadnought_base;
+                default: return spr_enemy_nautolan_scout_base;
+            }
+
+        default:
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_klaed_fighter_base;
+                case "bomber": return spr_enemy_klaed_bomber_base;
+                case "frigate": return spr_enemy_klaed_frigate_base;
+                case "support_ship": return spr_enemy_klaed_support_ship_base;
+                case "torpedo_ship": return spr_enemy_klaed_torpedo_ship_base;
+                case "battlecruiser": return spr_enemy_klaed_battlecruiser_base;
+                case "dreadnought": return spr_enemy_klaed_dreadnought_base;
+                default: return spr_enemy_klaed_scout_base;
+            }
+    }
 }
 
-function enemy_get_engine_sprite(_enemy_id) {
-    var engine_sprite = enemy_get_optional_module_sprite(_enemy_id, "engine");
+function enemy_get_engine_sprite(_faction_id, _ship_slug) {
+    switch (_faction_id) {
+        case "nairan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nairan_fighter_engine;
+                case "bomber": return spr_enemy_nairan_bomber_engine;
+                case "frigate": return spr_enemy_nairan_frigate_engine;
+                case "support_ship": return spr_enemy_nairan_support_ship_engine;
+                case "torpedo_ship": return spr_enemy_nairan_torpedo_ship_engine;
+                case "battlecruiser": return spr_enemy_nairan_battlecruiser_engine;
+                case "dreadnought": return spr_enemy_nairan_dreadnought_engine;
+                default: return spr_enemy_nairan_scout_engine;
+            }
 
-    if (engine_sprite != noone) {
-        return engine_sprite;
+        case "nautolan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nautolan_fighter_engine_effect;
+                case "bomber": return spr_enemy_nautolan_bomber_engine_effect;
+                case "frigate": return spr_enemy_nautolan_frigate_engine_effect;
+                case "support": return spr_enemy_nautolan_support_engine_effect;
+                case "torpedo_ship": return spr_enemy_nautolan_torpedo_ship_engine_effect;
+                case "battlecruiser": return spr_enemy_nautolan_battlecruiser_engine_effect;
+                case "dreadnought": return spr_enemy_nautolan_dreadnought_engine_effect;
+                default: return spr_enemy_nautolan_scout_engine_effect;
+            }
+
+        default:
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_klaed_fighter_engine;
+                case "bomber": return spr_enemy_klaed_bomber_engine;
+                case "frigate": return spr_enemy_klaed_frigate_engine;
+                case "support_ship": return spr_enemy_klaed_support_ship_engine;
+                case "torpedo_ship": return spr_enemy_klaed_torpedo_ship_engine;
+                case "battlecruiser": return spr_enemy_klaed_battlecruiser_engine;
+                case "dreadnought": return spr_enemy_klaed_dreadnought_engine;
+                default: return spr_enemy_klaed_scout_engine;
+            }
     }
+}
 
-    return enemy_get_optional_module_sprite(_enemy_id, "engine_effect");
+function enemy_get_weapon_sprite(_faction_id, _ship_slug) {
+    switch (_faction_id) {
+        case "nairan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nairan_fighter_weapons;
+                case "bomber": return noone;
+                case "frigate": return spr_enemy_nairan_frigate_weapons;
+                case "support_ship": return noone;
+                case "torpedo_ship": return spr_enemy_nairan_torpedo_ship_weapons;
+                case "battlecruiser": return spr_enemy_nairan_battlecruiser_weapons;
+                case "dreadnought": return spr_enemy_nairan_dreadnought_weapons;
+                default: return spr_enemy_nairan_scout_weapons;
+            }
+
+        case "nautolan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nautolan_fighter_weapons;
+                case "bomber": return noone;
+                case "frigate": return spr_enemy_nautolan_frigate_weapons;
+                case "support": return noone;
+                case "torpedo_ship": return spr_enemy_nautolan_torpedo_ship_weapons;
+                case "battlecruiser": return spr_enemy_nautolan_battlecruiser_weapons;
+                case "dreadnought": return spr_enemy_nautolan_dreadnought_weapons;
+                default: return spr_enemy_nautolan_scout_weapons;
+            }
+
+        default:
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_klaed_fighter_weapons;
+                case "bomber": return noone;
+                case "frigate": return spr_enemy_klaed_frigate_weapons;
+                case "support_ship": return noone;
+                case "torpedo_ship": return spr_enemy_klaed_torpedo_ship_weapons;
+                case "battlecruiser": return spr_enemy_klaed_battlecruiser_weapons;
+                case "dreadnought": return spr_enemy_klaed_dreadnought_weapons;
+                default: return spr_enemy_klaed_scout_weapons;
+            }
+    }
+}
+
+function enemy_get_shield_sprite(_faction_id, _ship_slug) {
+    switch (_faction_id) {
+        case "nairan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nairan_fighter_shield;
+                case "bomber": return spr_enemy_nairan_bomber_shield;
+                case "frigate": return spr_enemy_nairan_frigate_shield;
+                case "support_ship": return noone;
+                case "torpedo_ship": return spr_enemy_nairan_torpedo_ship_shield;
+                case "battlecruiser": return spr_enemy_nairan_battlecruiser_shield;
+                case "dreadnought": return spr_enemy_nairan_dreadnought_shield;
+                default: return spr_enemy_nairan_scout_shield;
+            }
+
+        case "nautolan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nautolan_fighter_shield;
+                case "bomber": return spr_enemy_nautolan_bomber_shield;
+                case "frigate": return spr_enemy_nautolan_frigate_shield;
+                case "support": return noone;
+                case "torpedo_ship": return spr_enemy_nautolan_torpedo_ship_shield;
+                case "battlecruiser": return spr_enemy_nautolan_battlecruiser_shield;
+                case "dreadnought": return spr_enemy_nautolan_dreadnought_shield;
+                default: return spr_enemy_nautolan_scout_shield;
+            }
+
+        default:
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_klaed_fighter_shield;
+                case "bomber": return spr_enemy_klaed_bomber_shield;
+                case "frigate": return spr_enemy_klaed_frigate_shield;
+                case "support_ship": return noone;
+                case "torpedo_ship": return spr_enemy_klaed_torpedo_ship_shield;
+                case "battlecruiser": return spr_enemy_klaed_battlecruiser_shield;
+                case "dreadnought": return spr_enemy_klaed_dreadnought_shield;
+                default: return spr_enemy_klaed_scout_shield;
+            }
+    }
+}
+
+function enemy_get_destruction_sprite(_faction_id, _ship_slug) {
+    switch (_faction_id) {
+        case "nairan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nairan_fighter_destruction;
+                case "bomber": return spr_enemy_nairan_bomber_destruction;
+                case "frigate": return spr_enemy_nairan_frigate_destruction;
+                case "support_ship": return spr_enemy_nairan_support_ship_destruction;
+                case "torpedo_ship": return spr_enemy_nairan_torpedo_ship_destruction;
+                case "battlecruiser": return spr_enemy_nairan_battlecruiser_destruction;
+                case "dreadnought": return spr_enemy_nairan_dreadnought_destruction;
+                default: return spr_enemy_nairan_scout_destruction;
+            }
+
+        case "nautolan":
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_nautolan_fighter_destruction;
+                case "bomber": return spr_enemy_nautolan_bomber_destruction;
+                case "frigate": return spr_enemy_nautolan_frigate_destruction;
+                case "support": return spr_enemy_nautolan_support_destruction;
+                case "torpedo_ship": return spr_enemy_nautolan_torpedo_ship_destruction;
+                case "battlecruiser": return spr_enemy_nautolan_battlecruiser_destruction;
+                case "dreadnought": return spr_enemy_nautolan_dreadnought_destruction;
+                default: return spr_enemy_nautolan_scout_destruction;
+            }
+
+        default:
+            switch (_ship_slug) {
+                case "fighter": return spr_enemy_klaed_fighter_destruction;
+                case "bomber": return spr_enemy_klaed_bomber_destruction;
+                case "frigate": return spr_enemy_klaed_frigate_destruction;
+                case "support_ship": return spr_enemy_klaed_support_ship_destruction;
+                case "torpedo_ship": return spr_enemy_klaed_torpedo_ship_destruction;
+                case "battlecruiser": return spr_enemy_klaed_battlecruiser_destruction;
+                case "dreadnought": return spr_enemy_klaed_dreadnought_destruction;
+                default: return spr_enemy_klaed_scout_destruction;
+            }
+    }
+}
+
+function enemy_get_projectile_sprite(_faction_id, _role_id) {
+    switch (_faction_id) {
+        case "nairan":
+            switch (_role_id) {
+                case "bomber": return spr_enemy_nairan_projectile_rocket;
+                case "torpedo_ship": return spr_enemy_nairan_projectile_torpedo;
+                case "frigate":
+                case "battlecruiser":
+                case "dreadnought":
+                    return spr_enemy_nairan_projectile_ray;
+                case "support":
+                    return noone;
+                default:
+                    return spr_enemy_nairan_projectile_bolt;
+            }
+
+        case "nautolan":
+            switch (_role_id) {
+                case "bomber": return spr_enemy_nautolan_projectile_bomb;
+                case "fighter": return spr_enemy_nautolan_projectile_spinning_bullet;
+                case "torpedo_ship": return spr_enemy_nautolan_projectile_rocket;
+                case "frigate":
+                case "battlecruiser":
+                case "dreadnought":
+                    return spr_enemy_nautolan_projectile_wave;
+                case "support":
+                    return noone;
+                default:
+                    return spr_enemy_nautolan_projectile_bullet;
+            }
+
+        default:
+            switch (_role_id) {
+                case "bomber": return spr_enemy_klaed_projectile_big_bullet;
+                case "torpedo_ship": return spr_enemy_klaed_projectile_torpedo;
+                case "frigate": return spr_enemy_klaed_projectile_ray;
+                case "battlecruiser":
+                case "dreadnought":
+                    return spr_enemy_klaed_projectile_wave;
+                case "support":
+                    return noone;
+                default:
+                    return spr_enemy_klaed_projectile_bullet;
+            }
+    }
 }
 
 function enemy_get_projectile_suffix(_faction_id, _role_id) {
@@ -384,13 +617,12 @@ function enemy_build_profile(_enemy_id) {
     var role_id = enemy_get_role_id(ship_slug);
     var class_profile = enemy_build_class_profile(role_id);
     var faction_profile = enemy_build_faction_profile(faction_id);
-    var base_sprite = enemy_get_optional_module_sprite(_enemy_id, "base");
-    var engine_sprite = enemy_get_engine_sprite(_enemy_id);
-    var weapon_sprite = enemy_get_optional_module_sprite(_enemy_id, "weapons");
-    var shield_sprite = enemy_get_optional_module_sprite(_enemy_id, "shield");
-    var destruction_sprite = enemy_get_optional_module_sprite(_enemy_id, "destruction");
-    var projectile_suffix = enemy_get_projectile_suffix(faction_id, role_id);
-    var projectile_sprite = noone;
+    var base_sprite = enemy_get_base_sprite(faction_id, ship_slug);
+    var engine_sprite = enemy_get_engine_sprite(faction_id, ship_slug);
+    var weapon_sprite = enemy_get_weapon_sprite(faction_id, ship_slug);
+    var shield_sprite = enemy_get_shield_sprite(faction_id, ship_slug);
+    var destruction_sprite = enemy_get_destruction_sprite(faction_id, ship_slug);
+    var projectile_sprite = enemy_get_projectile_sprite(faction_id, role_id);
     var shield_max_hp = 0;
     var shield_recharge_delay = 0;
     var shield_recharge_rate = 0;
@@ -398,15 +630,6 @@ function enemy_build_profile(_enemy_id) {
     var weapon_fps = 0;
     var shield_fps = 0;
     var weapon_enabled = class_profile.weapon_enabled;
-
-    if (projectile_suffix != "") {
-        projectile_sprite = enemy_get_optional_sprite("spr_enemy_" + faction_id + "_projectile_" + projectile_suffix);
-    }
-
-    if (base_sprite == noone) {
-        show_debug_message("Missing enemy base sprite for " + string(_enemy_id) + ".");
-        base_sprite = enemy_get_optional_sprite("spr_enemy_klaed_scout_base");
-    }
 
     if (shield_sprite != noone && class_profile.shield_hp > 0) {
         shield_max_hp = max(1, round(class_profile.shield_hp * faction_profile.shield_mult));
