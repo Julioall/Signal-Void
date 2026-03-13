@@ -20,7 +20,8 @@ function enemy_get_roster() {
         "nautolan_fighter",
         "nautolan_bomber",
         "nautolan_frigate",
-        "nautolan_support"
+        "nautolan_support",
+        "nautolan_torpedo_ship"
     ];
 }
 
