@@ -1,6 +1,7 @@
 function enemy_get_roster() {
     return [
-        "klaed_scout"
+        "klaed_scout",
+        "klaed_fighter"
     ];
 }
 
