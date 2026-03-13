@@ -65,7 +65,7 @@
     },
     "name":"spr_player_main_ship_weapon_auto_cannon",
     "playback":1,
-    "playbackSpeed":8.0,
+    "playbackSpeed":24.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

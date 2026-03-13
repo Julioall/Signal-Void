@@ -87,6 +87,7 @@
     {"id":{"name":"game_bootstrap","path":"scripts/game_bootstrap/game_bootstrap.yy",},},
     {"id":{"name":"game_spawn_enemy","path":"scripts/game_spawn_enemy/game_spawn_enemy.yy",},},
     {"id":{"name":"game_spawn_player","path":"scripts/game_spawn_player/game_spawn_player.yy",},},
+    {"id":{"name":"player_loadout","path":"scripts/player_loadout/player_loadout.yy",},},
     {"id":{"name":"player_movement_apply","path":"scripts/player_movement_apply/player_movement_apply.yy",},},
     {"id":{"name":"player_movement_build_profile","path":"scripts/player_movement_build_profile/player_movement_build_profile.yy",},},
     {"id":{"name":"player_movement_get_input","path":"scripts/player_movement_get_input/player_movement_get_input.yy",},},

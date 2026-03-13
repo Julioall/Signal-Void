@@ -45,8 +45,14 @@ function player_movement_apply(_move_input) {
     x += velocity_x;
     y += velocity_y;
 
-    var half_width = (sprite_get_width(sprite_index) * abs(image_xscale)) * 0.5;
-    var half_height = (sprite_get_height(sprite_index) * abs(image_yscale)) * 0.5;
+    var collision_sprite = sprite_index;
+
+    if (mask_index != -1) {
+        collision_sprite = mask_index;
+    }
+
+    var half_width = (sprite_get_width(collision_sprite) * abs(image_xscale)) * 0.5;
+    var half_height = (sprite_get_height(collision_sprite) * abs(image_yscale)) * 0.5;
 
     x = clamp(x, half_width, room_width - half_width);
     y = clamp(y, half_height, room_height - half_height);

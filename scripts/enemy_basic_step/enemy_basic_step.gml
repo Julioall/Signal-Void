@@ -8,8 +8,10 @@ function enemy_basic_step() {
         x += lengthdir_x(move_speed, move_direction);
         y += lengthdir_y(move_speed, move_direction);
 
-        if (touch_cooldown <= 0 && point_distance(x, y, player.x, player.y) < 40) {
-            combat_apply_damage(player, contact_damage);
+        var touched_player = instance_place(x, y, obj_player_ship);
+
+        if (touch_cooldown <= 0 && instance_exists(touched_player)) {
+            combat_apply_damage(touched_player, contact_damage);
             touch_cooldown = room_speed div 2;
         }
     } else {

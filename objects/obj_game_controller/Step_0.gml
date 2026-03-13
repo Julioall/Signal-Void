@@ -27,6 +27,13 @@ var caption = "Signal Void | Fase 1";
 
 if (instance_exists(player_id)) {
     caption += " | HP " + string(player_id.hp) + "/" + string(player_id.max_hp);
+    caption += " | Escudo " + string_format(player_id.shield_hp, 1, 1) + "/" + string_format(player_id.shield_profile.max_hp, 1, 1);
+    caption += " | Arma " + string(player_id.weapon_profile.display_name);
+    if (player_id.weapon_id == "zapper" && player_id.weapon_beam_active) {
+        caption += " (laser ativo)";
+    } else if (player_id.weapon_charge_timer > 0 || (player_id.weapon_id == "big_space_gun" && !player_id.weapon_ready)) {
+        caption += " (carregando)";
+    }
     caption += " | Motor " + string(player_id.engine_id);
     caption += " | Vel " + string_format(player_id.current_speed, 1, 2);
 } else {
@@ -34,5 +41,5 @@ if (instance_exists(player_id)) {
 }
 
 caption += " | Kills " + string(global.session_kills);
-caption += " | 1-4 trocam motor";
+caption += " | 1-4 motor | Q/E arma | R/T escudo";
 window_set_caption(caption);
