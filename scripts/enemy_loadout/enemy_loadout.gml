@@ -9,7 +9,8 @@ function enemy_get_roster() {
         "klaed_battlecruiser",
         "klaed_dreadnought",
         "nairan_scout",
-        "nairan_fighter"
+        "nairan_fighter",
+        "nairan_bomber"
     ];
 }
 
