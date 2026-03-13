@@ -13,7 +13,8 @@ function enemy_get_roster() {
         "nairan_bomber",
         "nairan_frigate",
         "nairan_support_ship",
-        "nairan_torpedo_ship"
+        "nairan_torpedo_ship",
+        "nairan_battlecruiser"
     ];
 }
 
