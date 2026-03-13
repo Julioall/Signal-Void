@@ -41,9 +41,14 @@ function enemy_ship_draw() {
 
     var time_offset = animation_seed;
     var engine_profile = enemy_profile.engine;
+    var hull_sprite = sprite_index;
     var engine_x = x + engine_profile.offset_x;
     var engine_y = y + engine_profile.offset_y;
     var engine_alpha = clamp(engine_profile.base_alpha + (sin((current_time + time_offset) / 180) * 0.08), 0.2, 1);
+
+    if (hull_sprite == noone && variable_instance_exists(id, "enemy_profile")) {
+        hull_sprite = enemy_profile.base_sprite;
+    }
 
     enemy_ship_draw_module(
         engine_profile.sprite,
@@ -55,17 +60,19 @@ function enemy_ship_draw() {
         time_offset
     );
 
-    draw_sprite_ext(
-        sprite_index,
-        0,
-        x,
-        y,
-        image_xscale,
-        image_yscale,
-        image_angle,
-        merge_color(c_white, make_color_rgb(255, 104, 104), damage_flash),
-        1
-    );
+    if (hull_sprite != noone) {
+        draw_sprite_ext(
+            hull_sprite,
+            0,
+            x,
+            y,
+            image_xscale,
+            image_yscale,
+            image_angle,
+            merge_color(c_white, make_color_rgb(255, 104, 104), damage_flash),
+            1
+        );
+    }
 
     if (is_struct(weapon_profile) && weapon_profile.sprite != noone) {
         enemy_ship_draw_module(

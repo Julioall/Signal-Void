@@ -102,7 +102,7 @@ function enemy_get_role_display_name(_role_id) {
 function enemy_get_optional_sprite(_sprite_name) {
     var sprite_id = asset_get_index(_sprite_name);
 
-    if (!is_real(sprite_id) || sprite_id < 0) {
+    if (is_undefined(sprite_id) || sprite_id == -1 || sprite_id == noone) {
         return noone;
     }
 
